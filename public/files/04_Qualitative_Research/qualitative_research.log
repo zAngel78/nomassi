@@ -1,0 +1,1303 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.10.8)  15 OCT 2025 14:50
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./qualitative_research.tex
+(qualitative_research.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+Document Class: report 2023/05/17 v1.4n Standard LaTeX document class
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count187
+\c@chapter=\count188
+\c@section=\count189
+\c@subsection=\count190
+\c@subsubsection=\count191
+\c@paragraph=\count192
+\c@subparagraph=\count193
+\c@figure=\count194
+\c@table=\count195
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.st
+y
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+)
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.st
+y
+Package: babel 2024/01/07 v24.1 The Babel package
+\babel@savecnt=\count196
+\U@D=\dimen141
+\l@unhyphenated=\language79
+
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel
+.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count197
+
+*************************************
+* Local config file bblopts.cfg used
+*
+
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cf
+g
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\en
+glish.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 108.
+))
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/e
+n\babel-english.tex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+)
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphic
+x.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.
+sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphic
+s.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.st
+y
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\gra
+phics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdf
+tex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen142
+\Gin@req@width=\dimen143
+)
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperre
+f.sty
+Package: hyperref 2023-11-26 v7.01g Hypertext links for LaTeX
+
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.st
+y
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infw
+arerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetk
+eys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\k
+vdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfe
+scape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmd
+s.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdf
+texcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.
+sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letl
+txmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.
+sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref
+.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcoun
+t.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring
+\gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvopti
+ons.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count198
+)
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbo
+x.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count199
+)
+\@linkdim=\dimen144
+\Hy@linkcounter=\count266
+\Hy@pagecounter=\count267
+
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.
+def
+File: pd1enc.def 2023-11-26 v7.01g Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcal
+c.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count268
+
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.d
+ef
+File: puenc.def 2023-11-26 v7.01g Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4181.
+Package hyperref Info: Link nesting OFF on input line 4186.
+Package hyperref Info: Hyper index ON on input line 4189.
+Package hyperref Info: Plain pages OFF on input line 4196.
+Package hyperref Info: Backreferencing OFF on input line 4201.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4448.
+\c@Hy@tempcnt=\count269
+ (C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4786.
+\XeTeXLinkMargin=\dimen145
+
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.
+sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\big
+intcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count270
+\Field@Width=\dimen146
+\Fld@charsize=\dimen147
+Package hyperref Info: Hyper figures OFF on input line 6065.
+Package hyperref Info: Link nesting OFF on input line 6070.
+Package hyperref Info: Hyper index ON on input line 6073.
+Package hyperref Info: backreferencing OFF on input line 6080.
+Package hyperref Info: Link coloring OFF on input line 6085.
+Package hyperref Info: Link coloring with OCG OFF on input line 6090.
+Package hyperref Info: PDF/A mode OFF on input line 6095.
+
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-lt
+x.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count271
+\c@Item=\count272
+\c@Hfootnote=\count273
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex
+.def
+File: hpdftex.def 2023-11-26 v7.01g Hyperref driver for pdfTeX
+
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-l
+tx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count274
+\c@bookmark@seq@number=\count275
+
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\r
+erunfilecheck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\
+uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+84.
+)
+\Hy@SectionHShift=\skip50
+)
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.
+sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.
+sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.s
+ty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks20
+\ex@=\dimen148
+))
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.s
+ty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen149
+)
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.s
+ty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count276
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count277
+\leftroot@=\count278
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count279
+\DOTSCASE@=\count280
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen150
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count281
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count282
+\dotsspace@=\muskip17
+\c@parentequation=\count283
+\dspbrk@lvl=\count284
+\tag@help=\toks21
+\row@=\count285
+\column@=\count286
+\maxfields@=\count287
+\andhelp@=\toks22
+\eqnshift@=\dimen151
+\alignsep@=\dimen152
+\tagshift@=\dimen153
+\tagwidth@=\dimen154
+\totwidth@=\dimen155
+\lineht@=\dimen156
+\@envbody=\toks23
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometr
+y.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.s
+ty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count288
+\Gm@cntv=\count289
+\c@Gm@tempcnt=\count290
+\Gm@bindingoffset=\dimen157
+\Gm@wd@mp=\dimen158
+\Gm@odd@mp=\dimen159
+\Gm@even@mp=\dimen160
+\Gm@layoutwidth=\dimen161
+\Gm@layoutheight=\dimen162
+\Gm@layouthoffset=\dimen163
+\Gm@layoutvoffset=\dimen164
+\Gm@dimlist=\toks25
+
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometr
+y.cfg))
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktab
+s.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen165
+\lightrulewidth=\dimen166
+\cmidrulewidth=\dimen167
+\belowrulesep=\dimen168
+\belowbottomsep=\dimen169
+\aboverulesep=\dimen170
+\abovetopsep=\dimen171
+\cmidrulesep=\dimen172
+\cmidrulekern=\dimen173
+\defaultaddspace=\dimen174
+\@cmidla=\count291
+\@cmidlb=\count292
+\@aboverulesep=\dimen175
+\@belowrulesep=\dimen176
+\@thisruleclass=\count293
+\@lastruleclass=\count294
+\@thisrulewidth=\dimen177
+)
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multiro
+w.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip54
+\multirow@cntb=\count295
+\multirow@dima=\skip55
+\bigstrutjot=\dimen178
+)
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.
+sty
+Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
+\LTleft=\skip56
+\LTright=\skip57
+\LTpre=\skip58
+\LTpost=\skip59
+\LTchunksize=\count296
+\LTcapwidth=\dimen179
+\LT@head=\box53
+\LT@firsthead=\box54
+\LT@foot=\box55
+\LT@lastfoot=\box56
+\LT@gbox=\box57
+\LT@cols=\count297
+\LT@rows=\count298
+\c@LT@tables=\count299
+\c@LT@chunks=\count300
+\LT@p@ftn=\toks26
+)
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3back
+end-pdftex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count301
+\l__pdf_internal_box=\box58
+)
+No file qualitative_research.aux.
+\openout1 = `qualitative_research.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp
+-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count302
+\scratchdimen=\dimen180
+\scratchbox=\box59
+\nofMPsegments=\count303
+\nofMParguments=\count304
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count305
+\MPscratchDim=\dimen181
+\MPnumerator=\count306
+\makeMPintoPDFobject=\count307
+\everyMPtoPDFconversion=\toks28
+)
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\eps
+topdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\Angel daniel\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopd
+f-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package hyperref Info: Link coloring OFF on input line 22.
+\@outlinefile=\write3
+\openout3 = `qualitative_research.out'.
+
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 472.03123pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 652.70622pt, 71.13188pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=472.03123pt
+* \textheight=652.70622pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+[1
+
+{C:/Users/Angel daniel/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+No file qualitative_research.toc.
+\tf@toc=\write4
+\openout4 = `qualitative_research.toc'.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.28 \chapter
+             {Introduction to Qualitative Analysis Framework} [1
+
+]
+Chapter 1.
+[2
+
+] [3]
+Chapter 2.
+
+Overfull \hbox (5.22246pt too wide) in paragraph at lines 55--55
+[]|\OT1/cmr/bx/n/12 Columbia| 
+ []
+
+
+Overfull \hbox (0.69331pt too wide) in paragraph at lines 55--55
+[]|\OT1/cmr/bx/n/12 Brandeis| 
+ []
+
+
+Overfull \hbox (6.10443pt too wide) in paragraph at lines 55--56
+[]|\OT1/cmr/bx/n/12 Maryland| 
+ []
+
+
+Overfull \hbox (5.22246pt too wide) in paragraph at lines 62--62
+[]|\OT1/cmr/bx/n/12 Columbia| 
+ []
+
+
+Overfull \hbox (0.69331pt too wide) in paragraph at lines 62--62
+[]|\OT1/cmr/bx/n/12 Brandeis| 
+ []
+
+
+Overfull \hbox (6.10443pt too wide) in paragraph at lines 62--63
+[]|\OT1/cmr/bx/n/12 Maryland| 
+ []
+
+
+Underfull \hbox (badness 5504) in paragraph at lines 77--77
+[]|\OT1/cmr/m/n/12 Research High-
+ []
+
+
+Overfull \hbox (10.1727pt too wide) in paragraph at lines 79--79
+[]|\OT1/cmr/m/n/12 Cultural/Religious| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
+[]|\OT1/cmr/bx/n/12 Diversity
+ []
+
+[4
+
+]
+Overfull \hbox (13.75838pt too wide) in paragraph at lines 95--95
+[]|\OT1/cmr/bx/n/12 Columbia| 
+ []
+
+
+Overfull \hbox (3.88896pt too wide) in paragraph at lines 95--95
+[]|\OT1/cmr/bx/n/12 Rutgers| 
+ []
+
+
+Overfull \hbox (9.22923pt too wide) in paragraph at lines 95--95
+[]|\OT1/cmr/bx/n/12 Brandeis| 
+ []
+
+
+Overfull \hbox (14.64035pt too wide) in paragraph at lines 95--96
+[]|\OT1/cmr/bx/n/12 Maryland| 
+ []
+
+
+Overfull \hbox (13.75838pt too wide) in paragraph at lines 102--102
+[]|\OT1/cmr/bx/n/12 Columbia| 
+ []
+
+
+Overfull \hbox (3.88896pt too wide) in paragraph at lines 102--102
+[]|\OT1/cmr/bx/n/12 Rutgers| 
+ []
+
+
+Overfull \hbox (9.22923pt too wide) in paragraph at lines 102--102
+[]|\OT1/cmr/bx/n/12 Brandeis| 
+ []
+
+
+Overfull \hbox (14.64035pt too wide) in paragraph at lines 102--103
+[]|\OT1/cmr/bx/n/12 Maryland| 
+ []
+
+[5] [6]
+Chapter 3.
+
+Overfull \hbox (5.22246pt too wide) in paragraph at lines 146--146
+[]|\OT1/cmr/bx/n/12 Columbia| 
+ []
+
+
+Overfull \hbox (0.69331pt too wide) in paragraph at lines 146--146
+[]|\OT1/cmr/bx/n/12 Brandeis| 
+ []
+
+
+Overfull \hbox (6.10443pt too wide) in paragraph at lines 146--147
+[]|\OT1/cmr/bx/n/12 Maryland| 
+ []
+
+
+Overfull \hbox (6.84366pt too wide) in alignment at lines 143--148
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (5.22246pt too wide) in paragraph at lines 153--153
+[]|\OT1/cmr/bx/n/12 Columbia| 
+ []
+
+
+Overfull \hbox (0.69331pt too wide) in paragraph at lines 153--153
+[]|\OT1/cmr/bx/n/12 Brandeis| 
+ []
+
+
+Overfull \hbox (6.10443pt too wide) in paragraph at lines 153--154
+[]|\OT1/cmr/bx/n/12 Maryland| 
+ []
+
+
+Overfull \hbox (6.84366pt too wide) in alignment at lines 148--155
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (6.84366pt too wide) in alignment at lines 155--159
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (6.84366pt too wide) in alignment at lines 159--162
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (6.84366pt too wide) in alignment at lines 162--174
+ [] [] [] [] [] [] [] 
+ []
+
+[7
+
+]
+Overfull \hbox (13.75838pt too wide) in paragraph at lines 193--193
+[]|\OT1/cmr/bx/n/12 Columbia| 
+ []
+
+
+Overfull \hbox (3.88896pt too wide) in paragraph at lines 193--193
+[]|\OT1/cmr/bx/n/12 Rutgers| 
+ []
+
+
+Overfull \hbox (9.22923pt too wide) in paragraph at lines 193--193
+[]|\OT1/cmr/bx/n/12 Brandeis| 
+ []
+
+
+Overfull \hbox (14.64035pt too wide) in paragraph at lines 193--194
+[]|\OT1/cmr/bx/n/12 Maryland| 
+ []
+
+
+Overfull \hbox (13.75838pt too wide) in paragraph at lines 200--200
+[]|\OT1/cmr/bx/n/12 Columbia| 
+ []
+
+
+Overfull \hbox (3.88896pt too wide) in paragraph at lines 200--200
+[]|\OT1/cmr/bx/n/12 Rutgers| 
+ []
+
+
+Overfull \hbox (9.22923pt too wide) in paragraph at lines 200--200
+[]|\OT1/cmr/bx/n/12 Brandeis| 
+ []
+
+
+Overfull \hbox (14.64035pt too wide) in paragraph at lines 200--201
+[]|\OT1/cmr/bx/n/12 Maryland| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--213
+[]|\OT1/cmr/m/n/12 Question-Based
+ []
+
+
+Underfull \hbox (badness 1642) in paragraph at lines 214--214
+[]|\OT1/cmr/m/n/12 User-Generated Con-
+ []
+
+[8]
+Chapter 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--244
+[]|\OT1/cmr/bx/n/12 Visual Di-men-
+ []
+
+
+Overfull \hbox (5.22246pt too wide) in paragraph at lines 244--244
+[]|\OT1/cmr/bx/n/12 Columbia| 
+ []
+
+
+Overfull \hbox (0.69331pt too wide) in paragraph at lines 244--244
+[]|\OT1/cmr/bx/n/12 Brandeis| 
+ []
+
+
+Overfull \hbox (6.10443pt too wide) in paragraph at lines 244--245
+[]|\OT1/cmr/bx/n/12 Maryland| 
+ []
+
+
+Overfull \hbox (6.84366pt too wide) in alignment at lines 241--246
+ [] [] [] [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--251
+[]|\OT1/cmr/bx/n/12 Visual Di-men-
+ []
+
+
+Overfull \hbox (5.22246pt too wide) in paragraph at lines 251--251
+[]|\OT1/cmr/bx/n/12 Columbia| 
+ []
+
+
+Overfull \hbox (0.69331pt too wide) in paragraph at lines 251--251
+[]|\OT1/cmr/bx/n/12 Brandeis| 
+ []
+
+
+Overfull \hbox (6.10443pt too wide) in paragraph at lines 251--252
+[]|\OT1/cmr/bx/n/12 Maryland| 
+ []
+
+
+Overfull \hbox (6.84366pt too wide) in alignment at lines 246--253
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (6.84366pt too wide) in alignment at lines 253--257
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (6.84366pt too wide) in alignment at lines 257--260
+ [] [] [] [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--265
+[]|\OT1/cmr/m/n/12 Composition
+ []
+
+
+Overfull \hbox (6.84366pt too wide) in alignment at lines 260--272
+ [] [] [] [] [] [] [] 
+ []
+
+[9
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 291--291
+[]|\OT1/cmr/bx/n/12 Brand
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 291--291
+[]|\OT1/cmr/bx/n/12 Color
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 291--291
+\OT1/cmr/bx/n/12 Palette
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 291--291
+\OT1/cmr/bx/n/12 Con-sis-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 291--291
+[]|\OT1/cmr/bx/n/12 Seasonal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 291--292
+[]|\OT1/cmr/bx/n/12 Overall
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
+[]|\OT1/cmr/bx/n/12 Brand
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
+[]|\OT1/cmr/bx/n/12 Palette
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
+\OT1/cmr/bx/n/12 Con-sis-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
+[]|\OT1/cmr/bx/n/12 Seasonal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--299
+[]|\OT1/cmr/bx/n/12 Overall
+ []
+
+[10]
+Chapter 5.
+
+Underfull \hbox (badness 1622) in paragraph at lines 334--334
+[]|\OT1/cmr/bx/n/12 Production El-e-
+ []
+
+
+Overfull \hbox (5.22246pt too wide) in paragraph at lines 334--334
+[]|\OT1/cmr/bx/n/12 Columbia| 
+ []
+
+
+Overfull \hbox (0.69331pt too wide) in paragraph at lines 334--334
+[]|\OT1/cmr/bx/n/12 Brandeis| 
+ []
+
+
+Overfull \hbox (6.10443pt too wide) in paragraph at lines 334--335
+[]|\OT1/cmr/bx/n/12 Maryland| 
+ []
+
+
+Overfull \hbox (6.84366pt too wide) in alignment at lines 331--336
+ [] [] [] [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 1622) in paragraph at lines 341--341
+[]|\OT1/cmr/bx/n/12 Production El-e-
+ []
+
+
+Overfull \hbox (5.22246pt too wide) in paragraph at lines 341--341
+[]|\OT1/cmr/bx/n/12 Columbia| 
+ []
+
+
+Overfull \hbox (0.69331pt too wide) in paragraph at lines 341--341
+[]|\OT1/cmr/bx/n/12 Brandeis| 
+ []
+
+
+Overfull \hbox (6.10443pt too wide) in paragraph at lines 341--342
+[]|\OT1/cmr/bx/n/12 Maryland| 
+ []
+
+
+Overfull \hbox (6.84366pt too wide) in alignment at lines 336--343
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (6.84366pt too wide) in alignment at lines 343--347
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (6.84366pt too wide) in alignment at lines 347--350
+ [] [] [] [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 1824) in paragraph at lines 356--356
+[]|\OT1/cmr/m/n/12 Text Over-lay De-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 357--357
+[]|\OT1/cmr/m/n/12 Graphic In-te-gra-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
+[]|\OT1/cmr/m/n/12 Platform Op-ti-
+ []
+
+
+Overfull \hbox (6.84366pt too wide) in alignment at lines 350--362
+ [] [] [] [] [] [] [] 
+ []
+
+[11
+
+]
+Underfull \hbox (badness 7099) in paragraph at lines 381--381
+[]|\OT1/cmr/bx/n/12 Content For-
+ []
+
+
+Overfull \hbox (5.22246pt too wide) in paragraph at lines 381--381
+[]|\OT1/cmr/bx/n/12 Columbia| 
+ []
+
+
+Overfull \hbox (0.69331pt too wide) in paragraph at lines 381--381
+[]|\OT1/cmr/bx/n/12 Brandeis| 
+ []
+
+
+Overfull \hbox (6.10443pt too wide) in paragraph at lines 381--382
+[]|\OT1/cmr/bx/n/12 Maryland| 
+ []
+
+
+Underfull \hbox (badness 7099) in paragraph at lines 388--388
+[]|\OT1/cmr/bx/n/12 Content For-
+ []
+
+
+Overfull \hbox (5.22246pt too wide) in paragraph at lines 388--388
+[]|\OT1/cmr/bx/n/12 Columbia| 
+ []
+
+
+Overfull \hbox (0.69331pt too wide) in paragraph at lines 388--388
+[]|\OT1/cmr/bx/n/12 Brandeis| 
+ []
+
+
+Overfull \hbox (6.10443pt too wide) in paragraph at lines 388--389
+[]|\OT1/cmr/bx/n/12 Maryland| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 402--402
+[]|\OT1/cmr/m/n/12 Instagram Sto-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 404--404
+[]|\OT1/cmr/m/n/12 Long-Form
+ []
+
+[12] [13]
+Chapter 6.
+
+Underfull \hbox (badness 10000) in paragraph at lines 429--429
+[]|\OT1/cmr/bx/n/12 Comment Di-
+ []
+
+
+Overfull \hbox (5.22246pt too wide) in paragraph at lines 429--429
+[]|\OT1/cmr/bx/n/12 Columbia| 
+ []
+
+
+Overfull \hbox (0.69331pt too wide) in paragraph at lines 429--429
+[]|\OT1/cmr/bx/n/12 Brandeis| 
+ []
+
+
+Overfull \hbox (6.10443pt too wide) in paragraph at lines 429--430
+[]|\OT1/cmr/bx/n/12 Maryland| 
+ []
+
+
+Overfull \hbox (6.84366pt too wide) in alignment at lines 426--431
+ [] [] [] [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 436--436
+[]|\OT1/cmr/bx/n/12 Comment Di-
+ []
+
+
+Overfull \hbox (5.22246pt too wide) in paragraph at lines 436--436
+[]|\OT1/cmr/bx/n/12 Columbia| 
+ []
+
+
+Overfull \hbox (0.69331pt too wide) in paragraph at lines 436--436
+[]|\OT1/cmr/bx/n/12 Brandeis| 
+ []
+
+
+Overfull \hbox (6.10443pt too wide) in paragraph at lines 436--437
+[]|\OT1/cmr/bx/n/12 Maryland| 
+ []
+
+
+Overfull \hbox (6.84366pt too wide) in alignment at lines 431--438
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (6.84366pt too wide) in alignment at lines 438--442
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (6.84366pt too wide) in alignment at lines 442--445
+ [] [] [] [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 447--447
+[]|\OT1/cmr/m/n/12 Avg Com-
+ []
+
+
+Underfull \hbox (badness 6316) in paragraph at lines 448--448
+[]|\OT1/cmr/m/n/12 Substantive Com-
+ []
+
+
+Underfull \hbox (badness 5345) in paragraph at lines 449--449
+[]|\OT1/cmr/m/n/12 Emoji-Only Com-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--450
+[]|\OT1/cmr/m/n/12 Question Com-
+ []
+
+
+Underfull \hbox (badness 3769) in paragraph at lines 451--451
+[]|\OT1/cmr/m/n/12 Community In-ter-
+ []
+
+
+Overfull \hbox (6.84366pt too wide) in alignment at lines 445--457
+ [] [] [] [] [] [] [] 
+ []
+
+[14
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 478--478
+[]|\OT1/cmr/bx/n/12 Engagement Pat-
+ []
+
+
+Overfull \hbox (13.75838pt too wide) in paragraph at lines 478--478
+[]|\OT1/cmr/bx/n/12 Columbia| 
+ []
+
+
+Overfull \hbox (3.88896pt too wide) in paragraph at lines 478--478
+[]|\OT1/cmr/bx/n/12 Rutgers| 
+ []
+
+
+Overfull \hbox (9.22923pt too wide) in paragraph at lines 478--478
+[]|\OT1/cmr/bx/n/12 Brandeis| 
+ []
+
+
+Overfull \hbox (14.64035pt too wide) in paragraph at lines 478--479
+[]|\OT1/cmr/bx/n/12 Maryland| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 485--485
+[]|\OT1/cmr/bx/n/12 Engagement Pat-
+ []
+
+
+Overfull \hbox (13.75838pt too wide) in paragraph at lines 485--485
+[]|\OT1/cmr/bx/n/12 Columbia| 
+ []
+
+
+Overfull \hbox (3.88896pt too wide) in paragraph at lines 485--485
+[]|\OT1/cmr/bx/n/12 Rutgers| 
+ []
+
+
+Overfull \hbox (9.22923pt too wide) in paragraph at lines 485--485
+[]|\OT1/cmr/bx/n/12 Brandeis| 
+ []
+
+
+Overfull \hbox (14.64035pt too wide) in paragraph at lines 485--486
+[]|\OT1/cmr/bx/n/12 Maryland| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 496--496
+[]|\OT1/cmr/m/n/12 Peak En-gage-ment
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 499--499
+[]|\OT1/cmr/m/n/12 Sustained En-gage-
+ []
+
+[15] [16]
+Chapter 7.
+
+Overfull \hbox (13.60562pt too wide) in paragraph at lines 527--527
+[]|\OT1/cmr/bx/n/12 Posts/Week
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 527--527
+\OT1/cmr/bx/n/12 (In-sta-
+ []
+
+
+Overfull \hbox (13.60562pt too wide) in paragraph at lines 527--527
+[]|\OT1/cmr/bx/n/12 Posts/Week
+ []
+
+
+Overfull \hbox (13.52924pt too wide) in paragraph at lines 527--527
+[]|\OT1/cmr/bx/n/12 Consistency
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 527--527
+[]|\OT1/cmr/bx/n/12 Strategic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 527--528
+[]|\OT1/cmr/bx/n/12 Overall
+ []
+
+
+Overfull \hbox (2.8362pt too wide) in paragraph at lines 534--534
+[]|\OT1/cmr/bx/n/12 Instagram| 
+ []
+
+
+Overfull \hbox (13.71674pt too wide) in paragraph at lines 534--534
+[]|\OT1/cmr/bx/n/12 Consistency| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 534--535
+[]|\OT1/cmr/bx/n/12 Overall
+ []
+
+
+Overfull \hbox (22.77985pt too wide) in paragraph at lines 557--558
+[]\OT1/cmr/bx/n/12 Frequency Gap: \OT1/cmr/m/n/12 YU's 3.2 posts/week on In-sta
+-gram trails mar-ket lead-ers' 5.2-6.0 posts/week.
+ []
+
+[17
+
+] [18]
+Chapter 8.
+
+Underfull \hbox (badness 6825) in paragraph at lines 574--574
+[]|\OT1/cmr/bx/n/12 Primary Dif-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 574--574
+[]|\OT1/cmr/bx/n/12 Secondary
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 574--574
+\OT1/cmr/bx/n/12 Dif-fer-en-ti-a-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 574--574
+[]|\OT1/cmr/bx/n/12 Clarity of
+ []
+
+
+Overfull \hbox (18.20978pt too wide) in paragraph at lines 574--575
+[]|\OT1/cmr/bx/n/12 Effectiveness| 
+ []
+
+
+Underfull \hbox (badness 6825) in paragraph at lines 581--581
+[]|\OT1/cmr/bx/n/12 Primary Dif-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 581--581
+[]|\OT1/cmr/bx/n/12 Secondary
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 581--581
+\OT1/cmr/bx/n/12 Dif-fer-en-ti-a-
+ []
+
+
+Overfull \hbox (18.20978pt too wide) in paragraph at lines 581--582
+[]|\OT1/cmr/bx/n/12 Effectiveness| 
+ []
+
+
+Underfull \hbox (badness 2772) in paragraph at lines 594--594
+[]|\OT1/cmr/m/n/12 Ivy pres-tige &
+ []
+
+
+Underfull \hbox (badness 2495) in paragraph at lines 596--596
+[]|\OT1/cmr/m/n/12 Academic qual-
+ []
+
+
+Underfull \hbox (badness 1242) in paragraph at lines 597--597
+[]|\OT1/cmr/m/n/12 Research & in-
+ []
+
+[19
+
+]
+Overfull \hbox (2.27217pt too wide) in paragraph at lines 618--619
+\OT1/cmr/m/n/12 cour-age peer-to-peer in-ter-ac-tion through community-building
+ con-tent, in-crease user-generated
+ []
+
+[20]
+Chapter 9.
+
+Overfull \hbox (1.57172pt too wide) in paragraph at lines 632--633
+\OT1/cmr/m/n/12 voice, and au-di-ence re-la-tion-ship de-vel-op-ment. In-sti-tu
+-tions achiev-ing dig-i-tal ex-cel-lence demon-
+ []
+
+[21
+
+] (qualitative_research.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+ ***********
+
+
+Package rerunfilecheck Warning: File `qualitative_research.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `qualitative_research.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  7DB06BF83B71360415B95FB29018BA2B;5843.
+ ) 
+Here is how much of TeX's memory you used:
+ 10889 strings out of 474486
+ 174017 string characters out of 5740415
+ 1948542 words of memory out of 5000000
+ 32999 multiletter control sequences out of 15000+600000
+ 561896 words of font info for 49 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 75i,6n,79p,611b,473s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Angel daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmbx12.pfb><C:/Users/Angel daniel/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmr12.pfb><C:/Users/Angel daniel/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on qualitative_research.pdf (22 pages, 107018 bytes).
+PDF statistics:
+ 161 PDF objects out of 1000 (max. 8388607)
+ 58 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

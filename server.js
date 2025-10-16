@@ -12,8 +12,8 @@ app.use(cors({
   credentials: true
 }));
 
-// Path to the research documentation
-const RESEARCH_DIR = path.join(__dirname, '..', 'YU_Research_Documentation');
+// Path to the research documentation (now inside backend)
+const RESEARCH_DIR = path.join(__dirname, 'public', 'files');
 
 // Log startup info
 console.log('Research Directory:', RESEARCH_DIR);

@@ -1,0 +1,50 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\numberline {1}Research Methodology Documentation}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Research Design Overview}{2}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Research Questions}{2}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Research Framework}{2}{subsection.1.1.2}%
+\contentsline {section}{\numberline {1.2}Institutional Selection and Sampling}{3}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Institution Selection Criteria}{3}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Final Institution Sample}{4}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}Data Collection Procedures}{4}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Quantitative Data Collection}{4}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Qualitative Data Collection}{5}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Reliability and Validity Procedures}{6}{subsection.1.3.3}%
+\contentsline {section}{\numberline {1.4}Analytical Procedures}{7}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Statistical Analysis Methods}{7}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Performance Benchmarking Methodology}{7}{subsection.1.4.2}%
+\contentsline {chapter}{\numberline {2}Data Sources and References}{9}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Primary Data Sources}{9}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Platform URLs and Verification}{9}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Data Collection Timestamps}{11}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}Secondary Sources and Industry Research}{11}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Industry Reports and Benchmarks}{11}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Academic Literature and Theoretical Foundations}{12}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Tools and Technologies}{12}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Detailed Metrics Definitions}{14}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Engagement Metrics}{14}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Growth and Reach Metrics}{15}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Content Performance Metrics}{15}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Quality and Experience Metrics}{16}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Supplementary Data Tables}{17}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Extended Platform Performance Data}{17}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Extended Content Analysis Data}{18}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Extended Temporal Analysis}{18}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Research Limitations and Future Directions}{19}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Limitations of Current Study}{19}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Data Access Limitations}{19}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Methodological Limitations}{19}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Contextual Limitations}{20}{subsection.5.1.3}%
+\contentsline {section}{\numberline {5.2}Directions for Future Research}{20}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Expanded Scope Research}{20}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Deeper Analytical Research}{20}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Implementation Research}{20}{subsection.5.2.3}%
+\contentsline {chapter}{\numberline {6}Glossary of Terms}{22}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Appendix: Sample Content Analysis}{24}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Sample Content Evaluation}{24}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Coding Reliability Sample}{25}{section.7.2}%
+\contentsline {chapter}{\numberline {8}Contact and Further Information}{26}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Research Team}{26}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Data Availability}{26}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Citation}{26}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Acknowledgments}{26}{section.8.4}%

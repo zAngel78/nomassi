@@ -1,0 +1,63 @@
+Post_ID,Institution,Platform,Date,Content_Category,Format,Tone,Voice,Visual_Style,Messaging_Approach,Production_Quality,Engagement_Rate,Likes,Comments,Shares
+QR001,YU,Instagram,2025-09-14,Academic Excellence,Static,Formal,Institutional,Professional,Feature-focused,7.0,1.17,165,8,3
+QR002,YU,Instagram,2025-09-12,Student Life,Reel,Semi-formal,Student,Candid,Story-driven,6.5,1.85,278,15,7
+QR003,YU,Instagram,2025-09-10,Campus Events,Carousel,Formal,Institutional,Staged,Promotional,7.2,1.42,213,11,4
+QR004,YU,Instagram,2025-09-08,Research,Static,Formal,Faculty,Professional,Educational,7.5,0.98,147,6,2
+QR005,YU,Instagram,2025-09-06,Alumni,Static,Inspirational,Alumni,Professional,Story-driven,6.8,1.55,233,12,5
+QR006,NYU,Instagram,2025-09-15,Student Life,Reel,Casual,Student,Behind-scenes,Day-in-life,8.5,3.38,18500,320,1240
+QR007,NYU,Instagram,2025-09-14,Campus Events,Reel,Humorous,Student,Candid,Question-based,8.8,3.65,19800,385,1450
+QR008,NYU,Instagram,2025-09-13,Athletics,Reel,Celebratory,Mixed,Documentary,Emotional,8.2,3.12,17200,295,980
+QR009,NYU,Instagram,2025-09-12,Student Life,Reel,Casual,Student,Behind-scenes,Interactive,8.7,3.45,18900,342,1180
+QR010,NYU,Instagram,2025-09-11,Academic Excellence,Static,Semi-formal,Faculty,Professional,Story-driven,7.8,2.15,11800,198,520
+QR011,NYU,TikTok,2025-09-10,Student Life,Video,Humorous,Student,Candid,Trend-participation,9.0,5.12,19700,842,2340
+QR012,NYU,TikTok,2025-09-09,Campus Tours,Video,Casual,Student,Behind-scenes,Day-in-life,8.8,4.98,19150,798,2180
+QR013,Columbia,Instagram,2025-09-15,Academic Excellence,Reel,Semi-formal,Faculty,Professional,Educational,8.5,3.25,14850,285,870
+QR014,Columbia,Instagram,2025-09-14,Student Life,Reel,Casual,Student,Candid,Story-driven,8.7,3.42,15620,312,945
+QR015,Columbia,Instagram,2025-09-13,Research,Static,Formal,Faculty,Professional,Feature-focused,8.0,2.45,11190,215,485
+QR016,Columbia,TikTok,2025-09-12,Campus Life,Video,Casual,Student,Behind-scenes,Interactive,8.6,4.85,14460,622,1820
+QR017,Columbia,TikTok,2025-09-11,Student Voice,Video,Humorous,Student,Candid,Challenge,8.8,5.02,14960,641,1950
+QR018,Rutgers,Instagram,2025-09-15,Athletics,Reel,Celebratory,Mixed,Professional,Emotional,8.0,3.18,3945,178,420
+QR019,Rutgers,Instagram,2025-09-14,Student Life,Reel,Casual,Student,Candid,Day-in-life,8.2,3.35,4154,192,465
+QR020,Rutgers,Instagram,2025-09-13,Campus Events,Static,Semi-formal,Institutional,Staged,Promotional,7.5,1.95,2418,98,185
+QR021,Rutgers,TikTok,2025-09-12,School Spirit,Video,Celebratory,Student,Candid,Interactive,8.5,4.92,7674,385,1180
+QR022,Rutgers,TikTok,2025-09-11,Student Life,Video,Humorous,Student,Behind-scenes,Trend-participation,8.3,4.72,7363,358,1085
+QR023,Brandeis,Instagram,2025-09-15,Social Justice,Static,Inspirational,Institutional,Professional,Educational,7.8,2.12,538,28,18
+QR024,Brandeis,Instagram,2025-09-14,Student Life,Reel,Semi-formal,Student,Candid,Story-driven,7.2,2.68,681,35,25
+QR025,Brandeis,Instagram,2025-09-13,Academic Excellence,Static,Formal,Faculty,Professional,Feature-focused,7.5,1.85,470,22,15
+QR026,Brandeis,TikTok,2025-09-12,Campus Life,Video,Casual,Student,Candid,Day-in-life,7.8,4.25,786,42,98
+QR027,Brandeis,TikTok,2025-09-11,Student Voice,Video,Semi-formal,Student,Behind-scenes,Story-driven,7.5,3.98,736,38,85
+QR028,Maryland,Instagram,2025-09-15,Athletics,Reel,Celebratory,Mixed,Professional,Emotional,8.8,3.55,10224,385,1240
+QR029,Maryland,Instagram,2025-09-14,Student Life,Reel,Casual,Student,Candid,Interactive,8.9,3.68,10598,412,1320
+QR030,Maryland,Instagram,2025-09-13,School Spirit,Reel,Humorous,Student,Behind-scenes,Challenge,9.0,3.72,10713,425,1365
+QR031,Maryland,TikTok,2025-09-12,Campus Life,Video,Casual,Student,Candid,Day-in-life,9.2,5.18,21340,982,3120
+QR032,Maryland,TikTok,2025-09-11,Student Voice,Video,Humorous,Student,Behind-scenes,Trend-participation,9.0,5.02,20682,945,2980
+QR033,YU,Instagram,2025-09-04,Cultural,Static,Formal,Institutional,Staged,Educational,6.5,1.08,162,7,2
+QR034,YU,Instagram,2025-09-02,Student Life,Carousel,Semi-formal,Mixed,Professional,Community-building,7.0,1.38,207,10,4
+QR035,YU,Instagram,2025-08-31,Academic Excellence,Static,Formal,Faculty,Professional,Value-proposition,7.2,1.15,173,8,3
+QR036,YU,Instagram,2025-08-29,Campus Events,Reel,Semi-formal,Institutional,Staged,Promotional,6.8,1.68,252,14,6
+QR037,YU,Instagram,2025-08-27,Alumni,Static,Inspirational,Alumni,Professional,Story-driven,7.0,1.48,222,11,5
+QR038,NYU,Instagram,2025-09-08,Diversity,Reel,Inspirational,Mixed,Documentary,Story-driven,8.5,3.28,18050,315,1150
+QR039,NYU,Instagram,2025-09-07,Research,Static,Semi-formal,Faculty,Professional,Educational,7.9,2.25,12350,210,545
+QR040,NYU,Instagram,2025-09-06,Student Life,Reel,Casual,Student,Candid,Interactive,8.6,3.52,19320,348,1220
+QR041,NYU,TikTok,2025-09-05,Campus Tours,Video,Humorous,Student,Behind-scenes,Day-in-life,8.9,5.08,19540,825,2285
+QR042,NYU,TikTok,2025-09-04,Challenge,Video,Casual,Student,Candid,Trend-participation,9.1,5.25,20213,865,2450
+QR043,Columbia,Instagram,2025-09-10,Research Highlight,Static,Formal,Faculty,Professional,Feature-focused,8.2,2.58,11795,238,525
+QR044,Columbia,Instagram,2025-09-09,Student Life,Reel,Casual,Student,Candid,Story-driven,8.6,3.38,15446,318,935
+QR045,Columbia,Instagram,2025-09-08,Campus Events,Carousel,Semi-formal,Institutional,Professional,Promotional,7.8,2.12,9684,185,395
+QR046,Columbia,TikTok,2025-09-07,Student Voice,Video,Humorous,Student,Candid,Interactive,8.7,4.95,14761,635,1895
+QR047,Columbia,TikTok,2025-09-06,Campus Life,Video,Casual,Student,Behind-scenes,Day-in-life,8.5,4.78,14254,595,1750
+QR048,Rutgers,Instagram,2025-09-10,Research,Static,Formal,Faculty,Professional,Educational,7.6,1.88,2332,92,175
+QR049,Rutgers,Instagram,2025-09-09,School Spirit,Reel,Celebratory,Mixed,Professional,Emotional,8.1,3.22,3993,185,445
+QR050,Rutgers,Instagram,2025-09-08,Student Life,Reel,Casual,Student,Candid,Story-driven,8.0,3.08,3819,172,415
+QR051,Rutgers,TikTok,2025-09-07,Athletics,Video,Celebratory,Mixed,Professional,Emotional,8.4,4.85,7566,378,1165
+QR052,Rutgers,TikTok,2025-09-06,Campus Life,Video,Casual,Student,Behind-scenes,Interactive,8.2,4.68,7301,358,1095
+QR053,Brandeis,Instagram,2025-09-10,Academic Excellence,Static,Formal,Faculty,Professional,Educational,7.4,1.92,488,24,16
+QR054,Brandeis,Instagram,2025-09-09,Student Life,Reel,Semi-formal,Student,Candid,Story-driven,7.3,2.55,648,32,23
+QR055,Brandeis,Instagram,2025-09-08,Campus Events,Carousel,Semi-formal,Institutional,Professional,Promotional,7.2,1.78,452,21,14
+QR056,Brandeis,TikTok,2025-09-07,Student Voice,Video,Casual,Student,Candid,Story-driven,7.6,4.12,762,40,92
+QR057,Brandeis,TikTok,2025-09-06,Campus Life,Video,Semi-formal,Student,Behind-scenes,Interactive,7.4,3.88,718,36,82
+QR058,Maryland,Instagram,2025-09-10,Research,Static,Semi-formal,Faculty,Professional,Educational,8.0,2.15,6192,215,485
+QR059,Maryland,Instagram,2025-09-09,Athletics,Reel,Celebratory,Mixed,Professional,Emotional,8.7,3.62,10426,395,1285
+QR060,Maryland,Instagram,2025-09-08,Student Life,Reel,Casual,Student,Candid,Day-in-life,8.8,3.65,10512,402,1298
+QR061,Maryland,TikTok,2025-09-07,School Spirit,Video,Celebratory,Student,Candid,Challenge,9.1,5.12,21094,978,3085
+QR062,Maryland,TikTok,2025-09-06,Student Voice,Video,Humorous,Student,Behind-scenes,Trend-participation,8.9,4.98,20518,935,2920
