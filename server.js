@@ -8,7 +8,7 @@ const PORT = 3001;
 
 // Enable CORS for the React frontend
 app.use(cors({
-  origin: 'http://localhost:5173', // Vite's default port
+  origin: ['http://localhost:5173', 'http://localhost:5174', '*'], // Allow localhost and any origin
   credentials: true
 }));
 
