@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.10.8)  17 OCT 2025 14:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.10.8)  18 OCT 2025 17:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -306,8 +306,7 @@ end-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count282
 \l__pdf_internal_box=\box52
-)
-No file digital_ads_analysis.aux.
+) (digital_ads_analysis.aux)
 \openout1 = `digital_ads_analysis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
@@ -328,6 +327,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -389,6 +389,7 @@ f-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring OFF on input line 17.
+ (digital_ads_analysis.out) (digital_ads_analysis.out)
 \@outlinefile=\write3
 \openout3 = `digital_ads_analysis.out'.
 
@@ -399,13 +400,60 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1
 
 {C:/Users/Angel daniel/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
+Overfull \hbox (3.1523pt too wide) in paragraph at lines 100--101
+[]\OT1/cmr/bx/n/12 Featured Fac-ulty: \OT1/cmr/m/n/12 Ed-ward Bel-bruno (dark m
+at-ter/NASA), Rad-hashree Maitra (\TS1/cmr/m/n/12 $\OT1/cmr/m/n/12 433,953
+ []
+
+[3] [4] [5] [6]
+Overfull \hbox (11.74228pt too wide) in paragraph at lines 223--224
+[]\OT1/cmr/bx/n/12 Main Chan-nel (@Yeshiv-aU-ni-ver-sity): \OT1/cmr/m/n/12 In-s
+ti-tu-tional brand, prospec-tive stu-dents, donors,
+ []
+
+
+Overfull \hbox (9.34438pt too wide) in paragraph at lines 230--231
+[]\OT1/cmr/bx/n/12 Total So-cial Me-dia Reach: \OT1/cmr/m/n/12 70,000+ fol-low-
+ers (In-sta-gram 15K, Face-book 23,869, LinkedIn
+ []
+
+[7]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 127.
+(Font)              <12> on input line 289.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 127.
+(Font)              <8> on input line 289.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 127.
- [3] [4] [5] [6] [7] [8] [9] [10] (digital_ads_analysis.aux)
+(Font)              <6> on input line 289.
+ [8]
+Overfull \hbox (30.7884pt too wide) in paragraph at lines 326--327
+[]\OT1/cmr/m/n/12 Sept 2025 launches: 1420490522345437, 599417436040567, 984833
+900178618, 1128755108644950,
+ []
+
+
+Overfull \hbox (17.24133pt too wide) in paragraph at lines 327--328
+[]\OT1/cmr/m/n/12 Jan 2025 launches: 599417436040567, 984833900178618, 11287551
+08644950, 989778179632692 
+ []
+
+
+Overfull \hbox (2.03177pt too wide) in paragraph at lines 328--329
+[]\OT1/cmr/m/n/12 Dec 2024 launches: 457476370415264, 570002902637364, 38556485
+74753785 (in-cludes video
+ []
+
+[9] [10] [11] [12] [13] [14] [15]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[16]
+Overfull \hbox (9.06357pt too wide) in paragraph at lines 659--660
+[]\OT1/cmr/bx/n/12 Faculty With Im-pact: \OT1/cmr/m/n/12 go.yu.edu/faculty-with
+-impact (13 fac-ulty pro-files, \TS1/cmr/m/n/12 $\OT1/cmr/m/n/12 5.3M+ grants) 
+
+ []
+
+[17] [18] [19] [20] (digital_ads_analysis.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -417,17 +465,17 @@ Package rerunfilecheck Warning: File `digital_ads_analysis.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `digital_ads_analysis.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  B4D20BA990FD54B1A46E489E67CC8960;6740.
+(rerunfilecheck)             Before: 412B8D25798281A925A004DFBC31B729;11534
+(rerunfilecheck)             After:  91147250B1701415BF94A83E1B903D05;14156.
  ) 
 Here is how much of TeX's memory you used:
- 9824 strings out of 474486
- 155917 string characters out of 5740415
+ 9935 strings out of 474486
+ 157948 string characters out of 5740415
  1935542 words of memory out of 5000000
- 31946 multiletter control sequences out of 15000+600000
+ 32004 multiletter control sequences out of 15000+600000
  564691 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,79p,576b,678s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,8n,79p,830b,680s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Angel daniel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi6
 00\tcbx1200.pk> <C:\Users\Angel daniel\AppData\Local\MiKTeX\fonts/pk/ljfour/jkn
 appen/ec/dpi600\tcrm1200.pk><C:/Users/Angel daniel/AppData/Local/Programs/MiKTe
@@ -436,9 +484,9 @@ l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Angel dani
 el/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/U
 sers/Angel daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmtt12.pfb>
-Output written on digital_ads_analysis.pdf (10 pages, 94508 bytes).
+Output written on digital_ads_analysis.pdf (20 pages, 147179 bytes).
 PDF statistics:
- 154 PDF objects out of 1000 (max. 8388607)
- 69 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 408 PDF objects out of 1000 (max. 8388607)
+ 116 named destinations out of 1000 (max. 500000)
+ 441 words of extra memory for PDF output out of 10000 (max. 10000000)
 

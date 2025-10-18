@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.10.8)  17 OCT 2025 14:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.10.8)  18 OCT 2025 17:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -306,8 +306,7 @@ end-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count282
 \l__pdf_internal_box=\box52
-)
-No file website_analysis.aux.
+) (website_analysis.aux)
 \openout1 = `website_analysis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
@@ -328,6 +327,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -389,6 +389,7 @@ f-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring OFF on input line 17.
+ (website_analysis.out) (website_analysis.out)
 \@outlinefile=\write3
 \openout3 = `website_analysis.out'.
 
@@ -405,7 +406,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 81.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 81.
- [2] [3] [4] [5] [6] [7] [8] [9]
+ [2] [3] [4] [5] [6]
+[7] [8] [9]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 416.
 
@@ -478,29 +480,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 428--429
 \OT1/cmr/m/n/10.95 focused; Bran-deis:
  []
 
-[10] [11] [12] [13] [14] (website_analysis.aux)
+[10] [11] [12] [13] [14] [15] [16] (website_analysis.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
-
-
-Package rerunfilecheck Warning: File `website_analysis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `website_analysis.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  74C160BD35A73C6E303D9D4871E2DBB4;8192.
+Package rerunfilecheck Info: File `website_analysis.out' has not changed.
+(rerunfilecheck)             Checksum: 9E2355BCF8F2EDAE3A6F5302FA4F7669;9967.
  ) 
 Here is how much of TeX's memory you used:
- 9842 strings out of 474486
- 156162 string characters out of 5740415
+ 9917 strings out of 474486
+ 157662 string characters out of 5740415
  1936542 words of memory out of 5000000
- 31951 multiletter control sequences out of 15000+600000
+ 32005 multiletter control sequences out of 15000+600000
  565274 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,10n,79p,593b,678s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,10n,79p,633b,678s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Angel daniel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi6
 00\tcrm1200.pk><C:/Users/Angel daniel/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/amsfonts/cm/cmbx10.pfb><C:/Users/Angel daniel/AppData/Local/Programs/Mi
@@ -509,9 +504,9 @@ ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Angel d
 aniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C
 :/Users/Angel daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmtt12.pfb>
-Output written on website_analysis.pdf (14 pages, 124104 bytes).
+Output written on website_analysis.pdf (16 pages, 149767 bytes).
 PDF statistics:
- 185 PDF objects out of 1000 (max. 8388607)
- 82 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 363 PDF objects out of 1000 (max. 8388607)
+ 97 named destinations out of 1000 (max. 500000)
+ 409 words of extra memory for PDF output out of 10000 (max. 10000000)
 
