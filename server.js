@@ -54,9 +54,11 @@ app.get('/api/files/*', (req, res) => {
       '.png': 'image/png',
       '.jpg': 'image/jpeg',
       '.jpeg': 'image/jpeg',
+      '.svg': 'image/svg+xml',
       '.csv': 'text/csv',
       '.tex': 'text/plain',
-      '.txt': 'text/plain'
+      '.txt': 'text/plain',
+      '.md': 'text/markdown'
     };
 
     const contentType = contentTypes[ext] || 'application/octet-stream';
