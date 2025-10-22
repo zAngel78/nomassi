@@ -8,8 +8,10 @@ const PORT = 3001;
 
 // Enable CORS for the React frontend
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://localhost:5174', '*'], // Allow localhost and any origin
-  credentials: true
+  origin: ['http://localhost:5173', 'http://localhost:5174', 'https://nolo-alpha.vercel.app', '*'], // Allow localhost, Vercel, and any origin
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization']
 }));
 
 // Path to the research documentation (now inside backend)
@@ -63,6 +65,11 @@ app.get('/api/files/*', (req, res) => {
 
     const contentType = contentTypes[ext] || 'application/octet-stream';
     res.setHeader('Content-Type', contentType);
+
+    // Set CORS headers explicitly
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
     // Set headers for inline display (not download)
     res.setHeader('Content-Disposition', `inline; filename="${path.basename(filePath)}"`);
