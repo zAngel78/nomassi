@@ -1,0 +1,21 @@
+{
+  "university": "Touro University",
+  "scraped_at": "2025-10-24T17:46:04.187Z",
+  "platforms": {
+    "instagram": {
+      "posts_count": 50,
+      "file": "C:\\Users\\Angel daniel\\Documents\\research\\yu-research-backend\\public\\instagram_data\\touro_posts.json",
+      "status": "success"
+    },
+    "facebook": {
+      "posts_count": 9,
+      "file": "C:\\Users\\Angel daniel\\Documents\\research\\yu-research-backend\\public\\facebook_data\\touro_posts.json",
+      "status": "success"
+    },
+    "youtube": {
+      "videos_count": 20,
+      "file": "C:\\Users\\Angel daniel\\Documents\\research\\yu-research-backend\\public\\youtube_data\\touro_videos.json",
+      "status": "success"
+    }
+  }
+}

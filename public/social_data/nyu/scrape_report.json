@@ -1,0 +1,26 @@
+{
+  "university": "New York University",
+  "scraped_at": "2025-10-24T16:19:57.371Z",
+  "platforms": {
+    "instagram": {
+      "posts_count": 50,
+      "file": "C:\\Users\\Angel daniel\\Documents\\research\\yu-research-backend\\public\\instagram_data\\nyu_posts.json",
+      "status": "success"
+    },
+    "facebook": {
+      "posts_count": 50,
+      "file": "C:\\Users\\Angel daniel\\Documents\\research\\yu-research-backend\\public\\facebook_data\\nyu_posts.json",
+      "status": "success"
+    },
+    "twitter": {
+      "tweets_count": 9,
+      "file": "C:\\Users\\Angel daniel\\Documents\\research\\yu-research-backend\\public\\twitter_data\\nyu_tweets.json",
+      "status": "success"
+    },
+    "youtube": {
+      "videos_count": 20,
+      "file": "C:\\Users\\Angel daniel\\Documents\\research\\yu-research-backend\\public\\youtube_data\\nyu_videos.json",
+      "status": "success"
+    }
+  }
+}

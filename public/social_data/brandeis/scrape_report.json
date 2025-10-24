@@ -1,0 +1,26 @@
+{
+  "university": "Brandeis University",
+  "scraped_at": "2025-10-24T17:30:00.642Z",
+  "platforms": {
+    "instagram": {
+      "posts_count": 50,
+      "file": "C:\\Users\\Angel daniel\\Documents\\research\\yu-research-backend\\public\\instagram_data\\brandeis_posts.json",
+      "status": "success"
+    },
+    "facebook": {
+      "posts_count": 50,
+      "file": "C:\\Users\\Angel daniel\\Documents\\research\\yu-research-backend\\public\\facebook_data\\brandeis_posts.json",
+      "status": "success"
+    },
+    "twitter": {
+      "tweets_count": 10,
+      "file": "C:\\Users\\Angel daniel\\Documents\\research\\yu-research-backend\\public\\twitter_data\\brandeis_tweets.json",
+      "status": "success"
+    },
+    "youtube": {
+      "videos_count": 20,
+      "file": "C:\\Users\\Angel daniel\\Documents\\research\\yu-research-backend\\public\\youtube_data\\brandeis_videos.json",
+      "status": "success"
+    }
+  }
+}

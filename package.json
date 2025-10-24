@@ -4,6 +4,20 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
+    "scrape:instagram": "node scraper.js yeshiva_university 50",
+    "scrape:facebook": "node scraper-facebook.js https://www.facebook.com/YeshivaUniversity 50",
+    "scrape:twitter": "node scraper-twitter-custom.js YUNews 50",
+    "scrape:youtube": "node scraper-youtube.js https://www.youtube.com/@YeshivaUniversity 20",
+    "scrape:meta-ads": "node scraper-meta-ads-custom.js 8301814001 20",
+    "scrape:yu": "node scraper.js yeshiva_university 50",
+    "scrape:all": "npm run scrape:instagram && npm run scrape:facebook && npm run scrape:twitter && npm run scrape:youtube && npm run scrape:meta-ads",
+    "scrape:university": "node scrape-all-university.js",
+    "scrape:yeshiva": "node scrape-all-university.js yeshiva",
+    "scrape:nyu": "node scrape-all-university.js nyu",
+    "scrape:brandeis": "node scrape-all-university.js brandeis",
+    "scrape:columbia": "node scrape-all-university.js columbia",
+    "scrape:touro": "node scrape-all-university.js touro",
+    "scrape:all-universities": "npm run scrape:yeshiva && npm run scrape:nyu && npm run scrape:brandeis && npm run scrape:columbia && npm run scrape:touro",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,7 +25,9 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "apify-client": "^2.9.3",
     "cors": "^2.8.5",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "puppeteer": "^24.26.1"
   }
 }

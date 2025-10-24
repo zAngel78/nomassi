@@ -16,6 +16,7 @@ app.use(cors({
 
 // Path to the research documentation (now inside backend)
 const RESEARCH_DIR = path.join(__dirname, 'public', 'files');
+const PUBLIC_DIR = path.join(__dirname, 'public');
 
 // Log startup info
 console.log('Research Directory:', RESEARCH_DIR);
@@ -26,14 +27,23 @@ app.get('/api/files/*', (req, res) => {
   try {
     // Get the file path from the URL (everything after /api/files/)
     const requestedPath = req.params[0];
-    const filePath = path.join(RESEARCH_DIR, requestedPath);
+    
+    // Try public/files first, then public/ for instagram_data and facebook_data
+    let filePath = path.join(RESEARCH_DIR, requestedPath);
+    let baseDir = RESEARCH_DIR;
+    
+    // If file not found in public/files and path starts with social media data, try public/
+    if (!fs.existsSync(filePath) && (requestedPath.startsWith('instagram_data') || requestedPath.startsWith('facebook_data') || requestedPath.startsWith('twitter_data') || requestedPath.startsWith('youtube_data') || requestedPath.startsWith('meta_ads_data'))) {
+      filePath = path.join(PUBLIC_DIR, requestedPath);
+      baseDir = PUBLIC_DIR;
+    }
 
     console.log('Requested file:', requestedPath);
     console.log('Full path:', filePath);
 
-    // Security check: make sure the file is within the research directory
+    // Security check: make sure the file is within allowed directories
     const normalizedPath = path.normalize(filePath);
-    if (!normalizedPath.startsWith(RESEARCH_DIR)) {
+    if (!normalizedPath.startsWith(RESEARCH_DIR) && !normalizedPath.startsWith(PUBLIC_DIR)) {
       return res.status(403).json({ error: 'Access denied' });
     }
 
@@ -56,6 +66,7 @@ app.get('/api/files/*', (req, res) => {
       '.png': 'image/png',
       '.jpg': 'image/jpeg',
       '.jpeg': 'image/jpeg',
+      '.webp': 'image/webp',
       '.svg': 'image/svg+xml',
       '.csv': 'text/csv',
       '.tex': 'text/plain',
@@ -126,6 +137,124 @@ app.get('/api/debug/structure', (req, res) => {
     });
 
     res.json(structure);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+// Instagram data endpoints
+app.get('/api/instagram/:username', (req, res) => {
+  try {
+    const username = req.params.username;
+    const dataPath = path.join(__dirname, 'public', 'instagram_data', `${username}_posts.json`);
+    
+    if (!fs.existsSync(dataPath)) {
+      return res.status(404).json({ 
+        error: 'Data not found', 
+        message: `No data found for @${username}. Run 'npm run scrape:instagram' first.` 
+      });
+    }
+    
+    const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+    res.json(data);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+// Facebook data endpoints
+app.get('/api/facebook/:pagename', (req, res) => {
+  try {
+    const pagename = req.params.pagename.toLowerCase();
+    const dataPath = path.join(__dirname, 'public', 'facebook_data', `${pagename}_posts.json`);
+    
+    if (!fs.existsSync(dataPath)) {
+      return res.status(404).json({ 
+        error: 'Data not found', 
+        message: `No data found for ${pagename}. Run 'npm run scrape:facebook' first.` 
+      });
+    }
+    
+    const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+    res.json(data);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+// Twitter data endpoints
+app.get('/api/twitter/:username', (req, res) => {
+  try {
+    const username = req.params.username.toLowerCase();
+    const dataPath = path.join(__dirname, 'public', 'twitter_data', `${username}_tweets.json`);
+    
+    if (!fs.existsSync(dataPath)) {
+      return res.status(404).json({ 
+        error: 'Data not found', 
+        message: `No data found for @${username}. Run 'npm run scrape:twitter' first.` 
+      });
+    }
+    
+    const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+    res.json(data);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+// YouTube data endpoints
+app.get('/api/youtube/:channel', (req, res) => {
+  try {
+    const channel = req.params.channel.toLowerCase();
+    const dataPath = path.join(__dirname, 'public', 'youtube_data', `${channel}_videos.json`);
+    
+    if (!fs.existsSync(dataPath)) {
+      return res.status(404).json({ 
+        error: 'Data not found', 
+        message: `No data found for ${channel}. Run 'npm run scrape:youtube' first.` 
+      });
+    }
+    
+    const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+    res.json(data);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+// Meta Ads data endpoints
+app.get('/api/meta-ads/:university', (req, res) => {
+  try {
+    const university = req.params.university.toLowerCase();
+    const dataPath = path.join(__dirname, 'public', 'meta_ads_data', `${university}_ads.json`);
+    
+    if (!fs.existsSync(dataPath)) {
+      return res.status(404).json({ 
+        error: 'Data not found', 
+        message: `No data found for ${university}. Run 'npm run scrape:meta-ads' first.` 
+      });
+    }
+    
+    const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+    res.json(data);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+app.get('/api/instagram', (req, res) => {
+  try {
+    const dataPath = path.join(__dirname, 'public', 'instagram_data', 'all_universities.json');
+    
+    if (!fs.existsSync(dataPath)) {
+      return res.status(404).json({ 
+        error: 'Data not found', 
+        message: 'Run "npm run scrape:all" first to scrape all universities.' 
+      });
+    }
+    
+    const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+    res.json(data);
   } catch (error) {
     res.status(500).json({ error: error.message });
   }

@@ -1,0 +1,52 @@
+{
+  "yeshiva": {
+    "name": "Yeshiva University",
+    "instagram": "yeshiva_university",
+    "facebook": "yeshivauniversity",
+    "twitter": "yunews",
+    "youtube": "yeshivauniversity",
+    "meta_ads": "Yeshiva University",
+    "page_id": "8301814001",
+    "output_folder": "yeshiva_university"
+  },
+  "nyu": {
+    "name": "New York University",
+    "instagram": "nyuniversity",
+    "facebook": "NYU",
+    "twitter": "nyuniversity",
+    "youtube": "nyuniversity",
+    "meta_ads": "New York University",
+    "page_id": null,
+    "output_folder": "nyu"
+  },
+  "brandeis": {
+    "name": "Brandeis University",
+    "instagram": "brandeisuniversity",
+    "facebook": "BrandeisUniversity",
+    "twitter": "BrandeisU",
+    "youtube": "BrandeisUniversity",
+    "meta_ads": "Brandeis University",
+    "page_id": null,
+    "output_folder": "brandeis"
+  },
+  "columbia": {
+    "name": "Columbia University",
+    "instagram": "columbia",
+    "facebook": "Columbia",
+    "twitter": "columbia",
+    "youtube": "columbia",
+    "meta_ads": "Columbia University",
+    "page_id": null,
+    "output_folder": "columbia"
+  },
+  "touro": {
+    "name": "Touro University",
+    "instagram": "wearetouro",
+    "facebook": "TouroUniversity",
+    "twitter": null,
+    "youtube": "tourocalifornia",
+    "meta_ads": "Touro University",
+    "page_id": null,
+    "output_folder": "touro"
+  }
+}
