@@ -1,0 +1,87 @@
+[
+  {
+    "id": "brandeis_archive",
+    "name": "CFR Newsletter Archive Page",
+    "url": "https://alumni.brandeis.edu/giving/cfr/newsletter-archive.html",
+    "pdf_path": "captured_assets\\emails\\brandeis\\cfr_newsletter_archive.pdf",
+    "pdf_size": 131132,
+    "success": true,
+    "captured_at": "2025-10-27T21:31:41.841688"
+  },
+  {
+    "id": "brandeis_01",
+    "name": "",
+    "url": "https://wellcomeleap.org/dr/?utm_source=newsletter&utm_medium=email&utm_campaign=Selected",
+    "pdf_path": "captured_assets\\emails\\brandeis\\brandeis_01_.pdf",
+    "pdf_size": 683491,
+    "success": true,
+    "captured_at": "2025-10-27T21:32:04.319253"
+  },
+  {
+    "id": "brandeis_02",
+    "name": "",
+    "url": "https://urbanlabs.uchicago.edu/attachments/79a2b762b199f8bf13547e9f2b420beff75f87f3/store/e8096373c68872c5e54984beb437dad97be275402258054dac80f2148e71/PL+Backgrounder.pdf",
+    "pdf_path": "captured_assets\\emails\\brandeis\\brandeis_02_.pdf",
+    "pdf_size": 9279,
+    "success": false,
+    "captured_at": "2025-10-27T21:32:20.528628"
+  },
+  {
+    "id": "brandeis_03",
+    "name": "",
+    "url": "https://www.jsmf.org/about/press/2021-02-01_JSMF_Press_Release.pdf",
+    "pdf_path": "captured_assets\\emails\\brandeis\\brandeis_03_.pdf",
+    "pdf_size": 27944,
+    "success": false,
+    "captured_at": "2025-10-27T21:32:36.518172"
+  },
+  {
+    "id": "brandeis_04",
+    "name": "",
+    "url": "https://hria.org/wp-content/uploads/2016/02/2021.Full_.Noonan.Guidelines.and_.Instructions.pdf",
+    "pdf_path": "captured_assets\\emails\\brandeis\\brandeis_04_.pdf",
+    "pdf_size": 230554,
+    "success": true,
+    "captured_at": "2025-10-27T21:32:55.343224"
+  },
+  {
+    "id": "brandeis_05",
+    "name": "",
+    "url": "https://www.hfsp.org/sites/default/files/Sciences/Grants/LI%20Guidelines.pdf",
+    "pdf_path": null,
+    "pdf_size": 0,
+    "success": false,
+    "error": "Page.goto: Download is starting\nCall log:\n  - navigating to \"https://www.hfsp.org/sites/default/files/Sciences/Grants/LI%20Guidelines.pdf\", waiting until \"load\"\n",
+    "captured_at": "2025-10-27T21:32:58.367451"
+  },
+  {
+    "id": "brandeis_06",
+    "name": "",
+    "url": "https://alumni.brandeis.edu/giving/cfr/images/sabbatical-funding-and-fellowship.pdf",
+    "pdf_path": null,
+    "pdf_size": 0,
+    "success": false,
+    "error": "Page.goto: Download is starting\nCall log:\n  - navigating to \"https://alumni.brandeis.edu/giving/cfr/images/sabbatical-funding-and-fellowship.pdf\", waiting until \"load\"\n",
+    "captured_at": "2025-10-27T21:33:00.668315"
+  },
+  {
+    "id": "brandeis_07",
+    "name": "",
+    "url": "https://mcusercontent.com/0407b3b9a48671d6bfcdca192/files/314412ee-6730-475b-8e83-a1fc87e18463/2021_Whiting_Solicitation_Letter.pdf",
+    "pdf_path": null,
+    "pdf_size": 0,
+    "success": false,
+    "error": "Page.goto: Download is starting\nCall log:\n  - navigating to \"https://mcusercontent.com/0407b3b9a48671d6bfcdca192/files/314412ee-6730-475b-8e83-a1fc87e18463/2021_Whiting_Solicitation_Letter.pdf\", waiting until \"load\"\n",
+    "captured_at": "2025-10-27T21:33:03.199767"
+  },
+  {
+    "id": "brandeis_08",
+    "name": "",
+    "url": "https://mcusercontent.com/0407b3b9a48671d6bfcdca192/files/314412ee-6730-475b-8e83-a1fc87e18463/2021_Whiting_Solicitation_Letter.pdf",
+    "pdf_path": null,
+    "pdf_size": 0,
+    "success": false,
+    "error": "Page.goto: Download is starting\nCall log:\n  - navigating to \"https://mcusercontent.com/0407b3b9a48671d6bfcdca192/files/314412ee-6730-475b-8e83-a1fc87e18463/2021_Whiting_Solicitation_Letter.pdf\", waiting until \"load\"\n",
+    "captured_at": "2025-10-27T21:33:05.206976"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "brandeis_2025_summer",
+    "name": "Summer 2025",
+    "url": "https://www.brandeis.edu/magazine/2025/summer/index.html",
+    "pdf_path": "captured_assets\\emails\\brandeis\\brandeis_2025_summer.pdf",
+    "pdf_size": 3151023,
+    "success": true,
+    "captured_at": "2025-10-27T21:51:50.926174"
+  },
+  {
+    "id": "brandeis_2025_winter",
+    "name": "Winter 2024/2025",
+    "url": "https://www.brandeis.edu/magazine/2025/winter/index.html",
+    "pdf_path": "captured_assets\\emails\\brandeis\\brandeis_2025_winter.pdf",
+    "pdf_size": 2223018,
+    "success": true,
+    "captured_at": "2025-10-27T21:52:15.356151"
+  },
+  {
+    "id": "brandeis_2024_summer",
+    "name": "Summer 2024",
+    "url": "https://www.brandeis.edu/magazine/2024/summer/index.html",
+    "pdf_path": "captured_assets\\emails\\brandeis\\brandeis_2024_summer.pdf",
+    "pdf_size": 2275245,
+    "success": true,
+    "captured_at": "2025-10-27T21:52:38.559505"
+  },
+  {
+    "id": "brandeis_2024_winter",
+    "name": "Winter 2023/2024",
+    "url": "https://www.brandeis.edu/magazine/2024/winter/index.html",
+    "pdf_path": "captured_assets\\emails\\brandeis\\brandeis_2024_winter.pdf",
+    "pdf_size": 1924144,
+    "success": true,
+    "captured_at": "2025-10-27T21:53:00.314462"
+  },
+  {
+    "id": "brandeis_2023_summer",
+    "name": "Summer 2023",
+    "url": "https://www.brandeis.edu/magazine/2023/summer/index.html",
+    "pdf_path": "captured_assets\\emails\\brandeis\\brandeis_2023_summer.pdf",
+    "pdf_size": 194782,
+    "success": true,
+    "captured_at": "2025-10-27T21:53:21.855704"
+  },
+  {
+    "id": "brandeis_2023_winter",
+    "name": "Winter 2022/2023",
+    "url": "https://www.brandeis.edu/magazine/2023/winter/index.html",
+    "pdf_path": "captured_assets\\emails\\brandeis\\brandeis_2023_winter.pdf",
+    "pdf_size": 650037,
+    "success": true,
+    "captured_at": "2025-10-27T21:53:43.094664"
+  }
+]

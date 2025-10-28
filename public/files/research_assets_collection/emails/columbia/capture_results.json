@@ -1,0 +1,56 @@
+[
+  {
+    "id": "columbia_2025_fall",
+    "name": "Fall 2025",
+    "url": "https://magazine.columbia.edu/issues/fall-2025",
+    "pdf_path": "captured_assets\\emails\\columbia\\columbia_2025_fall.pdf",
+    "pdf_size": 6325661,
+    "success": true,
+    "captured_at": "2025-10-27T21:29:24.008819"
+  },
+  {
+    "id": "columbia_2025_spring_summer",
+    "name": "Spring/Summer 2025",
+    "url": "https://magazine.columbia.edu/issues/springsummer-2025",
+    "pdf_path": "captured_assets\\emails\\columbia\\columbia_2025_spring_summer.pdf",
+    "pdf_size": 6506122,
+    "success": true,
+    "captured_at": "2025-10-27T21:29:48.270537"
+  },
+  {
+    "id": "columbia_2024_winter",
+    "name": "Winter 2024-25",
+    "url": "https://magazine.columbia.edu/issues/winter-2024-25",
+    "pdf_path": "captured_assets\\emails\\columbia\\columbia_2024_winter.pdf",
+    "pdf_size": 6430542,
+    "success": true,
+    "captured_at": "2025-10-27T21:30:12.099262"
+  },
+  {
+    "id": "columbia_2024_fall",
+    "name": "Fall 2024",
+    "url": "https://magazine.columbia.edu/issues/fall-2024",
+    "pdf_path": "captured_assets\\emails\\columbia\\columbia_2024_fall.pdf",
+    "pdf_size": 5330771,
+    "success": true,
+    "captured_at": "2025-10-27T21:30:35.497975"
+  },
+  {
+    "id": "columbia_2024_spring_summer",
+    "name": "Spring/Summer 2024",
+    "url": "https://magazine.columbia.edu/issues/springsummer-2024",
+    "pdf_path": "captured_assets\\emails\\columbia\\columbia_2024_spring_summer.pdf",
+    "pdf_size": 6245167,
+    "success": true,
+    "captured_at": "2025-10-27T21:30:59.053116"
+  },
+  {
+    "id": "columbia_2023_winter",
+    "name": "Winter 2023-24",
+    "url": "https://magazine.columbia.edu/issues/winter-2023-24",
+    "pdf_path": "captured_assets\\emails\\columbia\\columbia_2023_winter.pdf",
+    "pdf_size": 4965742,
+    "success": true,
+    "captured_at": "2025-10-27T21:31:22.416777"
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "yu_2025_05",
+    "date": "May 2025",
+    "url": "https://www.yu.edu/news/alumni/alumni-affairs-may-2025-newsletter",
+    "pdf_path": "captured_assets\\emails\\yeshiva_university\\yu_2025_05.pdf",
+    "screenshot_path": "captured_assets\\emails\\yeshiva_university\\yu_2025_05.png",
+    "success": true,
+    "captured_at": "2025-10-27T20:48:28.337308"
+  },
+  {
+    "id": "yu_2025_04",
+    "date": "April 2025",
+    "url": "https://www.yu.edu/news/alumni/alumni-affairs-april-2025-newsletter",
+    "pdf_path": "captured_assets\\emails\\yeshiva_university\\yu_2025_04.pdf",
+    "screenshot_path": "captured_assets\\emails\\yeshiva_university\\yu_2025_04.png",
+    "success": true,
+    "captured_at": "2025-10-27T20:48:35.255357"
+  },
+  {
+    "id": "yu_2025_02",
+    "date": "February 2025",
+    "url": "https://www.yu.edu/news/alumni/alumni-affairs-february-2025-newsletter",
+    "pdf_path": "captured_assets\\emails\\yeshiva_university\\yu_2025_02.pdf",
+    "screenshot_path": "captured_assets\\emails\\yeshiva_university\\yu_2025_02.png",
+    "success": true,
+    "captured_at": "2025-10-27T20:48:42.116942"
+  },
+  {
+    "id": "yu_2024_12",
+    "date": "December 2024",
+    "url": "https://www.yu.edu/news/alumni/alumni-affairs-december-2024-newsletter",
+    "pdf_path": "captured_assets\\emails\\yeshiva_university\\yu_2024_12.pdf",
+    "screenshot_path": "captured_assets\\emails\\yeshiva_university\\yu_2024_12.png",
+    "success": true,
+    "captured_at": "2025-10-27T20:48:49.031717"
+  },
+  {
+    "id": "yu_2024_06",
+    "date": "June 2024",
+    "url": "https://www.yu.edu/news/alumni/alumni-affairs-june-2024-newsletter",
+    "pdf_path": "captured_assets\\emails\\yeshiva_university\\yu_2024_06.pdf",
+    "screenshot_path": "captured_assets\\emails\\yeshiva_university\\yu_2024_06.png",
+    "success": true,
+    "captured_at": "2025-10-27T20:48:55.923321"
+  },
+  {
+    "id": "yu_2024_03",
+    "date": "March 2024",
+    "url": "https://www.yu.edu/news/alumni/alumni-affairs-march-2024-newsletter",
+    "pdf_path": "captured_assets\\emails\\yeshiva_university\\yu_2024_03.pdf",
+    "screenshot_path": "captured_assets\\emails\\yeshiva_university\\yu_2024_03.png",
+    "success": true,
+    "captured_at": "2025-10-27T20:49:02.746045"
+  },
+  {
+    "id": "yu_2024_01",
+    "date": "January 2024",
+    "url": "https://www.yu.edu/news/alumni/alumni-affairs-january-2024-newsletter",
+    "pdf_path": "captured_assets\\emails\\yeshiva_university\\yu_2024_01.pdf",
+    "screenshot_path": "captured_assets\\emails\\yeshiva_university\\yu_2024_01.png",
+    "success": true,
+    "captured_at": "2025-10-27T20:49:09.533881"
+  }
+]
