@@ -1,20 +1,20 @@
 ================================================================================
-FUENTES DE NEWSLETTERS - EMAIL MARKETING RESEARCH
+NEWSLETTER SOURCES - EMAIL MARKETING RESEARCH
 ================================================================================
 
-Documento de referencia para análisis de email marketing
-Todas las universidades competidoras de Yeshiva University
+Reference document for email marketing analysis
+All competitor universities of Yeshiva University
 
 ================================================================================
 1. YESHIVA UNIVERSITY (YU)
 ================================================================================
 
-Publicación: Alumni Affairs Newsletter
-Frecuencia: Mensual
-Audiencia: 70,000+ alumni worldwide
-Contacto: Beth Lebenson Praver (beth.lebensonpraver@yu.edu | 646.592.4493)
+Publication: Alumni Affairs Newsletter
+Frequency: Monthly
+Audience: 70,000+ alumni worldwide
+Contact: Beth Lebenson Praver (beth.lebensonpraver@yu.edu | 646.592.4493)
 
-URLs Capturadas (7 newsletters - Enero 2024 a Mayo 2025):
+Captured URLs (7 newsletters - January 2024 to May 2025):
 - May 2025: https://www.yu.edu/news/alumni/alumni-affairs-may-2025-newsletter
 - April 2025: https://www.yu.edu/news/alumni/alumni-affairs-april-2025-newsletter
 - March 2025: https://www.yu.edu/news/alumni/alumni-affairs-march-2025-newsletter
@@ -23,20 +23,20 @@ URLs Capturadas (7 newsletters - Enero 2024 a Mayo 2025):
 - March 2024: https://www.yu.edu/news/alumni/alumni-affairs-march-2024-newsletter
 - January 2024: https://www.yu.edu/news/alumni/alumni-affairs-january-2024-newsletter
 
-Archivo principal: https://www.yu.edu/news/alumni
-Método de captura: Playwright automation (headless Chrome)
-Resultado: 7/7 exitosos (100%)
+Main archive: https://www.yu.edu/news/alumni
+Capture method: Playwright automation (headless Chrome)
+Result: 7/7 successful (100%)
 
 ================================================================================
 2. NEW YORK UNIVERSITY (NYU)
 ================================================================================
 
-Publicación: NYU Connect Newsletter
-Frecuencia: Mensual
-Audiencia: 540,000+ alumni worldwide
-Contacto: Office of Alumni Relations (alumni.relations@nyu.edu | 212-998-6900)
+Publication: NYU Connect Newsletter
+Frequency: Monthly
+Audience: 540,000+ alumni worldwide
+Contact: Office of Alumni Relations (alumni.relations@nyu.edu | 212-998-6900)
 
-URLs Capturadas (11 newsletters - Junio 2024 a Junio 2025):
+Captured URLs (11 newsletters - June 2024 to June 2025):
 - June 2025: https://www.nyu.edu/alumni/news-publications/nyu-connect-newsletter/june-2025.html
 - March 2025: https://www.nyu.edu/alumni/news-publications/nyu-connect-newsletter/march-2025.html
 - February 2025: https://www.nyu.edu/alumni/news-publications/nyu-connect-newsletter/february-2025.html
@@ -49,21 +49,21 @@ URLs Capturadas (11 newsletters - Junio 2024 a Junio 2025):
 - July 2024: https://www.nyu.edu/alumni/news-publications/nyu-connect-newsletter/july-2024.html
 - June 2024: https://www.nyu.edu/alumni/news-publications/nyu-connect-newsletter/june-2024.html
 
-Archivo principal: https://www.nyu.edu/alumni/news-publications.html
-Método de captura: Manual (Chrome extension HTML to PDF) - bot detection prevented automation
-Resultado: 11/11 exitosos (100%)
-Nota: NYU tiene protección anti-bot que requirió captura manual
+Main archive: https://www.nyu.edu/alumni/news-publications.html
+Capture method: Manual (Chrome extension HTML to PDF) - bot detection prevented automation
+Result: 11/11 successful (100%)
+Note: NYU has anti-bot protection that required manual capture
 
 ================================================================================
 3. BRANDEIS UNIVERSITY
 ================================================================================
 
-Publicación: Brandeis Magazine (Alumni Publication)
-Frecuencia: 2-3 veces al año
-Audiencia: Alumni community
-Descripción: Award-winning alumni magazine, published since 2006
+Publication: Brandeis Magazine (Alumni Publication)
+Frequency: 2-3 times per year
+Audience: Alumni community
+Description: Award-winning alumni magazine, published since 2006
 
-URLs Capturadas (6 issues - Winter 2022/2023 a Summer 2025):
+Captured URLs (6 issues - Winter 2022/2023 to Summer 2025):
 - Summer 2025: https://www.brandeis.edu/magazine/2025/summer/index.html
 - Winter 2024/2025: https://www.brandeis.edu/magazine/2025/winter/index.html
 - Summer 2024: https://www.brandeis.edu/magazine/2024/summer/index.html
@@ -71,21 +71,21 @@ URLs Capturadas (6 issues - Winter 2022/2023 a Summer 2025):
 - Summer 2023: https://www.brandeis.edu/magazine/2023/summer/index.html
 - Winter 2022/2023: https://www.brandeis.edu/magazine/2023/winter/index.html
 
-Archivo principal: https://www.brandeis.edu/magazine/past-issues.html
-Método de captura: Playwright automation (headless Chrome) - 15 second wait time
-Resultado: 6/6 exitosos (100%)
-Nota: NO confundir con CFR Newsletter (Center for Research Funding) que es solo para investigación
+Main archive: https://www.brandeis.edu/magazine/past-issues.html
+Capture method: Playwright automation (headless Chrome) - 15 second wait time
+Result: 6/6 successful (100%)
+Note: NOT to be confused with CFR Newsletter (Center for Research Funding) which is for research only
 
 ================================================================================
 4. COLUMBIA UNIVERSITY
 ================================================================================
 
-Publicación: Columbia Magazine
-Frecuencia: 4 veces al año (Fall, Winter, Spring/Summer)
-Audiencia: Columbia alumni community
-Descripción: Official alumni magazine
+Publication: Columbia Magazine
+Frequency: 4 times per year (Fall, Winter, Spring/Summer)
+Audience: Columbia alumni community
+Description: Official alumni magazine
 
-URLs Capturadas (6 issues - Winter 2023-24 a Fall 2025):
+Captured URLs (6 issues - Winter 2023-24 to Fall 2025):
 - Fall 2025: https://magazine.columbia.edu/issues/fall-2025
 - Spring/Summer 2025: https://magazine.columbia.edu/issues/springsummer-2025
 - Winter 2024-25: https://magazine.columbia.edu/issues/winter-2024-25
@@ -93,57 +93,84 @@ URLs Capturadas (6 issues - Winter 2023-24 a Fall 2025):
 - Spring/Summer 2024: https://magazine.columbia.edu/issues/springsummer-2024
 - Winter 2023-24: https://magazine.columbia.edu/issues/winter-2023-24
 
-Archivo principal: https://magazine.columbia.edu/issues
-Método de captura: Playwright automation (headless Chrome) - 15 second wait time
-Resultado: 6/6 exitosos (100%)
-Nota: URLs usan /issues/ (no /issue/) y formato "springsummer" (sin guión)
+Main archive: https://magazine.columbia.edu/issues
+Capture method: Playwright automation (headless Chrome) - 15 second wait time
+Result: 6/6 successful (100%)
+Note: URLs use /issues/ (not /issue/) and format "springsummer" (no hyphen)
 
 ================================================================================
-RESUMEN ESTADÍSTICO
+5. TOURO UNIVERSITY - NOT CAPTURED
 ================================================================================
 
-Total Universidades: 4 (YU, NYU, Brandeis, Columbia)
-Total Newsletters/Magazines Capturados: 30 PDFs
+Publication: Alumni newsletters (quarterly - frequency unverified)
+Audience: 90,000+ alumni worldwide
+Contact: alumni.tourocom@touro.edu | 646-981-4576
 
-Desglose por universidad:
+Access Status: BEHIND LOGIN - Not publicly available
+Main pages:
+- Alumni portal: https://www.touro.edu/alumni/
+- TouroCOM: https://tourocom.touro.edu/alumni/
+- Archive (old): https://touroscholar.touro.edu/arch_letters/
+
+Capture attempt result: 0/0 - Unable to capture
+Reason: Newsletters are gated behind alumni portal login, no public web versions available
+
+Note: Touro is mentioned in email marketing competitive analysis (LaTeX document)
+but their newsletters cannot be accessed or captured for research purposes. Unlike
+YU, NYU, Brandeis, and Columbia which publish public web versions of their newsletters,
+Touro only distributes to registered alumni via email with no public archive.
+
+Current verified contacts:
+- Beth Portnoy - Coordinator of Alumni Affairs (Harlem Campus)
+- Mary Dermigny - Student Coordinator (Middletown Campus)
+- General: alumni.tourocom@touro.edu, 646-981-4576
+
+================================================================================
+STATISTICAL SUMMARY
+================================================================================
+
+Total Universities: 4 (YU, NYU, Brandeis, Columbia)
+Total Newsletters/Magazines Captured: 30 PDFs
+
+Breakdown by university:
 - Yeshiva University: 7 newsletters
 - New York University: 11 newsletters
 - Brandeis University: 6 magazines
 - Columbia University: 6 magazines
 
-Tasa de éxito: 30/30 (100%)
+Success rate: 30/30 (100%)
 
-Métodos de captura:
+Capture methods:
 - Playwright automation: 19 PDFs (YU, Brandeis, Columbia)
 - Manual capture: 11 PDFs (NYU - due to bot detection)
 
-Período cubierto: Enero 2024 - Junio 2025 (18 meses de data)
+Period covered: January 2024 - June 2025 (18 months of data)
 
 ================================================================================
-NOTAS TÉCNICAS
+TECHNICAL NOTES
 ================================================================================
 
-Herramientas utilizadas:
+Tools used:
 - Python 3.x
 - Playwright (async_api)
 - Chrome/Chromium browser
 - HTML to PDF Chrome extension (NYU manual capture)
 
-Configuraciones importantes:
+Important settings:
 - Viewport: 1920x1080
 - PDF format: Letter
 - Print background: True
 - Wait times: 3-15 seconds (depending on site loading speed)
 - Scroll simulation: To trigger lazy-loaded content
 
-Desafíos encontrados:
+Challenges encountered:
 1. NYU: Bot detection (403 Forbidden) - solved with manual capture
 2. Columbia: Slow page loading - solved with 15 second wait + scroll
 3. Brandeis: Wrong source initially (CFR vs Magazine) - corrected
 4. Cookie consent popups - handled manually
 
 ================================================================================
-CONTACTOS PARA FUTURAS ACTUALIZACIONES
+CONTACTS FOR FUTURE UPDATES
 ================================================================================
 
 Yeshiva University:
@@ -165,27 +192,27 @@ Columbia University:
 - Archive: https://magazine.columbia.edu/issues
 
 ================================================================================
-PROPÓSITO DEL ANÁLISIS
+ANALYSIS PURPOSE
 ================================================================================
 
-Estos newsletters/magazines fueron capturados para análisis comparativo de:
-✓ Estrategias de email marketing de universidades competidoras
-✓ Diseño y layout de comunicaciones con alumni
-✓ Contenido editorial y storytelling
-✓ Frecuencia y consistencia de publicaciones
-✓ Call-to-actions y estrategias de fundraising
-✓ Promoción de eventos y engagement tactics
+These newsletters/magazines were captured for comparative analysis of:
+✓ Email marketing strategies of competitor universities
+✓ Design and layout of alumni communications
+✓ Editorial content and storytelling
+✓ Publication frequency and consistency
+✓ Call-to-actions and fundraising strategies
+✓ Event promotion and engagement tactics
 
-Estos datos complementan el análisis de:
+This data complements the analysis of:
 - Social media posts (Instagram, Facebook, LinkedIn)
 - Digital advertising (Meta Ads, Google Ads)
 - YouTube video content
 - Website design and user experience
 
 ================================================================================
-Documento creado: Octubre 2025
-Última actualización: Octubre 27, 2025
-Proyecto: Yeshiva University Competitor Research
-Cliente: Stephany Nayz
-Investigador: Angel Ramirez
+Document created: October 2025
+Last updated: October 27, 2025
+Project: Yeshiva University Competitor Research
+Client: Stephany Nayz
+Researcher: Angel Ramirez
 ================================================================================
