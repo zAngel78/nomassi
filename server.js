@@ -41,30 +41,52 @@ app.get('/api/files', (req, res) => {
           scanDirectory(fullPath, relativePath);
         } else if (stats.isFile()) {
           const ext = path.extname(item).toLowerCase();
-          // Only include PDF, TeX, and other document files
-          if (['.pdf', '.tex', '.md', '.txt'].includes(ext)) {
+          // Include PDFs, TeX, documents, and images
+          const allowedExtensions = ['.pdf', '.tex', '.md', '.txt', '.png', '.jpg', '.jpeg', '.svg', '.webp', '.gif'];
+
+          if (allowedExtensions.includes(ext)) {
+            // Determine file type
+            let fileType = 'Document';
+            if (ext === '.pdf') fileType = 'PDF';
+            else if (ext === '.tex') fileType = 'LaTeX';
+            else if (['.png', '.jpg', '.jpeg', '.svg', '.webp', '.gif'].includes(ext)) fileType = 'Image';
+            else if (ext === '.md') fileType = 'Markdown';
+
             files.push({
               name: item,
               path: relativePath,
               size: stats.size,
               date: stats.mtime.toISOString().split('T')[0],
-              type: ext === '.pdf' ? 'PDF' : ext === '.tex' ? 'LaTeX' : 'Document',
-              category: categorizeFile(relativePath)
+              type: fileType,
+              extension: ext,
+              category: categorizeFile(relativePath, fileType)
             });
           }
         }
       });
     }
 
-    // Categorize files based on their path
-    function categorizeFile(filePath) {
+    // Categorize files based on their path and type
+    function categorizeFile(filePath, fileType) {
       const lower = filePath.toLowerCase();
+
+      // If it's an image/chart, check for specific folders
+      if (fileType === 'Image') {
+        if (lower.includes('chart') || lower.includes('graph') || lower.includes('metric') || lower.includes('visual')) return 'analytics';
+        if (lower.includes('social')) return 'social';
+        if (lower.includes('email')) return 'email';
+        if (lower.includes('ads')) return 'ads';
+        if (lower.includes('image') || lower.includes('asset')) return 'reports';
+      }
+
+      // Regular categorization for documents
       if (lower.includes('social_media') || lower.includes('instagram') || lower.includes('facebook') || lower.includes('twitter')) return 'social';
       if (lower.includes('email')) return 'email';
       if (lower.includes('ads') || lower.includes('digital_ads')) return 'ads';
       if (lower.includes('competitive') || lower.includes('universities')) return 'universities';
       if (lower.includes('analytics') || lower.includes('metrics') || lower.includes('data')) return 'analytics';
       if (lower.includes('report') || lower.includes('summary')) return 'reports';
+
       return 'analytics'; // Default category
     }
 
