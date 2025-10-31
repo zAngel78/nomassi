@@ -22,6 +22,61 @@ const PUBLIC_DIR = path.join(__dirname, 'public');
 console.log('Research Directory:', RESEARCH_DIR);
 console.log('Directory exists:', fs.existsSync(RESEARCH_DIR));
 
+// Endpoint to list all files
+app.get('/api/files', (req, res) => {
+  try {
+    const files = [];
+
+    // Function to recursively scan directory
+    function scanDirectory(dir, baseDir = '') {
+      const items = fs.readdirSync(dir);
+
+      items.forEach(item => {
+        const fullPath = path.join(dir, item);
+        const stats = fs.statSync(fullPath);
+        const relativePath = path.join(baseDir, item);
+
+        if (stats.isDirectory()) {
+          // Recursively scan subdirectories
+          scanDirectory(fullPath, relativePath);
+        } else if (stats.isFile()) {
+          const ext = path.extname(item).toLowerCase();
+          // Only include PDF, TeX, and other document files
+          if (['.pdf', '.tex', '.md', '.txt'].includes(ext)) {
+            files.push({
+              name: item,
+              path: relativePath,
+              size: stats.size,
+              date: stats.mtime.toISOString().split('T')[0],
+              type: ext === '.pdf' ? 'PDF' : ext === '.tex' ? 'LaTeX' : 'Document',
+              category: categorizeFile(relativePath)
+            });
+          }
+        }
+      });
+    }
+
+    // Categorize files based on their path
+    function categorizeFile(filePath) {
+      const lower = filePath.toLowerCase();
+      if (lower.includes('social_media') || lower.includes('instagram') || lower.includes('facebook') || lower.includes('twitter')) return 'social';
+      if (lower.includes('email')) return 'email';
+      if (lower.includes('ads') || lower.includes('digital_ads')) return 'ads';
+      if (lower.includes('competitive') || lower.includes('universities')) return 'universities';
+      if (lower.includes('analytics') || lower.includes('metrics') || lower.includes('data')) return 'analytics';
+      if (lower.includes('report') || lower.includes('summary')) return 'reports';
+      return 'analytics'; // Default category
+    }
+
+    scanDirectory(RESEARCH_DIR);
+
+    res.json(files);
+  } catch (error) {
+    console.error('Error listing files:', error);
+    res.status(500).json({ error: 'Internal server error', message: error.message });
+  }
+});
+
 // Endpoint to serve files
 app.get('/api/files/*', (req, res) => {
   try {
