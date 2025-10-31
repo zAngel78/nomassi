@@ -6,10 +6,10 @@ const fs = require('fs');
 const app = express();
 const PORT = 3001;
 
-// Enable CORS for the React frontend
+// Enable CORS for all origins
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://localhost:5174', 'https://nolo-alpha.vercel.app', '*'], // Allow localhost, Vercel, and any origin
-  credentials: true,
+  origin: '*', // Allow any origin
+  credentials: false, // Must be false when origin is '*'
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
