@@ -1,0 +1,97 @@
+{
+  "timestamp": "2025-10-31 08:35:08",
+  "method": "OSINT - Public Web Scraping",
+  "universities": [
+    {
+      "university": "Yeshiva University",
+      "domain": "yu.edu",
+      "base_url": "https://www.yu.edu",
+      "emails": {
+        "general_admissions": [
+          "ferkaufadmissions@yu.edu",
+          "yuadmit@yu.edufor",
+          "yuadmit@yu.educall",
+          "yuadmit@yu.edu"
+        ],
+        "undergraduate": [],
+        "graduate": [
+          "gradschool@yu.edu"
+        ],
+        "other": [
+          "azrieli@yu.edu",
+          "emops@yu.edu",
+          "lawinfo@yu.edu"
+        ]
+      },
+      "total_found": 8,
+      "all_emails": [
+        "azrieli@yu.edu",
+        "emops@yu.edu",
+        "ferkaufadmissions@yu.edu",
+        "gradschool@yu.edu",
+        "lawinfo@yu.edu",
+        "yuadmit@yu.edu",
+        "yuadmit@yu.educall",
+        "yuadmit@yu.edufor"
+      ]
+    },
+    {
+      "university": "New York University",
+      "domain": "nyu.edu",
+      "base_url": "https://www.nyu.edu",
+      "emails": {
+        "general_admissions": [],
+        "undergraduate": [],
+        "graduate": [],
+        "other": []
+      },
+      "total_found": 0,
+      "all_emails": []
+    },
+    {
+      "university": "Brandeis University",
+      "domain": "brandeis.edu",
+      "base_url": "https://www.brandeis.edu",
+      "emails": {
+        "general_admissions": [
+          "admissions@brandeis.edu"
+        ],
+        "undergraduate": [],
+        "graduate": [],
+        "other": []
+      },
+      "total_found": 1,
+      "all_emails": [
+        "admissions@brandeis.edu"
+      ]
+    },
+    {
+      "university": "Columbia University",
+      "domain": "columbia.edu",
+      "base_url": "https://www.columbia.edu",
+      "emails": {
+        "general_admissions": [],
+        "undergraduate": [],
+        "graduate": [],
+        "other": []
+      },
+      "total_found": 0,
+      "all_emails": []
+    },
+    {
+      "university": "Touro University",
+      "domain": "touro.edu",
+      "base_url": "https://www.touro.edu",
+      "emails": {
+        "general_admissions": [],
+        "undergraduate": [],
+        "graduate": [],
+        "other": []
+      },
+      "total_found": 0,
+      "all_emails": []
+    }
+  ],
+  "total_universities": 5,
+  "total_emails": 9
+}

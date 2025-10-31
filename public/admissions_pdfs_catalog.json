@@ -1,0 +1,155 @@
+{
+  "timestamp": "2025-10-31 08:40:22",
+  "method": "PDF Document Discovery & Email Extraction",
+  "note": "Emails extracted automatically from PDF documents",
+  "universities": [
+    {
+      "university": "Yeshiva University",
+      "domain": "yu.edu",
+      "base_url": "https://www.yu.edu",
+      "pdfs_found": 0,
+      "pdfs": [],
+      "total_emails_from_pdfs": 0,
+      "emails_from_pdfs": [],
+      "google_dork_searches": [
+        {
+          "query": "site:yu.edu filetype:pdf admissions contact",
+          "url": "https://www.google.com/search?q=site:yu.edu+filetype:pdf+admissions+contact"
+        },
+        {
+          "query": "site:yu.edu filetype:pdf undergraduate admissions",
+          "url": "https://www.google.com/search?q=site:yu.edu+filetype:pdf+undergraduate+admissions"
+        },
+        {
+          "query": "site:yu.edu filetype:pdf graduate admissions",
+          "url": "https://www.google.com/search?q=site:yu.edu+filetype:pdf+graduate+admissions"
+        }
+      ],
+      "manual_search_instructions": {
+        "step_1": "Visit each PDF URL above",
+        "step_2": "Look for admissions contact emails",
+        "step_3": "Common formats: admissions@yu.edu, [name]@yu.edu",
+        "step_4": "Use Google searches for more PDFs"
+      }
+    },
+    {
+      "university": "New York University",
+      "domain": "nyu.edu",
+      "base_url": "https://www.nyu.edu",
+      "pdfs_found": 0,
+      "pdfs": [],
+      "total_emails_from_pdfs": 0,
+      "emails_from_pdfs": [],
+      "google_dork_searches": [
+        {
+          "query": "site:nyu.edu filetype:pdf admissions contact",
+          "url": "https://www.google.com/search?q=site:nyu.edu+filetype:pdf+admissions+contact"
+        },
+        {
+          "query": "site:nyu.edu filetype:pdf undergraduate admissions",
+          "url": "https://www.google.com/search?q=site:nyu.edu+filetype:pdf+undergraduate+admissions"
+        },
+        {
+          "query": "site:nyu.edu filetype:pdf graduate admissions",
+          "url": "https://www.google.com/search?q=site:nyu.edu+filetype:pdf+graduate+admissions"
+        }
+      ],
+      "manual_search_instructions": {
+        "step_1": "Visit each PDF URL above",
+        "step_2": "Look for admissions contact emails",
+        "step_3": "Common formats: admissions@nyu.edu, [name]@nyu.edu",
+        "step_4": "Use Google searches for more PDFs"
+      }
+    },
+    {
+      "university": "Brandeis University",
+      "domain": "brandeis.edu",
+      "base_url": "https://www.brandeis.edu",
+      "pdfs_found": 0,
+      "pdfs": [],
+      "total_emails_from_pdfs": 0,
+      "emails_from_pdfs": [],
+      "google_dork_searches": [
+        {
+          "query": "site:brandeis.edu filetype:pdf admissions contact",
+          "url": "https://www.google.com/search?q=site:brandeis.edu+filetype:pdf+admissions+contact"
+        },
+        {
+          "query": "site:brandeis.edu filetype:pdf undergraduate admissions",
+          "url": "https://www.google.com/search?q=site:brandeis.edu+filetype:pdf+undergraduate+admissions"
+        },
+        {
+          "query": "site:brandeis.edu filetype:pdf graduate admissions",
+          "url": "https://www.google.com/search?q=site:brandeis.edu+filetype:pdf+graduate+admissions"
+        }
+      ],
+      "manual_search_instructions": {
+        "step_1": "Visit each PDF URL above",
+        "step_2": "Look for admissions contact emails",
+        "step_3": "Common formats: admissions@brandeis.edu, [name]@brandeis.edu",
+        "step_4": "Use Google searches for more PDFs"
+      }
+    },
+    {
+      "university": "Columbia University",
+      "domain": "columbia.edu",
+      "base_url": "https://www.columbia.edu",
+      "pdfs_found": 0,
+      "pdfs": [],
+      "total_emails_from_pdfs": 0,
+      "emails_from_pdfs": [],
+      "google_dork_searches": [
+        {
+          "query": "site:columbia.edu filetype:pdf admissions contact",
+          "url": "https://www.google.com/search?q=site:columbia.edu+filetype:pdf+admissions+contact"
+        },
+        {
+          "query": "site:columbia.edu filetype:pdf undergraduate admissions",
+          "url": "https://www.google.com/search?q=site:columbia.edu+filetype:pdf+undergraduate+admissions"
+        },
+        {
+          "query": "site:columbia.edu filetype:pdf graduate admissions",
+          "url": "https://www.google.com/search?q=site:columbia.edu+filetype:pdf+graduate+admissions"
+        }
+      ],
+      "manual_search_instructions": {
+        "step_1": "Visit each PDF URL above",
+        "step_2": "Look for admissions contact emails",
+        "step_3": "Common formats: admissions@columbia.edu, [name]@columbia.edu",
+        "step_4": "Use Google searches for more PDFs"
+      }
+    },
+    {
+      "university": "Touro University",
+      "domain": "touro.edu",
+      "base_url": "https://www.touro.edu",
+      "pdfs_found": 0,
+      "pdfs": [],
+      "total_emails_from_pdfs": 0,
+      "emails_from_pdfs": [],
+      "google_dork_searches": [
+        {
+          "query": "site:touro.edu filetype:pdf admissions contact",
+          "url": "https://www.google.com/search?q=site:touro.edu+filetype:pdf+admissions+contact"
+        },
+        {
+          "query": "site:touro.edu filetype:pdf undergraduate admissions",
+          "url": "https://www.google.com/search?q=site:touro.edu+filetype:pdf+undergraduate+admissions"
+        },
+        {
+          "query": "site:touro.edu filetype:pdf graduate admissions",
+          "url": "https://www.google.com/search?q=site:touro.edu+filetype:pdf+graduate+admissions"
+        }
+      ],
+      "manual_search_instructions": {
+        "step_1": "Visit each PDF URL above",
+        "step_2": "Look for admissions contact emails",
+        "step_3": "Common formats: admissions@touro.edu, [name]@touro.edu",
+        "step_4": "Use Google searches for more PDFs"
+      }
+    }
+  ],
+  "total_universities": 5,
+  "total_pdfs_processed": 0,
+  "total_emails_extracted": 0
+}

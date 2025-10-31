@@ -1,0 +1,156 @@
+{
+  "instructions": "Fill in ad data manually from Meta Ad Library",
+  "last_updated": "2025-10-31T09:56:31.736255",
+  "universities": {
+    "yu": {
+      "name": "Yeshiva University",
+      "facebook_page": "YeshivaUniversity",
+      "ads": [
+        {
+          "ad_id": "EXAMPLE_AD_001",
+          "ad_text": "Example ad text here",
+          "ad_image_url": "URL to ad creative",
+          "call_to_action": "Learn More / Apply Now / etc",
+          "started_running": "2024-01-01",
+          "platforms": [
+            "Facebook",
+            "Instagram"
+          ],
+          "targeting": {
+            "age": "18-65+",
+            "locations": [
+              "United States"
+            ],
+            "interests": [
+              "Education",
+              "College"
+            ]
+          },
+          "status": "Active"
+        }
+      ],
+      "total_active_ads": 0,
+      "notes": "Add any observations about their ad strategy"
+    },
+    "nyu": {
+      "name": "New York University",
+      "facebook_page": "NYU",
+      "ads": [
+        {
+          "ad_id": "EXAMPLE_AD_001",
+          "ad_text": "Example ad text here",
+          "ad_image_url": "URL to ad creative",
+          "call_to_action": "Learn More / Apply Now / etc",
+          "started_running": "2024-01-01",
+          "platforms": [
+            "Facebook",
+            "Instagram"
+          ],
+          "targeting": {
+            "age": "18-65+",
+            "locations": [
+              "United States"
+            ],
+            "interests": [
+              "Education",
+              "College"
+            ]
+          },
+          "status": "Active"
+        }
+      ],
+      "total_active_ads": 0,
+      "notes": "Add any observations about their ad strategy"
+    },
+    "brandeis": {
+      "name": "Brandeis University",
+      "facebook_page": "BrandeisUniversity",
+      "ads": [
+        {
+          "ad_id": "EXAMPLE_AD_001",
+          "ad_text": "Example ad text here",
+          "ad_image_url": "URL to ad creative",
+          "call_to_action": "Learn More / Apply Now / etc",
+          "started_running": "2024-01-01",
+          "platforms": [
+            "Facebook",
+            "Instagram"
+          ],
+          "targeting": {
+            "age": "18-65+",
+            "locations": [
+              "United States"
+            ],
+            "interests": [
+              "Education",
+              "College"
+            ]
+          },
+          "status": "Active"
+        }
+      ],
+      "total_active_ads": 0,
+      "notes": "Add any observations about their ad strategy"
+    },
+    "columbia": {
+      "name": "Columbia University",
+      "facebook_page": "columbia",
+      "ads": [
+        {
+          "ad_id": "EXAMPLE_AD_001",
+          "ad_text": "Example ad text here",
+          "ad_image_url": "URL to ad creative",
+          "call_to_action": "Learn More / Apply Now / etc",
+          "started_running": "2024-01-01",
+          "platforms": [
+            "Facebook",
+            "Instagram"
+          ],
+          "targeting": {
+            "age": "18-65+",
+            "locations": [
+              "United States"
+            ],
+            "interests": [
+              "Education",
+              "College"
+            ]
+          },
+          "status": "Active"
+        }
+      ],
+      "total_active_ads": 0,
+      "notes": "Add any observations about their ad strategy"
+    },
+    "touro": {
+      "name": "Touro University",
+      "facebook_page": "TouroCollege",
+      "ads": [
+        {
+          "ad_id": "EXAMPLE_AD_001",
+          "ad_text": "Example ad text here",
+          "ad_image_url": "URL to ad creative",
+          "call_to_action": "Learn More / Apply Now / etc",
+          "started_running": "2024-01-01",
+          "platforms": [
+            "Facebook",
+            "Instagram"
+          ],
+          "targeting": {
+            "age": "18-65+",
+            "locations": [
+              "United States"
+            ],
+            "interests": [
+              "Education",
+              "College"
+            ]
+          },
+          "status": "Active"
+        }
+      ],
+      "total_active_ads": 0,
+      "notes": "Add any observations about their ad strategy"
+    }
+  }
+}

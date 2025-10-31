@@ -1,0 +1,226 @@
+{
+  "summary": {
+    "total_pdfs_processed": 18,
+    "total_emails_found": 150,
+    "universities": {
+      "yu": {
+        "pdfs": 5,
+        "emails": 23
+      },
+      "nyu": {
+        "pdfs": 4,
+        "emails": 8
+      },
+      "brandeis": {
+        "pdfs": 5,
+        "emails": 7
+      },
+      "columbia": {
+        "pdfs": 5,
+        "emails": 89
+      },
+      "touro": {
+        "pdfs": 4,
+        "emails": 67
+      }
+    }
+  },
+  "emails_by_university": {
+    "yu": {
+      "name": "Yeshiva University",
+      "emails": [
+        "yuadmit@yu.edu",
+        "bradley.avrahami@yu.edu",
+        "imi@yu.edu",
+        "omsw@online.yu.edu",
+        "yucardsupport@yu.edu",
+        "helpdesk@yu.edu",
+        "mkrakow1@yu.edu",
+        "gradschool@yu.edu",
+        "accounts@yu.edu",
+        "wilfregistrar@yu.edu",
+        "canvassupport@yu.edu",
+        "nancy.obarr@yu.edu",
+        "marian.reiss@yu.edu",
+        "yucardpix@yu.edu",
+        "oiss@yu.edu",
+        "yuhealthcenter@yu.edu",
+        "laya.salomon@yu.edu",
+        "parking@yu.edu"
+      ],
+      "sources": [
+        "YU_Undergraduate_Admissions_Catalog.pdf",
+        "YU_Azrieli_Welcome_Packet.pdf",
+        "YU_Syms_EMBA_Instructions.pdf",
+        "YU_Wurzweiler_How_To_Apply.pdf"
+      ]
+    },
+    "nyu": {
+      "name": "New York University",
+      "emails": [
+        "steinhardt.gradadmissions@nyu.edu",
+        "admissions@edinnovation.steinhardt.nyu.edu",
+        "admissions@speech.steinhardt.nyu.edu",
+        "admissions@counseling.steinhardt.nyu.edu",
+        "nursing.admissions@nyu.edu",
+        "nursing.ug.admissions@nyu.edu",
+        "law.grad.moreinfo@nyu.edu"
+      ],
+      "sources": [
+        "NYU_Graduate_Steinhardt_Admissions.pdf",
+        "NYU_Online_Admissions_Contact.pdf",
+        "NYU_Undergraduate_Nursing_Admissions.pdf",
+        "NYU_Law_School_Graduate_Division_2025.pdf"
+      ]
+    },
+    "brandeis": {
+      "name": "Brandeis University",
+      "emails": [
+        "HellerAdmissions@Brandeis.edu",
+        "admissions@brandeis.edu",
+        "opir@brandeis.edu",
+        "admission@lemberg.brandeis.edu",
+        "sfs@brandeis.edu",
+        "finaid@brandeis.edu"
+      ],
+      "sources": [
+        "BRANDEIS_PhD_Program_Application.pdf",
+        "BRANDEIS_Common_Data_Set_2023-24.pdf",
+        "BRANDEIS_Financial_Guide_2023-24.pdf"
+      ]
+    },
+    "columbia": {
+      "name": "Columbia University",
+      "emails": [
+        "cssw-admit@columbia.edu",
+        "admit@columbia.edu",
+        "veronica.hornig@columbia.edu",
+        "elizabeth.alt@columbia.edu",
+        "sm5665@columbia.edu",
+        "patrick.greaney@columbia.edu",
+        "benny.rivera@columbia.edu",
+        "paige.cook@columbia.edu",
+        "katherine.carraway@columbia.edu",
+        "dana.pavarini@columbia.edu",
+        "michael.gulino@columbia.edu",
+        "t.crawford@columbia.edu",
+        "chelsie.guner@columbia.edu",
+        "jade.quintero@columbia.edu",
+        "witting.olivia@columbia.edu",
+        "c.quach@columbia.edu",
+        "whitney@columbia.edu",
+        "sarah.campbell@columbia.edu",
+        "brigitte.rodriguez@columbia.edu",
+        "jess.lee@columbia.edu",
+        "mackenzie.george@columbia.edu",
+        "ella.kolosek@columbia.edu",
+        "lauren.toneatto@columbia.edu",
+        "moriah.tom@columbia.edu",
+        "jennifer.gutierrezmarquez@columbia.edu",
+        "ian.gregory-davis@columbia.edu",
+        "jm996@columbia.edu",
+        "a.c.evans@columbia.edu",
+        "john.chavez@columbia.edu",
+        "r.joseph@columbia.edu",
+        "t.odunjo@columbia.edu",
+        "l.dikkers@columbia.edu",
+        "lena.rhie@columbia.edu",
+        "gtoja@columbia.edu",
+        "imogen.fordyce@columbia.edu",
+        "n.kisanga@columbia.edu",
+        "maya.johnson@columbia.edu",
+        "anna.marti@columbia.edu",
+        "n.stephenson@columbia.edu",
+        "kathryn.saunders@columbia.edu",
+        "rebecca.schiavo@columbia.edu",
+        "megana.sekar@columbia.edu",
+        "hannah.healy@columbia.edu",
+        "jermaine.doris@columbia.edu",
+        "fritz.burgher@columbia.edu"
+      ],
+      "sources": [
+        "COLUMBIA_Counselor_Newsletter_2023-2024.pdf",
+        "COLUMBIA_Admissions_Counselor_Newsletter_24-25.pdf",
+        "COLUMBIA_Regional_Assignments_2022-2023.pdf",
+        "COLUMBIA_SPS_Staff_Directory.pdf",
+        "COLUMBIA_Social_Work_Application_Instructions.pdf"
+      ]
+    },
+    "touro": {
+      "name": "Touro University",
+      "emails": [
+        "admissions.lander@touro.edu",
+        "alla.zavilevich@touro.edu",
+        "briendy.stern@touro.edu",
+        "ella.tsirulnik@touro.edu",
+        "robert.goldschmidt@touro.edu",
+        "janet.lazarus5@touro.edu",
+        "henry.abramson@touro.edu",
+        "moshe.sokol@touro.edu",
+        "sandy.pikolos@touro.edu",
+        "chana.sosevsky@touro.edu",
+        "lorinda.moore@touro.edu",
+        "vladimir.shapiro@touro.edu",
+        "herbert.ratner@touro.edu",
+        "naomi.kohl@touro.edu",
+        "shmuel.klammer@touro.edu",
+        "yelena.volis@touro.edu",
+        "thomas.rozinski@touro.edu",
+        "sherry.krupka@touro.edu",
+        "edlira.agalliu@touro.edu",
+        "joseph.shimonov@touro.edu",
+        "joel.dickstein@touro.edu",
+        "compliance@touro.edu",
+        "tracy.white@touro.edu",
+        "bradley.shaev@touro.edu",
+        "zakira.tsofina@touro.edu",
+        "lidia.meindl@touro.edu",
+        "timothy.taylor@touro.edu",
+        "rivka.hellman@touro.edu",
+        "career.services@touro.edu",
+        "filomena.califano@touro.edu",
+        "albina.lyskova@touro.edu",
+        "matthew.lieberman@touro.edu",
+        "karen.sutton@touro.edu",
+        "naum.volfson@touro.edu",
+        "csosevsky@touro.edu",
+        "robertgo@touro.edu",
+        "marian.stoltz-loike@touro.edu",
+        "judah.weinberger6@touro.edu",
+        "stanleyb@touro.edu",
+        "esther.rose@touro.edu",
+        "rachel.baror@touro.edu",
+        "tourola@touro.edu",
+        "lenin.ortega@touro.edu",
+        "online@tuw.edu",
+        "averymh@touro.edu",
+        "cheryl.bernath@touro.edu",
+        "nonstop@touro.edu",
+        "help@touro.edu",
+        "rbressl@touro.edu",
+        "inessa.latypov@touro.edu",
+        "marcia.bodenstein@touro.edu",
+        "john.loike@touro.edu",
+        "michelle.coppin@touro.edu",
+        "security@touro.edu",
+        "stephanie.evans@touro.edu",
+        "brian.chiswell@touro.edu",
+        "brenda.strassfeld@touro.edu",
+        "avery.horowitz@touro.edu",
+        "florence.cohen@touro.edu",
+        "simonb@touro.edu",
+        "jyakoby@touro.edu",
+        "mshatzma@touro.edu",
+        "esther.braun@touro.edu",
+        "evan.mintzer@touro.edu",
+        "advisor@touro.edu",
+        "kdanishefsky@touro.edu"
+      ],
+      "sources": [
+        "TOURO_UG_Student_Handbook.pdf",
+        "TOURO_Lander_Application.pdf"
+      ]
+    }
+  }
+}
+

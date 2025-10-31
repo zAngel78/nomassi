@@ -1,0 +1,133 @@
+{
+  "instructions": "STEP 1: Click the search links below for each university. STEP 2: Open the PDFs you find. STEP 3: Copy the PDF URL and paste it in the 'url' field. STEP 4: Run: npm run download:pdfs",
+  
+  "HOW_TO_FIND_PDFS": {
+    "step_1": "Click on a Google search link below (under each university)",
+    "step_2": "Google will show you PDF results for that university",
+    "step_3": "Click on a PDF result to open it",
+    "step_4": "Copy the URL from your browser (the actual PDF URL)",
+    "step_5": "Paste that URL in the 'url' field below (replace PASTE_URL_HERE)",
+    "step_6": "Repeat for more PDFs",
+    "step_7": "When done, run: npm run download:pdfs"
+  },
+
+  "universities": {
+    "nyu": {
+      "name": "New York University",
+      "SEARCH_LINKS_CLICK_HERE": [
+        "https://www.google.com/search?q=site:nyu.edu+filetype:pdf+admissions+contact",
+        "https://www.google.com/search?q=site:nyu.edu+filetype:pdf+undergraduate+admissions",
+        "https://www.google.com/search?q=site:nyu.edu+filetype:pdf+how+to+apply",
+        "https://www.google.com/search?q=site:nyu.edu+filetype:pdf+application+guide"
+      ],
+      "pdfs": [
+        {
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/admissions/admissions.pdf",
+          "description": "Graduate Steinhardt Admissions"
+        },
+        {
+          "url": "https://apply.steinhardt.nyu.edu/www/documents/Online%20Admissions%20Contact.pdf",
+          "description": "Online Admissions Contact"
+        },
+        {
+          "url": "https://bulletins.nyu.edu/undergraduate/nursing/admissions/admissions.pdf",
+          "description": "Undergraduate Nursing Admissions"
+        },
+        {
+          "url": "https://www.law.nyu.edu/sites/default/files/Admission%202025%20Graduate%20Division%20Application%20Instructions.pdf",
+          "description": "Law School Graduate Division 2025"
+        }
+      ]
+    },
+    "brandeis": {
+      "name": "Brandeis University",
+      "SEARCH_LINKS_CLICK_HERE": [
+        "https://www.google.com/search?q=site:brandeis.edu+filetype:pdf+admissions+contact",
+        "https://www.google.com/search?q=site:brandeis.edu+filetype:pdf+undergraduate+admissions",
+        "https://www.google.com/search?q=site:brandeis.edu+filetype:pdf+application",
+        "https://www.google.com/search?q=site:brandeis.edu+filetype:pdf+prospective+students"
+      ],
+      "pdfs": [
+        {
+          "url": "https://heller.brandeis.edu/downloads/PhDProgramApplication.pdf",
+          "description": "PhD Program Application"
+        },
+        {
+          "url": "https://www.brandeis.edu/ora/pre-award-services/forms1/multiple-pdpi-signature-form.pdf",
+          "description": "Multiple PD/PI Signature Form"
+        },
+        {
+          "url": "https://www.brandeis.edu/institutional-research/docs/cds-2023-24.pdf",
+          "description": "Common Data Set 2023-24"
+        },
+        {
+          "url": "https://www.brandeis.edu/admissions/pdfs/ca-19-20-college-report-form.pdf",
+          "description": "College Report Form"
+        },
+        {
+          "url": "https://www.brandeis.edu/student-financial-services/pdfs/23-24/22-23-bibs-financial-guide.pdf",
+          "description": "Financial Guide 2023-24"
+        }
+      ]
+    },
+    "columbia": {
+      "name": "Columbia University",
+      "SEARCH_LINKS_CLICK_HERE": [
+        "https://www.google.com/search?q=site:columbia.edu+filetype:pdf+admissions+contact",
+        "https://www.google.com/search?q=site:columbia.edu+filetype:pdf+undergraduate+admissions",
+        "https://www.google.com/search?q=site:columbia.edu+filetype:pdf+prospective+students",
+        "https://www.google.com/search?q=site:columbia.edu+filetype:pdf+application+guide"
+      ],
+      "pdfs": [
+        {
+          "url": "https://undergrad.admissions.columbia.edu/sites/default/files/2023-12/Counselor%20Newsletter%202023-2024_Web%20Accessible_0.pdf",
+          "description": "Counselor Newsletter 2023-2024"
+        },
+        {
+          "url": "https://undergrad.admissions.columbia.edu/sites/default/files/2024-12/Columbia%20Admissions%20Counselor%20Newsletter%2024-25.pdf",
+          "description": "Counselor Newsletter 2024-25"
+        },
+        {
+          "url": "https://undergrad.admissions.columbia.edu/sites/default/files/2022-12/Regional%20Assignments%20Counselor%20Newsletter%202022-2023%20PDF.pdf",
+          "description": "Regional Assignments 2022-2023"
+        },
+        {
+          "url": "https://sps.columbia.edu/sites/default/files/2024-09/sps-staff-directory.pdf",
+          "description": "SPS Staff Directory"
+        },
+        {
+          "url": "https://apply.ssw.columbia.edu/apply/app_req_instructions.pdf",
+          "description": "Social Work Application Instructions"
+        }
+      ]
+    },
+    "touro": {
+      "name": "Touro University",
+      "SEARCH_LINKS_CLICK_HERE": [
+        "https://www.google.com/search?q=site:touro.edu+filetype:pdf+admissions+contact",
+        "https://www.google.com/search?q=site:touro.edu+filetype:pdf+undergraduate+admissions",
+        "https://www.google.com/search?q=site:touro.edu+filetype:pdf+application",
+        "https://www.google.com/search?q=site:touro.edu+filetype:pdf+how+to+apply"
+      ],
+      "pdfs": [
+        {
+          "url": "https://www.touro.edu/media/touro-college/pdf/bulletins/UG_Student_Handbook.pdf",
+          "description": "Undergraduate Student Handbook"
+        },
+        {
+          "url": "https://tci.touro.edu/media/schools-and-colleges/lander-college-for-arts-and-sciences/documents/Lander_Application_1_28_15.pdf",
+          "description": "Lander College Application"
+        },
+        {
+          "url": "https://tun.touro.edu/media/schools-and-colleges/tun/documents/TUN_DO_techstandards2017.pdf",
+          "description": "TUN DO Technical Standards"
+        },
+        {
+          "url": "https://gst.touro.edu/docs/Application_for_I-20.pdf",
+          "description": "Application for I-20"
+        }
+      ]
+    }
+  }
+}
+

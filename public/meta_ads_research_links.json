@@ -1,0 +1,137 @@
+{
+  "generated_at": "2025-10-31T09:56:31.734947",
+  "method": "Meta Ad Library Manual Links",
+  "note": "Visit these links to view active ads. Meta Ad Library requires manual verification.",
+  "universities": {
+    "yu": {
+      "name": "Yeshiva University",
+      "facebook_page": "YeshivaUniversity",
+      "links": [
+        {
+          "type": "page_ads",
+          "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&view_all_page_id=&search_type=page&page_ids=YeshivaUniversity",
+          "description": "All active ads from @YeshivaUniversity"
+        },
+        {
+          "type": "search",
+          "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=Yeshiva%20University",
+          "description": "Search results for 'Yeshiva University'"
+        },
+        {
+          "type": "search",
+          "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=YU",
+          "description": "Search results for 'YU'"
+        }
+      ],
+      "instructions": [
+        "1. Click on the link",
+        "2. You may need to verify you're human (CAPTCHA)",
+        "3. View active ads",
+        "4. Copy ad details (text, images, targeting)",
+        "5. Save to spreadsheet or JSON"
+      ]
+    },
+    "nyu": {
+      "name": "New York University",
+      "facebook_page": "NYU",
+      "links": [
+        {
+          "type": "page_ads",
+          "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&view_all_page_id=&search_type=page&page_ids=NYU",
+          "description": "All active ads from @NYU"
+        },
+        {
+          "type": "search",
+          "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=New%20York%20University",
+          "description": "Search results for 'New York University'"
+        },
+        {
+          "type": "search",
+          "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=NYU",
+          "description": "Search results for 'NYU'"
+        }
+      ],
+      "instructions": [
+        "1. Click on the link",
+        "2. You may need to verify you're human (CAPTCHA)",
+        "3. View active ads",
+        "4. Copy ad details (text, images, targeting)",
+        "5. Save to spreadsheet or JSON"
+      ]
+    },
+    "brandeis": {
+      "name": "Brandeis University",
+      "facebook_page": "BrandeisUniversity",
+      "links": [
+        {
+          "type": "page_ads",
+          "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&view_all_page_id=&search_type=page&page_ids=BrandeisUniversity",
+          "description": "All active ads from @BrandeisUniversity"
+        },
+        {
+          "type": "search",
+          "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=Brandeis%20University",
+          "description": "Search results for 'Brandeis University'"
+        }
+      ],
+      "instructions": [
+        "1. Click on the link",
+        "2. You may need to verify you're human (CAPTCHA)",
+        "3. View active ads",
+        "4. Copy ad details (text, images, targeting)",
+        "5. Save to spreadsheet or JSON"
+      ]
+    },
+    "columbia": {
+      "name": "Columbia University",
+      "facebook_page": "columbia",
+      "links": [
+        {
+          "type": "page_ads",
+          "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&view_all_page_id=&search_type=page&page_ids=columbia",
+          "description": "All active ads from @columbia"
+        },
+        {
+          "type": "search",
+          "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=Columbia%20University",
+          "description": "Search results for 'Columbia University'"
+        }
+      ],
+      "instructions": [
+        "1. Click on the link",
+        "2. You may need to verify you're human (CAPTCHA)",
+        "3. View active ads",
+        "4. Copy ad details (text, images, targeting)",
+        "5. Save to spreadsheet or JSON"
+      ]
+    },
+    "touro": {
+      "name": "Touro University",
+      "facebook_page": "TouroCollege",
+      "links": [
+        {
+          "type": "page_ads",
+          "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&view_all_page_id=&search_type=page&page_ids=TouroCollege",
+          "description": "All active ads from @TouroCollege"
+        },
+        {
+          "type": "search",
+          "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=Touro%20University",
+          "description": "Search results for 'Touro University'"
+        },
+        {
+          "type": "search",
+          "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=Touro%20College",
+          "description": "Search results for 'Touro College'"
+        }
+      ],
+      "instructions": [
+        "1. Click on the link",
+        "2. You may need to verify you're human (CAPTCHA)",
+        "3. View active ads",
+        "4. Copy ad details (text, images, targeting)",
+        "5. Save to spreadsheet or JSON"
+      ]
+    }
+  }
+}

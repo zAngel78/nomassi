@@ -18,6 +18,13 @@
     "scrape:columbia": "node scrape-all-university.js columbia",
     "scrape:touro": "node scrape-all-university.js touro",
     "scrape:all-universities": "npm run scrape:yeshiva && npm run scrape:nyu && npm run scrape:brandeis && npm run scrape:columbia && npm run scrape:touro",
+    "scrape:admissions-emails": "python scrape_admissions_emails.py",
+    "scrape:admissions-pdfs": "python scrape_admissions_pdfs.py",
+    "find:admissions-contacts": "python find_admissions_contacts.py",
+    "find:real-admission-emails": "python scrape_admission_email_examples.py",
+    "download:pdfs": "python download_all_university_pdfs.py",
+    "auto:find-download-pdfs": "python auto_find_and_download_pdfs.py",
+    "scrape:meta-ads": "python scrape_meta_ads.py",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meta Ads Collection Guide - University Research</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        
+        h1 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+        
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 1.1em;
+        }
+        
+        .intro-box {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 25px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            border-left: 5px solid #667eea;
+        }
+        
+        .intro-box h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+        
+        .intro-box ol {
+            margin-left: 20px;
+        }
+        
+        .intro-box li {
+            margin: 8px 0;
+            line-height: 1.6;
+        }
+        
+        .university-card {
+            background: #fff;
+            border: 2px solid #e2e8f0;
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 25px;
+            transition: all 0.3s ease;
+        }
+        
+        .university-card:hover {
+            border-color: #667eea;
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.2);
+            transform: translateY(-2px);
+        }
+        
+        .university-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #e2e8f0;
+        }
+        
+        .university-name {
+            font-size: 1.8em;
+            color: #2d3748;
+            font-weight: 700;
+        }
+        
+        .facebook-handle {
+            background: #1877f2;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 25px;
+            font-size: 0.9em;
+            font-weight: 600;
+        }
+        
+        .links-section {
+            margin-top: 20px;
+        }
+        
+        .link-item {
+            background: #f7fafc;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            transition: all 0.2s ease;
+        }
+        
+        .link-item:hover {
+            background: #edf2f7;
+        }
+        
+        .link-type {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 5px;
+            font-size: 0.8em;
+            font-weight: 600;
+            margin-right: 15px;
+        }
+        
+        .link-type.page {
+            background: #667eea;
+            color: white;
+        }
+        
+        .link-type.search {
+            background: #48bb78;
+            color: white;
+        }
+        
+        .link-type.google {
+            background: #ed8936;
+            color: white;
+        }
+        
+        .link-description {
+            flex: 1;
+            color: #4a5568;
+            font-size: 0.95em;
+        }
+        
+        .link-button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+        
+        .link-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+        
+        .stats-box {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .stat-item {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: 700;
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        .stat-label {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+        
+        .tips-box {
+            background: #fff5f5;
+            border: 2px solid #fc8181;
+            border-radius: 15px;
+            padding: 25px;
+            margin-top: 30px;
+        }
+        
+        .tips-box h3 {
+            color: #c53030;
+            margin-bottom: 15px;
+        }
+        
+        .tips-box ul {
+            margin-left: 20px;
+        }
+        
+        .tips-box li {
+            margin: 8px 0;
+            line-height: 1.6;
+            color: #742a2a;
+        }
+        
+        .section-divider {
+            height: 3px;
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            margin: 40px 0;
+            border-radius: 2px;
+        }
+        
+        .google-section {
+            background: #f7fafc;
+            padding: 30px;
+            border-radius: 15px;
+            margin-top: 30px;
+        }
+        
+        .google-section h2 {
+            color: #ed8936;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Digital Ads Collection Guide</h1>
+        <p class="subtitle">University Competitive Analysis - Meta Ad Library & Google Ads</p>
+        
+        <div class="stats-box">
+            <div class="stat-item">
+                <span class="stat-number">5</span>
+                <span class="stat-label">Universities</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">13</span>
+                <span class="stat-label">Meta Ad Library Links</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">5</span>
+                <span class="stat-label">Google Ads Links</span>
+            </div>
+        </div>
+        
+        <div class="intro-box">
+            <h3>How to Collect Ad Data (Step by Step)</h3>
+            <ol>
+                <li><strong>Click on each link below</strong> - Opens Meta Ad Library or Google Ads</li>
+                <li><strong>Verify you're human</strong> - Complete any CAPTCHA if prompted</li>
+                <li><strong>Browse active ads</strong> - See all current advertising campaigns</li>
+                <li><strong>Copy ad details</strong>:
+                    <ul style="margin-top: 10px; margin-left: 20px;">
+                        <li>Ad text/copy</li>
+                        <li>Images/videos (screenshot or save URL)</li>
+                        <li>Call-to-action buttons</li>
+                        <li>Started running date</li>
+                        <li>Platforms (Facebook/Instagram/etc)</li>
+                    </ul>
+                </li>
+                <li><strong>Save to template</strong> - Use meta_ads_data_template.json</li>
+            </ol>
+        </div>
+        
+        <div class="section-divider"></div>
+        
+        <!-- Yeshiva University -->
+        <div class="university-card">
+            <div class="university-header">
+                <h2 class="university-name">Yeshiva University</h2>
+                <span class="facebook-handle">@YeshivaUniversity</span>
+            </div>
+            <div class="links-section">
+                <div class="link-item">
+                    <span class="link-type page">PAGE ADS</span>
+                    <span class="link-description">All active ads from @YeshivaUniversity</span>
+                    <a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&view_all_page_id=&search_type=page&page_ids=YeshivaUniversity" target="_blank" class="link-button">Open in Meta</a>
+                </div>
+                <div class="link-item">
+                    <span class="link-type search">SEARCH</span>
+                    <span class="link-description">Search results for 'Yeshiva University'</span>
+                    <a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=Yeshiva%20University" target="_blank" class="link-button">Search Meta</a>
+                </div>
+                <div class="link-item">
+                    <span class="link-type search">SEARCH</span>
+                    <span class="link-description">Search results for 'YU'</span>
+                    <a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=YU" target="_blank" class="link-button">Search Meta</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- NYU -->
+        <div class="university-card">
+            <div class="university-header">
+                <h2 class="university-name">New York University</h2>
+                <span class="facebook-handle">@NYU</span>
+            </div>
+            <div class="links-section">
+                <div class="link-item">
+                    <span class="link-type page">PAGE ADS</span>
+                    <span class="link-description">All active ads from @NYU</span>
+                    <a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&view_all_page_id=&search_type=page&page_ids=NYU" target="_blank" class="link-button">Open in Meta</a>
+                </div>
+                <div class="link-item">
+                    <span class="link-type search">SEARCH</span>
+                    <span class="link-description">Search results for 'New York University'</span>
+                    <a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=New%20York%20University" target="_blank" class="link-button">Search Meta</a>
+                </div>
+                <div class="link-item">
+                    <span class="link-type search">SEARCH</span>
+                    <span class="link-description">Search results for 'NYU'</span>
+                    <a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=NYU" target="_blank" class="link-button">Search Meta</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Brandeis -->
+        <div class="university-card">
+            <div class="university-header">
+                <h2 class="university-name">Brandeis University</h2>
+                <span class="facebook-handle">@BrandeisUniversity</span>
+            </div>
+            <div class="links-section">
+                <div class="link-item">
+                    <span class="link-type page">PAGE ADS</span>
+                    <span class="link-description">All active ads from @BrandeisUniversity</span>
+                    <a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&view_all_page_id=&search_type=page&page_ids=BrandeisUniversity" target="_blank" class="link-button">Open in Meta</a>
+                </div>
+                <div class="link-item">
+                    <span class="link-type search">SEARCH</span>
+                    <span class="link-description">Search results for 'Brandeis University'</span>
+                    <a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=Brandeis%20University" target="_blank" class="link-button">Search Meta</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Columbia -->
+        <div class="university-card">
+            <div class="university-header">
+                <h2 class="university-name">Columbia University</h2>
+                <span class="facebook-handle">@columbia</span>
+            </div>
+            <div class="links-section">
+                <div class="link-item">
+                    <span class="link-type page">PAGE ADS</span>
+                    <span class="link-description">All active ads from @columbia</span>
+                    <a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&view_all_page_id=&search_type=page&page_ids=columbia" target="_blank" class="link-button">Open in Meta</a>
+                </div>
+                <div class="link-item">
+                    <span class="link-type search">SEARCH</span>
+                    <span class="link-description">Search results for 'Columbia University'</span>
+                    <a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=Columbia%20University" target="_blank" class="link-button">Search Meta</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Touro -->
+        <div class="university-card">
+            <div class="university-header">
+                <h2 class="university-name">Touro University</h2>
+                <span class="facebook-handle">@TouroCollege</span>
+            </div>
+            <div class="links-section">
+                <div class="link-item">
+                    <span class="link-type page">PAGE ADS</span>
+                    <span class="link-description">All active ads from @TouroCollege</span>
+                    <a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&view_all_page_id=&search_type=page&page_ids=TouroCollege" target="_blank" class="link-button">Open in Meta</a>
+                </div>
+                <div class="link-item">
+                    <span class="link-type search">SEARCH</span>
+                    <span class="link-description">Search results for 'Touro University'</span>
+                    <a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=Touro%20University" target="_blank" class="link-button">Search Meta</a>
+                </div>
+                <div class="link-item">
+                    <span class="link-type search">SEARCH</span>
+                    <span class="link-description">Search results for 'Touro College'</span>
+                    <a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=Touro%20College" target="_blank" class="link-button">Search Meta</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section-divider"></div>
+        
+        <!-- Google Ads Section -->
+        <div class="google-section">
+            <h2>Google Ads Transparency Center</h2>
+            <p style="margin-bottom: 20px; color: #4a5568;">View Google Search and Display ads from each university</p>
+            
+            <div class="links-section">
+                <div class="link-item">
+                    <span class="link-type google">GOOGLE</span>
+                    <span class="link-description">Yeshiva University - Google Ads</span>
+                    <a href="https://adstransparency.google.com/?region=US&search=Yeshiva%20University" target="_blank" class="link-button">Open Google</a>
+                </div>
+                <div class="link-item">
+                    <span class="link-type google">GOOGLE</span>
+                    <span class="link-description">New York University - Google Ads</span>
+                    <a href="https://adstransparency.google.com/?region=US&search=New%20York%20University" target="_blank" class="link-button">Open Google</a>
+                </div>
+                <div class="link-item">
+                    <span class="link-type google">GOOGLE</span>
+                    <span class="link-description">Brandeis University - Google Ads</span>
+                    <a href="https://adstransparency.google.com/?region=US&search=Brandeis%20University" target="_blank" class="link-button">Open Google</a>
+                </div>
+                <div class="link-item">
+                    <span class="link-type google">GOOGLE</span>
+                    <span class="link-description">Columbia University - Google Ads</span>
+                    <a href="https://adstransparency.google.com/?region=US&search=Columbia%20University" target="_blank" class="link-button">Open Google</a>
+                </div>
+                <div class="link-item">
+                    <span class="link-type google">GOOGLE</span>
+                    <span class="link-description">Touro University - Google Ads</span>
+                    <a href="https://adstransparency.google.com/?region=US&search=Touro%20University" target="_blank" class="link-button">Open Google</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="tips-box">
+            <h3>Important Tips</h3>
+            <ul>
+                <li><strong>Legal & Public:</strong> All data from Meta Ad Library and Google Ads Transparency is 100% public and legal to collect</li>
+                <li><strong>No Automation:</strong> Both platforms require human verification (CAPTCHA) to prevent scraping</li>
+                <li><strong>Save Screenshots:</strong> Take screenshots of ads for visual reference in your research</li>
+                <li><strong>Note Targeting:</strong> Pay attention to age ranges, locations, and interests used in targeting</li>
+                <li><strong>Track Timing:</strong> Notice when ads started running and how long they've been active</li>
+                <li><strong>Compare Strategies:</strong> Look for differences in messaging, visuals, and calls-to-action between universities</li>
+                <li><strong>Use Template:</strong> Fill in meta_ads_data_template.json with your findings for structured data</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
+

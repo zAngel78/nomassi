@@ -1,0 +1,57 @@
+{
+  "generated_at": "2025-10-31T09:56:31.737248",
+  "platform": "Google Ads Transparency Center",
+  "base_url": "https://adstransparency.google.com/",
+  "universities": {
+    "yu": {
+      "name": "Yeshiva University",
+      "search_url": "https://adstransparency.google.com/?region=US&search=Yeshiva%20University",
+      "instructions": [
+        "1. Visit the search URL",
+        "2. Click on the university's advertiser profile",
+        "3. View their Google Display and Search ads",
+        "4. Note ad copy, formats, and targeting"
+      ]
+    },
+    "nyu": {
+      "name": "New York University",
+      "search_url": "https://adstransparency.google.com/?region=US&search=New%20York%20University",
+      "instructions": [
+        "1. Visit the search URL",
+        "2. Click on the university's advertiser profile",
+        "3. View their Google Display and Search ads",
+        "4. Note ad copy, formats, and targeting"
+      ]
+    },
+    "brandeis": {
+      "name": "Brandeis University",
+      "search_url": "https://adstransparency.google.com/?region=US&search=Brandeis%20University",
+      "instructions": [
+        "1. Visit the search URL",
+        "2. Click on the university's advertiser profile",
+        "3. View their Google Display and Search ads",
+        "4. Note ad copy, formats, and targeting"
+      ]
+    },
+    "columbia": {
+      "name": "Columbia University",
+      "search_url": "https://adstransparency.google.com/?region=US&search=Columbia%20University",
+      "instructions": [
+        "1. Visit the search URL",
+        "2. Click on the university's advertiser profile",
+        "3. View their Google Display and Search ads",
+        "4. Note ad copy, formats, and targeting"
+      ]
+    },
+    "touro": {
+      "name": "Touro University",
+      "search_url": "https://adstransparency.google.com/?region=US&search=Touro%20University",
+      "instructions": [
+        "1. Visit the search URL",
+        "2. Click on the university's advertiser profile",
+        "3. View their Google Display and Search ads",
+        "4. Note ad copy, formats, and targeting"
+      ]
+    }
+  }
+}

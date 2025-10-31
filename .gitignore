@@ -12,21 +12,63 @@ yarn-error.log*
 .env.production.local
 
 # Logs
-logs
+logs/
 *.log
 
 # OS files
 .DS_Store
 Thumbs.db
+desktop.ini
+nul
 
-# IDE
+# IDE/Editor files
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
+.project
+.classpath
+.settings/
 
 # Debug files
 debug_*.html
 debug_*.png
+
+# Build files
+dist/
+build/
+.cache/
+tmp/
+temp/
+*.tmp
+
+# Large data files - ignore downloaded PDFs
+public/downloaded_pdfs/
+public/admissions_pdfs/
+
+# Keep university brochures - these are important!
+!public/files/university_brochures/**/*.pdf
+
+# Ignore large image folders but keep JSON data
+public/instagram_data/*/images/
+public/facebook_data/*/images/
+public/twitter_data/*/images/
+public/youtube_data/*/images/
+public/meta_ads_data/*/images/
+
+# Keep a few sample images for YU (up to 5 images)
+!public/facebook_data/yeshivauniversity/images/
+!public/instagram_data/yeshivauniversity/images/
+
+# Test files
+test/
+*.test.js
+coverage/
+
+# Package manager lock files (optional - depends on your preference)
+# Uncomment if you want to ignore:
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
 

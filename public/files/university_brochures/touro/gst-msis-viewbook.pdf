@@ -1,0 +1,1821 @@
+<!DOCTYPE html>
+<html lang="en"
+    class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+
+<head>
+    <base href="//gst.touro.edu/">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0B0KS5EBZF"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-0B0KS5EBZF');
+    </script>
+    <!--End of Google tag (gtag.js) -->
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-M6RLMX8');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Global site tag (gtag.js) - Google Ads: 752451411 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-752451411"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-752451411');
+    </script>
+
+    <!-- Google Analytics -->
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-121490783-1', 'auto');
+        ga('create', 'UA-121490783-2', 'auto', 'hsTracker');
+        ga('send', 'pageview');
+        ga('hsTracker.send', 'pageview');
+    </script>
+    <!-- End Google Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!--<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121490783-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-121490783-1');
+</script>-->
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Touro University Graduate School of Technology | Home</title>
+    <!-- <meta name="description"
+        content="Masters Degrees in Artificial Intelligence, Cybersecurity & Network Administration, Data Analytics, Business Intelligence & Database Management, Technology Leadership / Project Management, Web & Application Development, UX/UI & Interaction Design, Instructional Technology, Educational Technology in New York City.."> -->
+    <meta name="description"
+        content="Earn your STEM master's degree in AI, UX/UI, Cybersecurity & Data Analytics — online or on campus in NYC. Apply now at Touro GST.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0057a5">
+    <meta name="school_name" content="Graduate School of Technology" />
+    <link rel="stylesheet" href="./css/normalize.min.css">
+
+    <link rel="shortcut icon" type="image/png" href="./Touro-GST-Home_files/favicon.ico" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css"
+        integrity="sha512-ZfKn7az0YmtPUojZnRXO4CUdt3pn+ogBAyGbqGplrCIR5B/tQwPGtF2q29t+zQj6mC/20w4sSl0cF5F3r0HKSQ=="
+        crossorigin="anonymous" />
+
+    <script src="https://kit.fontawesome.com/373f4511c3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.3.1.min.js"
+        integrity="sha256-APllMc0V4lf/Rb5Cz4idWUCYlBDG3b0EcN1Ushd3hpE=" crossorigin="anonymous"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/touro.css">
+    <link rel="stylesheet" href="./css/index-top-banner.css">
+    <link rel="stylesheet" href="./css/trending.css">
+    <link rel="stylesheet" href="./css/job-search-login.css">
+    <link rel="stylesheet" href="./css/header_footer.css">
+    <link rel="stylesheet" href="./css/modal.css">
+    <link rel="stylesheet" href="./js/vendor/pickadate.js-3.5.5/lib/themes/default.css">
+    <link rel="stylesheet" href="./js/vendor/pickadate.js-3.5.5/lib/themes/default.date.css" id="theme_date">
+    <!--        <link rel="stylesheet" href="./js/vendor/pickadate.js-3.5.5/lib/themes/default.time.css" id="theme_time">-->
+    <script type="text/javascript" src="https://x.translateth.is/translate-this.js"></script>
+
+    <meta name="google-translate-customization" content="bd0b6134ded3f6ba-f5cb83aada16fc99-ga9b60d765ea7475e-15">
+    </meta>
+    <meta name="google-site-verification" content="Ky9VNHn7sNcB2R5FsZs4Q1vI7Gs5UXOc8l9sDQjL12U" />
+
+
+
+    <link rel="stylesheet" href="./Touro-GST-Home_files/touro-homepage.css">
+    <!--	CSS MUST CHANGE TO newDropDown-->
+    <link rel="stylesheet" href="./Touro-GST-Home_files/newDropdown.css">
+    <!-- Start of Async HubSpot Analytics Code -->
+    <!-- <script type="text/javascript">
+    (function(d, s, i, r) {
+        if (d.getElementById(i)) {
+            return;
+        }
+        var n = d.createElement(s),
+            e = d.getElementsByTagName(s)[0];
+        n.id = i;
+        n.src = '//js.hs-analytics.net/analytics/' + (Math.ceil(new Date() / r) * r) + '/687953.js';
+        e.parentNode.insertBefore(n, e);
+    })(document, "script", "hs-analytics", 300000);
+    </script> -->
+    <!-- End of Async HubSpot Analytics Code -->
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+    <style type="text/css">
+        div.ttb-panel {
+
+            background-color: #084379 !important;
+
+            position: absolute !important;
+        }
+
+        div.ttb-panel a,
+        div.ttb-translating a,
+        div.ttb-undo a {
+            color: #FFF !important;
+        }
+
+        .fa-1point5x {
+            font-size: 1.5em;
+        }
+
+        .hs_error_rollup {
+            display: none !important;
+        }
+
+        section#TSemergencyNotification {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        .faq br {
+            display: block;
+            /* makes it have a width */
+            content: "";
+            /* clears default height */
+            margin-top: -15px;
+        }
+
+        .hVQJzP {
+            line-height: 2 !important;
+            font-size: 19px !important;
+        }
+
+        .whatsapp-button {
+            position: fixed;
+            bottom: 20px;
+            right: 75px;
+            background-color: #0057a6;
+            color: white !important;
+            border-radius: 50px;
+            padding: 10px 15px;
+            text-decoration: none !important;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+            z-index: 1000;
+        }
+
+        .whatsapp-button img {
+            width: 30px;
+            height: 30px;
+            margin-right: 8px;
+        }
+
+        .whatsapp-button:hover {
+            background-color: #033674;
+        }
+    </style>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1902243820062334');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=1902243820062334&ev=PageView&noscript=1" alt="fb icon" /></noscript>
+
+    <!-- End Facebook Pixel Code -->
+    <script src="./js/nav.js" defer></script>
+    <link rel="stylesheet" href="./Touro-GST-Home_files/homePageTiles/homePageProgramTile.css">
+
+</head>
+
+<body>
+
+    <script type="text/javascript" src="//www.touro.edu/media/global/emergencyNotificationsTS.js"></script>
+    <section aria-label="notifications" id="TSemergencyNotification"></section>
+    <script>
+        touroSchoolsEN.initialize('gst');
+    </script>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M6RLMX8" height="0" width="0"
+            style="display:none;visibility:hidden" title="google tag manager"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="//browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <header>
+        <link rel="stylesheet" href="./css/announcement-bar.css">
+        <!--
+<div id="announcement" class="alert alert-dismissible" role="alert"  >
+   style="background-image: linear-gradient(91.37deg, #D1524C -17.03%, #780F26 13.07%, #1C2C68 102.57%, #1A2D69 113.88%) !important;" 
+<button type="button" class="close" data-dismiss="alert" aria-label="Close">&times;</button> 
+
+    <p>All programs at Graduate School of Technology now offer a 100% online option for the duration of your program. </p><a class="alert-button" href="https://tourooneconnect.touro.edu/custom-portal/user-profile/login">Learn More</a> 
+</div>
+-->
+        <!--<div id="announcement" class="alert alert-dismissible" role="alert" style="background-image: linear-gradient(91.37deg, #D1524C -17.03%, #780F26 13.07%, #1C2C68 102.57%, #1A2D69 113.88%) !important;"  >-->
+
+        <!--<button type="button" class="close" data-dismiss="alert" aria-label="Close">&times;</button> -->
+
+        <!--
+    <p>New York State Approved Advanced Certificate in Project Management: Prepare for Prince2, PMP, ITIL, and Agile Certifications. </p><a class="alert-button" href="./academics/project-management-advanced-certificate.php">Learn More</a> 
+</div>
+-->
+        <style>
+            #requestinf:hover {
+                background-color: #004379 !important;
+            }
+
+            #requestinf a:hover {
+                background-color: transparent !important;
+                color: white !important;
+            }
+
+            #flap {
+                padding: inherit;
+            }
+        </style>
+
+        <!-- links are relative, make sure to read about <base> tag from README.md -->
+<!-- requires jquery -->
+
+
+<div id="head-container">
+    
+    <a href="./index.php" class="logo">
+        <img id="logo" src="./img/TouroUniversityOfficialLogo.png"
+            alt="Touro University Graduate School of Technology in NYC">
+    </a>
+
+    
+    <div id="flap">
+        <ul>
+                            <li class='request-info-flap'>
+                    <a class='request-info-flap' href="./request-info.php" target="_blank">REQUEST INFO</a>
+                </li>
+                <li class='request-info-flap'>
+                    <a class='request-info-flap' href="https://apply.touro.edu/gst">APPLY NOW</a>
+                </li>
+            
+                    </ul>
+    </div>
+
+    <div id="menubutton-new">
+        <img class="navi-open" src="./Touro-GST-Home_files/hamburger.svg" alt="Touro GST Navigation Menu"
+            style="height: 100%;">
+        <img class="navi-close" src="./Touro-GST-Home_files/hamburger-close.svg" alt="Touro GST Navigation Menu"
+            style="height: 100%; display: none;">
+    </div>
+    <img src="./img/search-black.png" id="searchbutton" alt="Touro GST Search">
+</div>
+
+<script type="text/javascript">
+    jQuery(document).ready(function($) {
+        $("#menubutton-new").click(function() {
+            $("nav #mainnav").toggle();
+            $("header #menubutton-new .navi-open").toggle();
+            $("header #menubutton-new .navi-close").toggle();
+        });
+    });
+</script>        <!-- &nbsp; is non-breaking space, the space it adds doesn't overflow the text to new line -->
+<!-- links are relative, make sure to read about <base> tag from README.md -->
+
+<!-- Related: newDropdown.css, header_footer.css, touro-homepage.css, nav.js -->
+
+
+<nav>
+    <ul id="mainnav">
+        <!--  -->
+        <li>
+            <a href="./about-us/index.php">ABOUT&nbsp;US</a>
+            <ul class="subnav">
+                <li><a href="./about-us/accreditation.php">ACCREDITATION</a></li>
+                <li><a href="./about-us/virtual-tour.php">VIRTUAL&nbsp;TOUR</a></li>
+                <li><a href="./faculty-and-staff/index.php">FACULTY&nbsp;&amp;&nbsp;STAFF</a></li>
+            </ul>
+        </li>
+
+        <!-- PROGRAMS -->
+
+        <li>
+            <a href="./academics/index.php">PROGRAMS</a>
+            <ul class="subnav">
+                <div id="programDropDown">
+                    <span class="titleDropDownMenu ">Online Programs</span>
+                    <div id="subProgramDropDown">
+                        <li class="programTitleDropDown">
+                            Masters
+                        </li>
+
+                        <li class="programTitleDropDown">
+                            <a
+                                href="./academics-online/artificial-intelligence/index.php">ARTIFICIAL&nbsp;INTELLIGENCE</a>
+                        </li>
+                        <div class="separateProgramLineDropDown"></div>
+
+                        <li class="programTitleDropDown">
+                            <a
+                                href="./academics-online/educational-technology/index.php">EDUCATIONAL&nbsp;TECHNOLOGY</a>
+                        </li>
+                        <div class="separateProgramLineDropDown"></div>
+
+                        <li class="programTitleDropDown">
+                            <a
+                                href="./academics-online/ux-ui-interaction-design/index.php">UX/UI&nbsp;&&nbsp;INTERACTION&nbsp;DESIGN</a>
+                        </li>
+
+                        <div class="separateProgramLineDropDown"></div>
+
+                        <li class="programTitleDropDown">
+                            <a href="./academics-online/data-analytics/index.php">DATA&nbsp;ANALYTICS</a>
+                        </li>
+                        <div id="subProgramDropDown">
+                            <div class="vLineDropDownSubProgram"> </div>
+                            <li class="subTitleDropDownMenu">
+                                <a href="/academics-online/data-analytics/technology-database-online.php">TECHNOLOGY/DATABASE</a>
+                            </li>
+                            <div class="separateProgramLineDropDown"></div>
+
+                            <li class="subTitleDropDownMenu">
+                                <a href="/academics-online/data-analytics/business-analytics-online.php">BUSINESS</a>
+                            </li>
+                            <div class="separateProgramLineDropDown"></div>
+                        </div>
+
+
+
+
+
+                        <!-- Async Advance Certification -->
+                        <li class="programTitleDropDown ">
+                            Advanced Certificate
+                        </li>
+                        <!-- AI-Async -->
+                        <li class="programTitleDropDown ">
+                            <a href="./academics-online/artificial-intelligence-certificate/index.php">ARTIFICIAL&nbsp;INTELLIGENCE</a>
+                        </li>
+                        <div class="separateProgramLineDropDown"></div>
+                        <li class="programTitleDropDown ">
+                            <a href="./academics-online/advanced-certificate/ux-ui-design/index.php">UX/UI&nbsp;DESIGN</a>
+                        </li>
+                        <div class="separateProgramLineDropDown"></div>
+                        <li class="programTitleDropDown ">
+                            <a href="./academics-online/advanced-certificate/web-and-digital-design/index.php">WEB&nbsp;&&nbsp;DIGITAL&nbsp;DESIGN</a>
+                        </li>
+                        <div class="separateProgramLineDropDown"></div>
+
+                    </div>
+
+                    <span class="titleDropDownMenu overrideVLineDropdown">Real Time Programs</span>
+                    <div class="vLineDropDown"></div>
+                    <div id="subProgramDropDown">
+                        <li class="programTitleDropDown">
+                            Masters
+                        </li>
+
+                        <!-- AI -->
+                        <li class="programTitleDropDown">
+                            <a href="./academics/artificial-intelligence/index.php">ARTIFICIAL&nbsp;INTELLIGENCE</a>
+                        </li>
+                        <div class="separateProgramLineDropDown"></div>
+
+                        <!-- ITP -->
+                        <li class="programTitleDropDown">
+                            <a href="./academics/educational-technology/index.php">EDUCATIONAL&nbsp;TECHNOLOGY</a>
+                        </li>
+                        <div class="separateProgramLineDropDown"></div>
+
+                        <!-- ETP -->
+                        <li class="programTitleDropDown">
+                            <a href="./academics/instructional-technology/index.php">INSTRUCTIONAL&nbsp;TECHNOLOGY</a>
+                        </li>
+                        <div class="separateProgramLineDropDown"></div>
+
+                        <!-- UX/UI -->
+                        <li class="programTitleDropDown">
+                            <a href="./academics/ux-ui-and-interaction-design.php">UX/UI & INTERACTION DESIGN</a>
+                        </li>
+                        <div class="separateProgramLineDropDown"></div>
+
+                        <!-- DA -->
+                        <li class="programTitleDropDown">
+                            <a href="./academics/data-analytics/index.php">DATA&nbsp;ANALYTICS</a>
+                        </li>
+                        <div id="subProgramDropDown">
+                            <div class="vLineDropDownSubProgram"> </div>
+                            <li class="subTitleDropDownMenu">
+                                <a href="./academics/data-analytics/technology-database.php">TECHNOLOGY/DATABASE</a>
+                            </li>
+                            <div class="separateProgramLineDropDown"></div>
+
+                            <li class="subTitleDropDownMenu">
+                                <a href="./academics/data-analytics/business.php">BUSINESS</a>
+                            </li>
+                            <div class="separateProgramLineDropDown"></div>
+                        </div>
+
+
+
+                        <!-- BI -->
+                        <li class="programTitleDropDown">
+                            <a href="./academics/bi-and-database-management/index.php">BUSINESS INTELLIGENCE<br>& DATABASE
+                                MANAGEMENT</a>
+                        </li>
+                        <div class="separateProgramLineDropDown"></div>
+
+                        <!-- CNA -->
+                        <li class="programTitleDropDown">
+                            <a href="./academics/network-administration-and-security/index.php">
+                                CYBERSECURITY <br> & NETWORK ADMINISTRATION
+                            </a>
+                        </li>
+                        <div class="separateProgramLineDropDown"></div>
+
+                        <!-- WAD -->
+                        <li class="programTitleDropDown">
+                            <a href="./academics/web-and-app-development/index.php">WEB & APPLICATION <br> DEVELOPMENT</a>
+                        </li>
+                        <div class="separateProgramLineDropDown"></div>
+
+                        <!-- PM -->
+                        <li class="programTitleDropDown">
+                            <a href="./academics/tech-leadership-project-management/index.php">
+                                TECHNOLOGY LEADERSHIP /<br>PROJECT MANAGEMENT
+                            </a>
+                        </li>
+                        <div class="separateProgramLineDropDown"></div>
+                    </div>
+
+
+                    <!-- ADVANCED CERTIFICATES -->
+                    <div id="subProgramDropDown">
+                        <li class='programTitleDropDown '>Advanced Certificates </li>
+
+                        <li class="programTitleDropDown">
+                            <a href="./academics/ux-ui.php">UX/UI &amp; DESIGN </a>
+                        </li>
+                        <div class="separateProgramLineDropDown"></div>
+
+                        <li class="programTitleDropDown">
+
+                            <a href="./academics/webanddigital.php">WEB &amp; DIGITAL DESIGN</a>
+                        </li>
+                        <div class="separateProgramLineDropDown"></div>
+
+                        <li class="programTitleDropDown">
+                            <a
+                                href="./academics/artificial-intelligence-advanced-certificate.php">ARTIFICIAL&nbsp;INTELLIGENCE</a>
+                        </li>
+                        <div class="separateProgramLineDropDown"></div>
+
+                        <li class="programTitleDropDown">
+                            <a href="./academics/project-management-advanced-certificate.php">PROJECT&nbsp;MANAGEMENT</a>
+                        </li>
+                        <div class="separateProgramLineDropDown"></div>
+
+                        <li class="programTitleDropDown">
+                            <a href="./academics/instructional-technology.php">INSTRUCTIONAL TECHNOLOGY</a>
+                        </li>
+                        <div class="separateProgramLineDropDown"></div>
+                    </div>
+            
+                    <!-- MICRO CREDENTIALS -->
+                    <!-- <div id="subProgramDropDown">
+                        <li class='programTitleDropDown'>Micro Credential </li>
+
+                        <li class="programTitleDropDown">
+                            <a href="./academics/instructional-technology.php">INSTRUCTIONAL DESIGN</a>
+                        </li>
+                        <div class="submenuSpaceBottom"></div>
+
+                    </div> -->
+                </div>
+            </ul>
+
+        </li>
+
+        <!--  -->
+        <li><a href="./admissions/index.php">ADMISSION & AID</a>
+            <ul class="subnav">
+                <li><a href="admissions/how-to-apply.php">HOW TO APPLY</a></li>
+                <li><a href="admissions/international-students.php">INTERNATIONAL</a></li>
+                <li><a href="admissions/tuition-and-fees/tuition-and-fees.php">TUITION & FEES</a></li>
+                <li><a href="./admissions/financial-aid/financial-aid.php">FINANCIAL AID</a></li>
+                <li><a href="./admissions/contacts.php">CONTACTS</a></li>
+                <li>
+                <li><a href="https://apply.touro.edu/gst">APPLY NOW</a></li>
+            </ul>
+        </li>
+
+        <!--  -->
+        <li>
+            <a href="./career-services/index.php">CAREER&nbsp;SERVICES</a>
+            <ul class="subnav">
+                <li><a href="./career-services/for-students.php">FOR&nbsp;STUDENTS/ALUMNI</a></li>
+                <li><a href="./career-services/for-employers-partners.php">FOR&nbsp;EMPLOYERS/PARTNERS</a></li>
+                <li><a href="./career-services/graduate-assistantship-program.php">GRADUATE&nbsp;ASSISTANTSHIP&nbsp;PROGRAM</a></li>
+                <li><a href="./career-services/tech-mentoring-program.php">GST&nbsp;TECH&nbsp;MENTORING&nbsp;PROGRAM</a></li>
+            </ul>
+        </li>
+
+        <!--  -->
+        <li>
+            <a href="./alumni/index.php">ALUMNI</a>
+            <ul class="subnav">
+                <li><a href="./alumni/volunteer-opportunities.php">VOLUNTEER&nbsp;OPPORTUNITIES</a></li>
+                <li><a href="./alumni/alumni-advisory-counsil.php">GST&nbsp;ALUMNI&nbsp;ADVISORY&nbsp;COUNCIL</a></li>
+                <li><a href="./alumni/alumni-awards.php">ALUMNI&nbsp;AWARDS</a></li>
+                <li><a href="./alumni/update-your-contact-info.php">UPDATE&nbsp;YOUR&nbsp;CONTACT&nbsp;INFO</a></li>
+                <li><a href="./alumni/alumni-magazine.php">ALUMNI&nbsp;MAGAZINE</a></li>
+
+            </ul>
+        </li>
+        <!--  -->
+
+        <!--  -->
+        <li><a href="./events/index.php">EVENTS</a>
+            <ul class="subnav">
+                <li><a href="./events/workshops/index.php">WORKSHOPS</a></li>
+                <li><a href="./events/online-info-sessions.php">ONLINE&nbsp;INFO&nbsp;SESSIONS</a></li>
+                <li><a href="./events/guest-speakers/index.php">GUEST&nbsp;SPEAKERS</a></li>
+                <li><a href="./events/student-presentations/index.php">STUDENT&nbsp;PRESENTATIONS</a></li>
+            </ul>
+        </li>
+
+        <!--  -->
+        <li>
+            <a href="./whats-trending-at-GST/index.php">WHAT'S&nbsp;TRENDING</a>
+            <ul class="subnav">
+                <li><a href="./whats-trending-at-GST/news/news.php">NEWS</a></li>
+                <li><a href="./blogs/index.php">BLOGS</a></li>
+                <li><a href="./whats-trending-at-GST/dean-news-letter/dean-news-letter.php">DEAN'S&nbsp;MESSAGE</a></li>
+                <li><a href="./whats-trending-at-GST/spotlight/spotlight.php">SPOTLIGHTS</a></li>
+                <li>
+                    <a href="./whats-trending-at-GST/graduate-assistant.php">
+                        GRADUATE&nbsp;ASSISTANTS
+                    </a>
+                </li>
+            </ul>
+        </li>
+
+        <!--  -->
+        <li><a href="./thriving-at-gst/index.php">THRIVING&nbsp;AT&nbsp;GST</a>
+            <ul class="subnav">
+
+                <li><a href="./thriving-at-gst/registrar.php">REGISTRAR</a></li>
+                <li><a href="./thriving-at-gst/registration.php">REGISTRATION</a></li>
+                <li><a href="./thriving-at-gst/military-friendly.php">MILITARY FRIENDLY</a></li>
+                <li><a href="./thriving-at-gst/health.php">HEALTH</a></li>
+                <li><a href="./thriving-at-gst/housing.php">HOUSING</a></li>
+                <li><a href="./thriving-at-gst/neighborhood.php">NEIGHBORHOOD</a></li>
+                <li><a href="./thriving-at-gst/current-students.php">CURRENT&nbsp;STUDENTS</a></li>
+                <li><a href="./thriving-at-gst/graduate-diploma.php">GRADUATION/DIPLOMA</a></li>
+                <li><a href="https://www.touro.edu/departments/student-disability-services/">DISABILITY SERVICES</a>
+                </li>
+                <li><a href="./thriving-at-gst/wellnessAndCounseling.php">WELLNESS&nbsp;AND&nbsp;COUNSELING</a></li>
+            </ul>
+        </li>
+
+        <!--  -->
+        <li><a href="./faq/faq-allprograms.php">FAQs</a>
+            <ul class="subnav faq">
+                <li><a href="./faq/faq-allprograms.php">ALL PROGRAMS</a></li>
+                <li><a href="./faq/faq-international-student.php">INTERNATIONAL&nbsp;STUDENTS</a></li>
+                <li><a href="./faq/faq-ai.php">ARTIFICIAL&nbsp;INTELLIGENCE</a></li>
+                <li><a href="./faq/faq-webandappdev.php">WEB &&nbsp;APP&nbsp;DEVELOPMENT</a></li>
+                <li><a href="./faq/faq-cybersecurity.php">CYBERSECURITY &&nbsp;NETWORK&nbsp;<br>ADMINISTRATION</a></li>
+                <li><a href="./faq/faq-tl-pm.php">TECHNOLOGY&nbsp;LEADERSHIP/<br>PROJECT&nbsp;MANAGEMENT</a></li>
+                <li><a href="./faq/faq-bi-da.php">BUSINESS&nbsp;INTELLIGENCE &&nbsp;<br>DATABASE&nbsp;MANAGEMENT</a></li>
+                <li><a href="./faq/faq-dataAnalytics.php">DATA&nbsp;ANALYTICS</a></li>
+                <li><a href="./faq/faq-educationaltechnology.php">EDUCATIONAL&nbsp;TECHNOLOGY</a></li>
+                <li><a href="./faq/faq-instructionaltechnology.php">INSTRUCTIONAL&nbsp;TECHNOLOGY</a></li>
+                <li><a href="./faq/faq-webandmmdesign.php">UX/UI&nbsp;AND&nbsp;INTERACTION&nbsp;DESIGN</a></li>
+                <li><a href="./faq/faq-importantlinks.php">HELPFUL&nbsp;ARTICLES</a></li>
+            </ul>
+        </li>
+
+        <!--  -->
+        <li class="">
+            <!-- style color overrides .yellow coming from nav.js -->
+            <a href="./giving/giving.php" style="">
+                GIVING
+            </a>
+            <ul class="subnav">
+                <li class="">
+                    <a href="./giving/dean-advancement-fund.php">DEAN'S&nbsp;ADVANCEMENT&nbsp;FUND</a>
+                </li>
+                <li class="">
+                    <a href="./giving/student-support-fund.php">STUDENT&nbsp;SUPPORT&nbsp;FUND</a>
+                </li>
+                <li class="">
+                    <a href="./giving/scholarship-fund.php">SCHOLARSHIP&nbsp;FUNDS</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+    </header>
+
+
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            if ($("#announcement").length) {
+                console.log('ann');
+                $("header").addClass("announcing");
+                $("main").addClass("announcing");
+                $('#announcement').on('closed.bs.alert', function() {
+                    $("header").removeClass("announcing");
+                    $("main").removeClass("announcing");
+                });
+            }
+
+            /* Activates the back to top arrow */
+            ToggleScrollUp();
+
+            $(window).scroll(function() {
+                ToggleScrollUp();
+            });
+
+            $("#scrollup").click(function() {
+                $("html, body").animate({
+                    scrollTop: 0
+                }, 500);
+                return false;
+            });
+
+            function ToggleScrollUp() {
+
+                if (window.pageYOffset > 1200) {
+                    $('#scrollup').fadeIn();
+                } else {
+                    $('#scrollup').fadeOut();
+                }
+            }
+
+        });
+    </script>
+
+
+
+    <img id="scrollup" src="./Touro-GST-Home_files/arrow-circle.svg" width="50px" height="50px"
+        alt="Go to Top of Touro GST website">
+
+
+    <!-- temporary css styles -->
+    <style>
+        .videoWrapper {
+            position: relative;
+            padding-bottom: 56.25%;
+            /* 16:9 */
+            padding-top: 25px;
+            height: 0;
+            min-height: 203px;
+        }
+
+        .videoWrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .content1 {
+            text-align: center;
+            display: inline-block;
+            width: 33%;
+            background-color: #f7b90b;
+            color: #000;
+            box-sizing: border-box;
+            padding: 15px;
+        }
+
+        .content2 {
+            text-align: center;
+            display: inline-block;
+            width: 32.6%;
+            background-color: #000;
+            color: #f7b90b;
+            box-sizing: border-box;
+            padding: 15px;
+        }
+
+        .content3 {
+            text-align: center;
+            display: inline-block;
+            width: 33.9%;
+            max-width: 100%;
+            min-width: 32.6%;
+            background-color: #f7b90b;
+            color: #000;
+            box-sizing: border-box;
+            padding: 15px;
+        }
+
+
+        .content2 a {
+            color: #f7b90b;
+        }
+
+        @media screen and (max-width: 1024px) {
+
+            .content1 a,
+            content2 a,
+            content3 a {
+                font-size: .9rem;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .content1 {
+                width: 33.2%;
+                /*font-size: 12px;*/
+            }
+
+            .content2 {
+                width: 32.1%;
+                /*font-size: 12px;*/
+                background-color: transparent;
+
+            }
+
+            .content3 {
+                width: 32.6%;
+                /*font-size: 12px;*/
+            }
+
+            .content1 a {
+                padding-top: 15px;
+            }
+
+            .content3 a {
+                padding-top: 15px;
+            }
+
+            .content2 a {
+                color: white;
+            }
+
+        }
+
+        @media screen and (max-width: 414px) {
+            .content1 {
+                width: 100%;
+                /*font-size:11px;*/
+
+            }
+
+            .content2 a {
+                color: #f7b90b;
+            }
+
+            .content3 {
+                width: 100%;
+                /*font-size:11px;*/
+
+            }
+
+            .content2 {
+                width: 100%;
+                /*font-size:11px;*/
+                background-color: black;
+            }
+
+            .content1 a {
+                padding-top: 0px;
+            }
+
+            .content3 a {
+                padding-top: 0px;
+            }
+
+        }
+    </style>
+
+    <main>
+
+        <link rel="stylesheet" href="./Touro-GST-Home_files/homePageTiles/homePageProgramTile.css">
+
+
+<div class="container-fluid mainTiles">
+  <!-- <div class="backImg"></div> -->
+
+  <div class="banner-container">
+    <img src="./Touro-GST-Home_files/images/online-home-top-banner.png" alt="Banner" class="banner-image">
+
+    <button class="select-program-button">Select a program</button>
+
+    <div class="banner-overlay">
+      <a href="./academics-online/educational-technology/index.php">
+        <img src="./Touro-GST-Home_files/images/online-etp-hex.png" alt="ETP" class="overlay-image">
+      </a>
+      <a href="./academics-online/data-analytics/index.php">
+        <img src="./Touro-GST-Home_files/images/online-da-hex.png" alt="DA" class="overlay-image">
+      </a>
+      <a href="./academics-online/artificial-intelligence-certificate/index.php">
+        <img src="./Touro-GST-Home_files/images/online-ai-adv-hex.png" alt="AI certificate" class="overlay-image">
+      </a>
+      <a href="./academics-online/artificial-intelligence/index.php">
+        <img src="./Touro-GST-Home_files/images/online-ai-hex.png" alt="AI" class="overlay-image">
+      </a>
+      <a href="./academics-online/ux-ui-interaction-design/index.php">
+        <img src="./Touro-GST-Home_files/images/online-ux-ui-hex.png" alt="AI" class="overlay-image">
+      </a>
+    </div>
+  </div>
+
+  <div class="row" style="padding-bottom: 15px">
+
+    <!-- AI -->
+    <div class="col-sm-6 col-md-4 tileCard">
+      <a href="./academics/artificial-intelligence/index.php">
+        <div class="ptile">
+          <div class="childTile">
+            <img class='tileImage' src="./Touro-GST-Home_files/homePageTiles/images/ai-chip.jpeg"
+              alt="AI programming on laptop">
+            <div class='tileWords'>
+              <h3 class='tileTitle'> ARTIFICIAL <br>INTELLIGENCE </h3>
+              <ul class="tileLinks">
+                <li><a href="./academics/artificial-intelligence/index.php">Masters</a></li>
+                <li><a href='./academics/artificial-intelligence-advanced-certificate.php'>Adv Certificate</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <!-- ETP -->
+    <div class="col-sm-6 col-md-4 tileCard">
+      <a href="./academics/educational-technology/index.php">
+        <div class="ptile">
+          <div class="childTile">
+            <img class='tileImage' src="./Touro-GST-Home_files/homePageTiles/images/educational-technology.jpg"
+              alt="Teacher in a classroom">
+            <div class='tileWords'>
+              <h3 class='tileTitle'> EDUCATIONAL <br>TECHNOLOGY </h3>
+              <ul class="tileLinks">
+                <li><a href="./academics/educational-technology/index.php">Masters</a></li>
+                <!--					   <li><a href="./academics/instructional-technology.php">Micro-credential</a></li>-->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+
+
+    <!-- ITP -->
+    <div class="col-sm-6 col-md-4 tileCard">
+      <a href="./academics/instructional-technology/index.php">
+        <div class="ptile">
+          <div class="childTile">
+            <img class='tileImage' src="./Touro-GST-Home_files/homePageTiles/images/instructionalTech.jpg"
+              alt="Instructional Technology">
+            <div class='tileWords'>
+              <h3 class='tileTitle'> INSTRUCTIONAL <br>TECHNOLOGY </h3>
+              <ul class="tileLinks">
+                <li><a href="./academics/instructional-technology/index.php">Masters</a></li>
+                <!--					   <li><a href="./academics/instructional-technology.php">Micro-credential</a></li>-->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <!-- UX/UI -->
+    <div class="col-sm-6 col-md-4 tileCard">
+      <a href="./academics/ux-ui-and-interaction-design.php">
+        <div class="ptile">
+          <div class="childTile">
+            <img class='tileImage' src="./Touro-GST-Home_files/homePageTiles/images/wmm-edited_edited.jpg"
+              alt="UX/UI and Interaction Design">
+            <div class='tileWords'>
+              <h3 class='tileTitle'> UX/UI & INTERACTION <br> DESIGN </h3>
+              <ul class="tileLinks">
+                <li><a href='./academics/ux-ui-and-interaction-design.php'>Masters</a></li>
+                <li><a href='./academics/wmm-advanced-certificate.php'>Adv Certificate</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <!-- DA -->
+    <div class="col-sm-6 col-md-4 tileCard">
+      <div class="ptile">
+        <a href="./academics/data-analytics/index.php">
+          <div class="childTile">
+            <img class='tileImage' src="./Touro-GST-Home_files/homePageTiles/images/Photo- Edited-YJ_edited.jpg"
+              alt="Data Analytics">
+            <div class='tileWords'>
+              <h3 class='tileTitle'> DATA <br> ANALYTICS </h3>
+              <ul class="tileLinks">
+                <li><a href="./academics/data-analytics/index.php">Masters</a></li>
+              </ul>
+            </div>
+          </div>
+      </div>
+      </a>
+    </div>
+
+    <!-- BI -->
+    <div class="col-sm-6 col-md-4 tileCard">
+      <div class="ptile">
+        <a href="./academics/bi-and-database-management/index.php">
+          <div class="childTile">
+            <img class='tileImage' src="./Touro-GST-Home_files/homePageTiles/images/businessIntel.jpg"
+              alt="BI and Database Systems">
+            <div class='tileWords'>
+              <h3 class='tileTitle'> BUSINESS INTELLIGENCE <br>& DATABASE SYSTEMS </h3>
+              <ul class="tileLinks">
+                <li><a href="./academics/bi-and-database-management/index.php">Masters</a></li>
+              </ul>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- CNA -->
+    <div class="col-sm-6 col-md-4 tileCard">
+      <a href="./academics/network-administration-and-security/index.php">
+        <div class="ptile">
+          <div class="childTile">
+            <img class='tileImage' src="./Touro-GST-Home_files/homePageTiles/images/cyberSecurity_edited.jpg"
+              alt="Cybersecurity">
+            <div class='tileWords'>
+              <h3 class='tileTitle'> CYBERSECURITY<br> & NETWORK ADMINISTRATION </h3>
+              <ul class="tileLinks">
+                <li><a href="./academics/network-administration-and-security/index.php">Masters</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <!-- WAD -->
+    <div class="col-sm-6 col-md-4 tileCard">
+      <a href="./academics/web-and-app-development/index.php">
+        <div class="ptile">
+          <div class="childTile">
+            <img class='tileImage' src="./Touro-GST-Home_files/homePageTiles/images/webApp.jpg"
+              alt="Web and Applications Development">
+            <div class='tileWords'>
+              <h3 class='tileTitle'> WEB & APPLICATION <br>DEVELOPMENT </h3>
+              <ul class="tileLinks">
+                <li><a href="./academics/web-and-app-development/index.php">Masters</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <!-- PM -->
+    <div class="col-sm-6 col-md-4 tileCard">
+      <div class="ptile">
+        <a href="./academics/tech-leadership-project-management/index.php">
+          <div class="childTile">
+            <img class='tileImage' src="./Touro-GST-Home_files/homePageTiles/images/techLeaderShip.jpg"
+              alt="Tech Leadership">
+            <div class='tileWords'>
+              <h3 class='tileTitle'> TECHNOLOGY LEADERSHIP /<br>PROJECT MANAGEMENT </h3>
+              <ul class="tileLinks">
+                <li><a href="./academics/tech-leadership-project-management/index.php">Masters</a></li>
+                <li><a href='./academics/project-management-advanced-certificate.php'>Adv Certificate</a></li>
+              </ul>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- Advanced Certificate -->
+    <div class="col-sm-6 col-md-4 tileCard">
+      <div class="ptileNoImage">
+        <div class="childTile">
+          <h3>
+            <a class='tileTitleNoImage' href="./academics/advanced-certificates.php">ADVANCED CERTIFICATES </a>
+          </h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- Request Info -->
+    <div class="col-sm-6 col-md-4 tileCard">
+      <div class="ptileNoImage">
+        <div class="childTile">
+          <h3>
+            <a class='tileTitleNoImage' href="./request-info.php">REQUEST INFORMATION</a>
+          </h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- Micro Credentials -->
+    <!-- <div class="col-sm-6 col-md-4 tileCard">
+      <div class="ptileNoImage">
+        <div class="childTile">
+          <h3>
+            <a class='tileTitleNoImage' href="./academics/instructional-technology.php">MICRO CREDENTIAL</a>
+          </h3>
+        </div>
+      </div>
+    </div> -->
+
+  </div>
+
+</div>
+        <!-- GST Student Sucess-stories-carousel -->
+        
+<div class="slider-one" data-example-id="simple-carousel" id="success">
+    <div id="carousel-one" class="carousel slide" data-ride="carousel">        <ol class="carousel-indicators">
+            <li data-target="#carousel-one" data-slide-to="0" class="dot1 active"></li>
+            <li data-target="#carousel-one" data-slide-to="1" class="dot2"></li>
+            <li data-target="#carousel-one" data-slide-to="2" class="dot3"></li>
+            <li data-target="#carousel-one" data-slide-to="3" class="dot4"></li>
+            <li data-target="#carousel-one" data-slide-to="4" class="dot5"></li>
+            <li data-target="#carousel-one" data-slide-to="5" class="dot6"></li>
+            <li data-target="#carousel-one" data-slide-to="6" class="dot7"></li>
+            <li data-target="#carousel-one" data-slide-to="7" class="dot8"></li>
+            <li data-target="#carousel-one" data-slide-to="8" class="dot9"></li>
+            <li data-target="#carousel-one" data-slide-to="9" class="dot10"></li>
+            <li data-target="#carousel-one" data-slide-to="10" class="dot11"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div id="slide-01" class="item active">
+                <img class="slider-img_desktop" src="./Touro-GST-Home_files/images/slider/slide-01-eunice-desk.jpeg" alt="Eunice Desktop">
+                <img class="slider-img_mobile" src="./Touro-GST-Home_files/images/slider/slide-01-eunice-S.jpg" alt="Eunice Mobile">
+                <div class="carousel-caption">
+                    <h3>Eunice L.<br>Web & Multimedia Design, 2019 <br> (currently UX/UI & Interaction Design)</h3>
+                    <h4>Operations Manager <br> AiAuto | Virtual F&It</h4>
+                    <a href="https://www.aiauto.com/" target="_blank"><img class="slider-logo" src="./Touro-GST-Home_files/images/slider/aiiauto-virtual-f&amp;i-logo.png" alt="AiAuto Virtual F&amp;I"></a>
+                    <p>Learn user-centered design, UX/UI prototyping, and motion graphics from industry experts. Flexible hybrid classes built for working professionals and career changers.</p>
+                    <a href="./whats-trending-at-GST/spotlight/spotlight.php"><button class="more-button">See More Stories</button></a>
+                </div>
+            </div>
+            <div id="slide-02" class="item">
+                <img class="slider-img_desktop" src="./Touro-GST-Home_files/images/slider/slide-02-reshma-V.jpeg" alt="Reshma Desktop">
+                <img class="slider-img_mobile" src="./Touro-GST-Home_files/images/slider/slide-02-reshma.jpeg" alt="Reshma Mobile">
+                <div class="carousel-caption" style="top:3%">
+                    <h3>Reshma V.<br>MSIN - Database Track, 2020</h3>
+                    <h4>Marketing Technology Executive and HubSpot Consultant</h4>
+                    <a href="https://urbanft.com" target="_blank"><img class="slider-logo" src="./Touro-GST-Home_files/images/slider/girikon-logo.png" alt="Girikon Logo"></a>
+                    <p>Reshma Virani, a proud Touro GST alum, is currently a Marketing Technology Executive and HubSpot Consultant at Girikon in Phoenix, Arizona. Boasting over 4 years of expertise in HubSpot consulting, Reshma specializes in Revops, email campaigning, training, onboarding, and streamlined data management.</p>
+                    <a href="./whats-trending-at-GST/spotlight/spotlight.php"><button class="more-button">See More Stories</button></a>
+                </div>
+            </div>
+            <div id="slide-03" class="item">
+                <img class="slider-img_desktop" src="./Touro-GST-Home_files/images/slider/slide-03-yulia.jpg" alt="Yulia Desktop">
+                <img class="slider-img_mobile" src="./Touro-GST-Home_files/images/slider/slide-03-yulia-S.jpg" alt="Yulia Mobile">
+                <div class="carousel-caption">
+                    <h3>Yulia K.<br>Instructional Technology, 2020</h3>
+                    <h4>Instructional Designer</h4>
+                    <a href="https://ionexchangemembranes.com/" target="_blank"><img class="slider-logo" src="./Touro-GST-Home_files/images/slider/membranes_international_logo.svg" alt="Membranes International Logo"></a>
+                    <p>Yulia, a former project manager and founder of a construction company in Russia, capped off her Corporate Trainer track with a thesis entitled How to Build an Effective Team. With her new master’s degree, she landed a job as an instructional designer at Membranes International.</p>
+                    <a href="./whats-trending-at-GST/spotlight/spotlight.php"><button class="more-button">See More Stories</button></a>
+                </div>
+            </div>
+            <div id="slide-04" class="item">
+                <img class="slider-img_desktop" src="./Touro-GST-Home_files/images/slider/slide-04-tatyana.jpg" alt="Tatyana Desktop">
+                <img class="slider-img_mobile" src="./Touro-GST-Home_files/images/slider/slide-04-tatyana-S.jpg" alt="Tatyana Mobile">
+                <div class="carousel-caption">
+                    <h3>Tatyana B.<br>UX/UI and Interaction Design, 2017</h3>
+                    <h4>Marketing & Communications</h4>
+                    <a href="https://www.shelbourneco.com/" target="_blank"><img class="slider-logo" src="./Touro-GST-Home_files/images/slider/shelbourne_logo.svg" alt="Shelbourne Logo"></a>
+                    <p>Touro GST helped me gain a diverse set of skills—from marketing copywriting, responsive web design, and collateral creation, to managing vendors. It was just the experience I needed to become the in-house marketing and communications department at Shelbourne Real Estate.</p>
+                    <a href="./whats-trending-at-GST/spotlight/spotlight.php"><button class="more-button">See More Stories</button></a>
+                </div>
+            </div>
+            <div id="slide-05" class="item">
+                <img class="slider-img_desktop" src="./Touro-GST-Home_files/images/slider/slide-05-loucas.jpg" alt="Loucas Desktop">
+                <img class="slider-img_mobile" src="./Touro-GST-Home_files/images/slider/slide-05-loucas-S.jpg" alt="Loucas Mobile">
+                <div class="carousel-caption">
+                    <h3>Loucas K.<br>Information Systems, 2014</h3>
+                    <h4>Systems Engineer</h4>
+                    <a href="https://cisco.com" target="_blank"><img class="slider-logo" src="./Touro-GST-Home_files/images/slider/cisco_logo_white.svg" alt="Cisco Logo"></a>
+                    <p>Loucas, from Cyprus, credits GST for the real-world skills that helped him land his dream job. He now works closely with Cisco customers on networking, security, and data center projects.</p>
+                    <a href="./whats-trending-at-GST/spotlight/spotlight.php"><button class="more-button">See More Stories</button></a>
+                </div>
+            </div>
+            <div id="slide-06" class="item">
+                <img class="slider-img_desktop" src="./Touro-GST-Home_files/images/slider/slide-06-mehmet.jpg" alt="Mehmet Desktop">
+                <img class="slider-img_mobile" src="./Touro-GST-Home_files/images/slider/slide-06-mehmet-S.jpg" alt="Mehmet Mobile">
+                <div class="carousel-caption">
+                    <h3>Mehmet A.<br>Instructional Technology, 2017</h3>
+                    <h4>Instructional Designer</h4>
+                    <a href="https://www.nobleeducationinitiative.com/" target="_blank"><img class="slider-logo" src="./Touro-GST-Home_files/images/slider/noble_education_white_logo.svg" alt="Noble Education Logo"></a>
+                    <p>Mehmet came from Turkey for a mathematics career but pivoted with GST support into instructional design. Career services even helped him secure and negotiate his relocation package.</p>
+                    <a href="./whats-trending-at-GST/spotlight/spotlight.php"><button class="more-button">See More Stories</button></a>
+                </div>
+            </div>
+            <div id="slide-07" class="item">
+                <img class="slider-img_desktop" src="./Touro-GST-Home_files/images/slider/slide-07-islam-m-desk.jpg" alt="Islam Desktop">
+                <img class="slider-img_mobile" src="./Touro-GST-Home_files/images/slider/slide-07-islam-m-S.jpg" alt="Islam Mobile">
+                <div class="carousel-caption">
+                    <h3>Islam M.<br>UX/UI & Interaction Design, 2024</h3>
+                    <h4>Senior Product Designer</h4>
+                    <a href="https://renovateai.app/" target="_blank"><img class="slider-logo" src="./Touro-GST-Home_files/images/slider/renovate-ai-logo.png" alt="Renovate AI Logo"></a>
+                    <p>My time at Touro provided me with the tools and confidence I needed to excel in my career. The supportive faculty and hands-on learning opportunities were invaluable.</p>
+                    <a href="./whats-trending-at-GST/spotlight/spotlight.php"><button class="more-button">See More Stories</button></a>
+                </div>
+            </div>
+            <div id="slide-08" class="item">
+                <img class="slider-img_desktop" src="./Touro-GST-Home_files/images/slider/slide-08-subrata-c.jpg" alt="Subrata Desktop">
+                <img class="slider-img_mobile" src="./Touro-GST-Home_files/images/slider/slide-08-subrata-c-S.jpg" alt="Subrata Mobile">
+                <div class="carousel-caption">
+                    <h3>Subrata Chowdhury<br>MS Data Analytics</h3>
+                    <h4>Patient Safety Data Analyst, 2024</h4>
+                    <a href="https://www.temple.edu/" target="_blank"><img class="slider-logo" src="./Touro-GST-Home_files/images/slider/temple-university-hospital-logo.png" alt="Temple University Hospital"></a>
+                    <p>Touro University helped me turn ambition into ability. As an international student & professional, I found strength in every challenge and purpose in every dataset.</p>
+                    <a href="./whats-trending-at-GST/spotlight/spotlight.php"><button class="more-button">See More Stories</button></a>
+                </div>
+            </div>
+            <div id="slide-09" class="item">
+                <img class="slider-img_desktop" src="./Touro-GST-Home_files/images/slider/slide-09-serdar-a-desk.jpg" alt="Serdar Desktop">
+                <img class="slider-img_mobile" src="./Touro-GST-Home_files/images/slider/slide-09-serdar-a-S.jpg" alt="Serdar Mobile">
+                <div class="carousel-caption">
+                    <h3>Serdar A.<br>MS, Artificial Intelligence Systems / MS, Web & App Dev</h3>
+                    <h4>Frontend Developer, 2021</h4>
+                    <a href="https://www.jnj.com/" target="_blank"><img class="slider-logo" src="./Touro-GST-Home_files/images/slider/johnson-&amp;johnson-logo-2.png" alt="Johnson &amp; Johnson"></a>
+                    <p>Studying at Touro University was a transformative experience with clear instruction, hands-on projects, and a supportive community that prepared me for real-world challenges.</p>
+                    <a href="./whats-trending-at-GST/spotlight/spotlight.php"><button class="more-button">See More Stories</button></a>
+                </div>
+            </div>
+            <div id="slide-10" class="item">
+                <img class="slider-img_desktop" src="./Touro-GST-Home_files/images/slider/slide-10-lasha-gochiashvili-desk.jpg" alt="Lasha Desktop">
+                <img class="slider-img_mobile" src="./Touro-GST-Home_files/images/slider/slide-10-lasha-gochiashvili-S.jpg" alt="Lasha Mobile">
+                <div class="carousel-caption">
+                    <h3>Lasha Gochiashvili<br>MS Data Analytics</h3>
+                    <h4>Senior Data Scientist, 2024</h4>
+                    <a href="https://www.irco.com/en-us/" target="_blank"><img class="slider-logo" src="./Touro-GST-Home_files/images/slider/ingersoll-rand-logo.png" alt="Ingersoll Rand"></a>
+                    <p>My time at Touro GST was a transformative chapter in my journey. Hands-on training in database systems, SQL, and data visualization equipped me with practical, job-ready skills.</p>
+                    <a href="./whats-trending-at-GST/spotlight/spotlight.php"><button class="more-button">See More Stories</button></a>
+                </div>
+            </div>
+            <div id="slide-11" class="item">
+                <img class="slider-img_desktop" src="./Touro-GST-Home_files/images/slider/slide-11-salima-m-desk.jpg" alt="Salima Desktop">
+                <img class="slider-img_mobile" src="./Touro-GST-Home_files/images/slider/slide-11-salima-m-S.jpg" alt="Salima Mobile">
+                <div class="carousel-caption">
+                    <h3>Salima M.<br>MS Data Analytics</h3>
+                    <h4>Instructional Technologist & Canvas Admin</h4>
+                    <a href="https://www.irco.com/en-us/" target="_blank"><img class="slider-logo" src="./Touro-GST-Home_files/images/slider/touro-gst.png" alt="Touro GST"></a>
+                    <p>Studying at Touro was more than just an academic journey — it shaped who I am. Not only did I grow intellectually but also discovered new strengths.</p>
+                    <a href="./whats-trending-at-GST/spotlight/spotlight.php"><button class="more-button">See More Stories</button></a>
+                </div>
+            </div>
+        </div>
+        <a class="left carousel-control" href="#carousel-one" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-one" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div><script>
+jQuery(function() {
+    // Instantiate JSCarousel once the DOM is ready
+    const carousel = JSCarousel({
+        carouselSelector: '#carousel-one',
+        slideSelector: '.item',
+        enablePagination: true,
+        enableAutoplay: true,
+        autoplayInterval: 3000
+    });
+
+    carousel.create();
+});
+</script>
+
+
+
+
+        <div id="benefits">
+            <div class="container row">
+                <h3>Key Reasons to Join the Touro Family</h3>
+                <div class="col-md-6">
+                    <div class="icon-box"> <span class="benefits-icon"><i class="fas fa-2point5x fa-user"></i></span>
+                        <div>
+                            <h4>Personal Attention</h4>
+                            <p>Smaller class sizes and virtual access to professors and faculty</p>
+                        </div>
+                    </div>
+                    <div class="icon-box"> <span class="benefits-icon"><i class="fas fa-2point5x fa-award"></i></span>
+                        <div>
+                            <h4>Employability</h4>
+                            <p>Tech degrees where jobs are aways in demand</p>
+                        </div>
+                    </div>
+                    <div class="icon-box"> <span class="benefits-icon"><i class="fas fa-2point5x fa-smile"></i></span>
+                        <div>
+                            <h4>Flexibility</h4>
+                            <p>Schedules that work for you: On-campus or online evening programs</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="icon-box"> <span class="benefits-icon"><i
+                                class="fas fa-2point5x fa-money-bill-alt"></i></span>
+                        <div>
+                            <h4>Return on Investment</h4>
+                            <p>The same low-cost tuition for both domestic and international students</p>
+                        </div>
+                    </div>
+                    <div class="icon-box"> <span class="benefits-icon"><i class="fas fa-2point5x fa-rocket"></i></span>
+                        <div>
+                            <h4>Career Launchpad</h4>
+                            <p>Career planning, resume writing & interview preparation</p>
+                        </div>
+                    </div>
+                    <div class="icon-box"> <span class="benefits-icon"><i class="fas fa-2point5x fa-users"></i></span>
+                        <div>
+                            <h4>Connections</h4>
+                            <p>Access to the alumni association & professional networking</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="more-info"><a href="./request-info.php"><button class="more-button">Request More
+                        Info</button></a>
+            </div>
+        </div>
+
+        <div id="degrees">
+            <h3>QUICK & AFFORDABLE DEGREES</h3>
+            <div class="container row">
+                <div id="degrees-01">
+                    <h4>30-33-credit <br>STEM programs</h4>
+                    <img class="degrees-bubble" src="./Touro-GST-Home_files/images/33-Credit_STEM_Programs_.jpg"
+                        alt="degrees" style="border-radius: 50%">
+                </div>
+                <div id="degrees-02">
+                    <h4>Study live online <br>or on campus</h4>
+                    <img class="degrees-bubble" src="./Touro-GST-Home_files/images/degrees-study-online.png"
+                        alt="degrees">
+                </div>
+                <div id="degrees-03">
+                    <h4>$670-$875 <br>per credit</h4>
+                    <img class="degrees-bubble" src="./Touro-GST-Home_files/images/$620-$820_per_credit_-.jpg"
+                        alt="degrees" style="border-radius: 50%">
+                </div>
+                <div id="degrees-04">
+                    <h4>No GRE <br>required</h4>
+                    <img class="degrees-bubble" src="./Touro-GST-Home_files/images/degrees-no-gre-required.png"
+                        alt="degrees">
+                </div>
+            </div>
+        </div>
+
+        <style>
+            /*#events .col-md-4:nth-child(odd):after{*/
+            /*	background-color: transparent!important;*/
+            /*}*/
+        </style>
+
+        <div id="events">
+            <h3>Attend our events and see for yourself</h3>
+            <div class="container row">
+
+                <!--        IMPORTANT!!! PLEASE SET THE DATETIME!!!-->
+                <div class="col-md-4 calEvents" datetime="2024-05-09 17:30">
+                    <p class="date">MAY<br>09</p>
+                    <a title="ITP WORKSHOP" href="./events/webinar/careerevent/semesterEndEvent.html"> <img
+                            src="./events/webinar/images/wmm-Thumbnail.jpg" alt="ITP WORKSHOP">
+                        <h4>End of <br>the semester <br>Party</h4>
+                        <p>05:30 - 06:30 PM</p>
+                        <p>Cost: FREE</p>
+
+                        <button class="sign-up">Sign Up</button>
+                    </a>
+                </div>
+
+                <div class="col-md-4 calEvents" datetime="2024-05-15 19:00">
+                    <p class="date">MAY<br>15</p>
+                    <a title="ITP WORKSHOP" href="./events/webinar/itp-workshop/"> <img
+                            src="./events/webinar/images/workshopThumbnail.jpg" alt="ITP WORKSHOP">
+                        <h4>ChatGPT 201 <br>by <br>Prof. Payam Bina</h4>
+                        <p>07:00 - 08:00 PM</p>
+                        <p>Cost: FREE</p>
+
+                        <button class="sign-up">Sign Up</button>
+                    </a>
+                </div>
+
+                <div class="col-md-4 calEvents" datetime="2024-05-23 19:00">
+                    <p class="date">MAY<br>23</p>
+                    <a title="MSDA WORKSHOP" href="./events/webinar/cybersecurity/"> <img
+                            src="./events/webinar/images/CyberSecurityThumbnail.jpg" alt="MSIS WORKSHOP">
+                        <h4>Unlock The Power of AI <br>IN <br> Cyber Security</h4>
+                        <p>07:00 - 08:00 PM</p>
+                        <p>Cost: FREE</p>
+
+
+                        <button class="sign-up">Sign Up</button>
+                    </a>
+                </div>
+
+                <div class="col-md-4 calEvents" datetime="2024-03-19 06:00">
+                    <p class="date">MAR<br>19</p>
+                    <a title="ITP WORKSHOP" href="./events/webinar/itp-workshop/"> <img
+                            src="./events/webinar/images/workshopThumbnail.jpg" alt="ITP WORKSHOP">
+                        <h4>ChatGPT 101: Harnessing the Power of Generative AI and Chatbots</h4>
+                        <p>07:00 - 08:00 PM</p>
+                        <p>Cost: FREE</p>
+
+                        <button class="sign-up">Sign Up</button>
+                    </a>
+                </div>
+
+                <div class="col-md-4 calEvents" datetime="2024-03-20 18:30">
+                    <p class="date">MAR<br>20</p>
+                    <a title="WMM WORKSHOP" href="./events/webinar/wmm-workshop/index.html"> <img
+                            src="./events/webinar/images/wmm-Thumbnail.jpg" alt="WMM WORKSHOP">
+                        <h4>Job Simulation Workshop: Unlocking UX Design with Personas</h4>
+                        <p>06:30 - 08:00 PM</p>
+                        <p>Cost: FREE</p>
+
+
+                        <button class="sign-up">Sign Up</button>
+                    </a>
+                </div>
+
+                <div class="col-md-4 calEvents" datetime="2024-02-26 18:00">
+                    <p class="date">FEB<br>26</p>
+                    <a title="ITP WORKSHOP" href="./events/webinar/itp-workshop/"> <img
+                            src="./events/webinar/images/workshopThumbnail.jpg" alt="ITP WORKSHOP">
+                        <h4>ITP Workshop <br>Ethics of Artificial Intelligence <br>by Dr. Jay Liebowitz</h4>
+                        <p>06:00 - 07:00 PM</p>
+                        <p>Cost: FREE</p>
+
+                        <button class="sign-up">Sign Up</button>
+                    </a>
+                </div>
+
+
+                <div class="col-md-4 calEvents" datetime="2023-12-14 18:00">
+                    <p class="date">DEC<br>14</p>
+                    <a title="WAD WORKSHOP" href="./events/webinar/wad-workshop/"> <img
+                            src="./events/webinar/images/python-logo.jpg" alt="WAD WORKSHOP">
+                        <h4>Web & App Development Workshop: <br> Building a CRUD API </h4>
+                        <p>06:00 - 07:30 PM</p>
+                        <p>Cost: FREE</p>
+
+                        <button class="sign-up">Sign Up</button>
+                    </a>
+                </div>
+
+                <div class="col-md-4 calEvents" datetime="2023-12-19 19:00">
+                    <p class="date">DEC<br>19</p>
+                    <a title="MSDA WORKSHOP" href="./events/webinar/msda-workshop/"> <img
+                            src="./events/webinar/images/DA-thumbnail.jpg" alt="MSDA WORKSHOP">
+                        <h4>MSDA Workshop <br>How AI is transforming the Data Analytics landscape</h4>
+                        <p>06:00 - 07:30 PM</p>
+                        <p>Cost: FREE</p>
+
+
+                        <button class="sign-up">Sign Up</button>
+                    </a>
+                </div>
+
+                <div class="col-md-4 calEvents" datetime="2023-10-17 21:00">
+                    <p class="date">OCT<br>17</p>
+                    <a title="WMM WORKSHOP" href="./events/webinar/wmm-workshop/index.html"> <img
+                            src="./events/webinar/images/wmm-Thumbnail.jpg" alt="WMM WORKSHOP">
+                        <h4>Introduction to Motion Capture, Editing and Animation in Unreal Engine</h4>
+                        <p>06:00 - 09:00 PM</p>
+                        <p>Cost: FREE</p>
+
+
+                        <button class="sign-up">Sign Up</button>
+                    </a>
+                </div>
+
+                <div class="col-md-4 calEvents" datetime="2023-10-24 06:00">
+                    <p class="date">OCT<br>24</p>
+                    <a title="ITP WORKSHOP" href="./events/webinar/itp-workshop/"> <img
+                            src="./events/webinar/images/workshopThumbnail.jpg" alt="ITP WORKSHOP">
+                        <h4>ChatGPT 201: Harnessing the Power of Generative AI and Chatbots</h4>
+                        <p>06:00 - 07:15 PM</p>
+                        <p>Cost: FREE</p>
+
+                        <button class="sign-up">Sign Up</button>
+                    </a>
+                </div>
+
+
+
+                <div class="col-md-4 calEvents" datetime="2023-11-01 18:00">
+                    <p class="date">NOV<br>1</p>
+                    <a title="MSDA WORKSHOP" href="./events/webinar/cybersecurity/"> <img
+                            src="./events/webinar/images/CyberSecurityThumbnail.jpg" alt="MSIS WORKSHOP">
+                        <h4>ETHICAL HACKING <br>IN THE<br> CLOUD</h4>
+                        <p>06:00 - 07:30 PM</p>
+                        <p>Cost: FREE</p>
+
+
+                        <button class="sign-up">Sign Up</button>
+                    </a>
+                </div>
+
+                <div class="col-md-4 calEvents" datetime="2023-11-14 18:00">
+                    <p class="date">NOV<br>14</p>
+                    <a title="Career Night" href="./events/webinar/careerevent/index.html"> <img
+                            src="./events/webinar/images/careerjob.jpg" alt="Career Night">
+                        <h4>Touro GST's<br>Career Night with <br>
+                            Eddie Alvarez</h4>
+                        <p>06:00 - 07:00 PM</p>
+                        <p>Cost: FREE</p>
+
+
+                        <button class="sign-up">Sign Up</button>
+                    </a>
+                </div>
+
+
+                <div class="col-md-4 calEvents" datetime="2023-11-28 18:00">
+                    <p class="date">NOV<br>28</p>
+                    <a title="ITP WORKSHOP" href="./events/webinar/itp-workshop/"> <img
+                            src="./events/webinar/images/workshopThumbnail.jpg" alt="ITP WORKSHOP">
+                        <h4>Empowering Instructional Designers: Navigating the Digital Age for Adult Learners</h4>
+                        <p>06:00 - 07:30 PM</p>
+                        <p>Cost: FREE</p>
+
+                        <button class="sign-up">Sign Up</button>
+                    </a>
+                </div>
+
+                <div class="col-md-4 calEvents" datetime="2023-11-30 17:30">
+                    <p class="date">NOV<br>30</p>
+                    <a title="Career Presentation" href="./events/webinar/careerevent/index.html"> <img
+                            src="./events/webinar/images/careerjob.jpg" alt="Career Presentation">
+                        <h4>Introduction to Center for Strategic and International Studies</h4>
+                        <p>05:30 - 06:15 PM</p>
+                        <p>Cost: FREE</p>
+
+                        <button class="sign-up">Sign Up</button>
+                    </a>
+                </div>
+
+                <div class="col-md-4 calEvents" datetime="2023-12-05 19:00">
+                    <p class="date">DEC<br>05</p>
+                    <a title="MSDA WORKSHOP" href="./events/webinar/msda-workshop/"> <img
+                            src="./events/webinar/images/DA-thumbnail.jpg" alt="MSDA WORKSHOP">
+                        <h4>MSDA Workshop <br>Storytelling with Data by <br>Derek Thomas</h4>
+                        <p>07:00 - 08:30 PM</p>
+                        <p>Cost: FREE</p>
+
+
+                        <button class="sign-up">Sign Up</button>
+                    </a>
+                </div>
+
+
+                <!-- 1st EVENT CIRCLE STARTS -->
+                <div class="col-md-4 calEvents" datetime="2025-09-1 13:00">
+
+                    <p class="date">LIVE<br>THURSDAYS</p>
+                    <a title="INTERNATIONAL ONLINE INFO SESSION" href="./events/info/afternoon-online-info-session/">
+                        <img src="./events/webinar/images/Intpic.jpg " alt="Afternoon Online Info Session">
+                        <h4>ONLINE <br> INFO SESSION<br> Q&#38;A <br>
+
+                        </h4>
+                        <p>10:30 AM- 11:30 AM</p>
+                        <p>Cost: FREE</p>
+                        <button class="sign-up">Sign Up</button>
+                    </a>
+
+                </div>
+
+
+
+
+
+                <!--		      	<div class="all-events"><a href="./events/index.php"><button class="more-button">All Events</button></a></div>-->
+
+            </div>
+        </div>
+
+        <div id="new_place"
+            style="background-image: url('/images/new_place_bg.jpg'); background-size: 100% 100%; padding-bottom: 120px">
+            <div>
+                <h3>GST graduates talk about their career successes!<br></h3>
+            </div>
+
+            <!--<span class="vid2">-->
+            <div class="videowrap" style="position: relative">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe title='Embedded Media titled: Best_snippetsV7' width="560" height="315"
+                        src="https://touro.yuja.com/V/Video?v=6028379&node=26926849&a=691631300&preload=false"
+                        frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen
+                        loading="lazy"></iframe>
+                    <!--	<iframe class="embed-responsive-item" src="https://info-gst.touro.edu/hubfs/videos/SpotlightVideos/StudyNY%202021%20(Caption)-Yimin.mp4"  ></iframe>-->
+                </div>
+                <div class="more-info" style="position: absolute; right: 4%; top: 96%;">
+                    <a href="#success"><button class="more-button">See more stories</button></a>
+                    <!--	  <img src="https://info-gst.touro.edu/hubfs/videos/SpotlightVideos/tourologo.png" alt="special" style="width: 180px;">-->
+                </div>
+            </div>
+            <!--</span>-->
+
+
+        </div>
+
+        <div id="employment">
+            <h3>Our students and alumni are employed at</h3>
+            <img class="companies_tile" src="./images/gstcompaniesnormal.png"
+                alt="Goldman Sachs, PruTech, Chase, Citibank, MTA, SiriusXM Radio, B and H, Credit Suisse, FDM...">
+            <img class="companies_mobile" src="./images/gstcompaniesmobile.png"
+                alt="Goldman Sachs, PruTech, Chase, Citibank, MTA, SiriusXM Radio, B and H, Credit Suisse, FDM...">
+        </div>
+
+
+        <!-- Hidden on 9-28-23 after a decision by RG, FR, SH
+  <div id="faculty" style="background-image: url('/images/faculty_bg.jpg'); background-size: 100% 100%;">
+    <div class="container row"> 
+    <h3>Our faculty are industry experts</h3>
+      <div class="col-md-4"> <img src="./Touro-GST-Home_files/images/Holly-Owens.png" alt="Expert in UX Design and Development">
+        <h4>Holly Owens</h4>
+        <p class="title">Expert in Instructional Design</p>
+        <p class="desc2">Assistant Director of Instructional Design<br>
+          Touro University</p>
+          <a href="./faculty-and-staff/wmmbios.php"><button class="read-bio">Read Bio</button></a>
+      </div>
+      <div class="col-md-4"> <img src="./Touro-GST-Home_files/images/josh-baron.png" alt="Web and Multimedia Design Expert">
+        <h4>Joshua Baron</h4>
+        <p class="title">Expert in UX/UI Design</p>
+        <p class="desc2">Senior Principal Product Designer<br>
+          Dell</p>
+          <a href="./faculty-and-staff/wmmbios.php"><button class="read-bio">Read Bio</button></a>
+      </div>
+      <div class="col-md-4"> <img src="./Touro-GST-Home_files/images/ben-lunzer.png" alt="Technology Project Management Expert">
+        <h4>Benjamin Lunzer</h4>
+        <p class="title">Expert in Technology Project Management</p>
+        <p class="desc2">Director of Strategic Custom Applications<br>
+          GXS, Inc</p>
+          <a href="./faculty-and-staff/bios.php"><button class="read-bio">Read Bio</button></a>
+      </div>
+                <div class="all-experts"><a href="./faculty-and-staff/index.php"><button class="more-button">View All Faculty</button></a></div>
+
+    </div>
+  </div>
+-->
+
+        <div id="request-new">
+            <div class="container row">
+                <h3 style="margin-bottom: 0">Still need more information?</h3>
+                <p style="font-size: 1.25rem; padding: 10px">
+                    Attending graduate school is an important step on your career path. Let us help you make that
+                    important
+                    decision. Fill out the request information form on this page to receive details about specific STEM
+                    master’s
+                    programs or certificates, to find out about job opportunities in technology, and to learn how our
+                    Career
+                    Services Center can help you advance your career.
+                </p>
+                <div class="col-md-8">
+                    <!--	  <h4>WRITE TO US</h4>-->
+                    <div class="new-contactform">
+                        <iframe src="https://engagecms-100936.campusnexus.cloud/touro-main/rfi/tcus/gst-rfi"
+                            title="Request More Information" style="width: 100%; height: 1200px;"
+                            frameborder="0"></iframe>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact-sub">
+                        <h4>CALL US</h4>
+                        <p class="contact-icon"><i class="fas fa-phone-alt"></i>+1.212.463.0400 x 55378</p>
+                        <p class="contact-icon"><i class="fab fa-whatsapp"></i>+1. 646-777-9363</p>
+                    </div>
+                    <div class="contact-sub stop-by">
+                        <h4>OR STOP BY</h4>
+                        <p class="contact-icon stop-by"><i class="fas fa-map-marker-alt"></i>3 Times Square<br>New York,
+                            NY
+                            10036<br>USA</p>
+                    </div>
+                    <div class="contact-sub">
+                        <h4>WE'RE A MEMBER OF</h4>
+                        <img src="./Touro-GST-Home_files/images/placeholder-members_of.jpg" alt="placeholder"
+                            style="width: 100%; max-width: 300px; pointer-events: none;">
+                    </div>
+                </div>
+                <div style="clear: both; width: 100%;"></div>
+
+            </div>
+        </div>
+
+    </main>
+
+
+
+
+
+    <footer>
+        <a href="https://wa.me/16467779363?text=Hello!" class="whatsapp-button" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+            Welcome! 🎓 Ask away!
+        </a>
+
+        <!-- WhatsApp Embed with elfsight -->
+        <!-- <script src="https://static.elfsight.com/platform/platform.js" async></script>
+    <div class="elfsight-app-a9652eca-33fd-4e0a-90a7-33b2454392e3" data-elfsight-app-lazy></div> -->
+
+        <script type="text/javascript">
+            _linkedin_partner_id = "3620412";
+            window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+            window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+        </script>
+        <script type="text/javascript">
+            (function(l) {
+                if (!l) {
+                    window.lintrk = function(a, b) {
+                        window.lintrk.q.push([a, b])
+                    };
+                    window.lintrk.q = []
+                }
+                var s = document.getElementsByTagName("script")[0];
+                var b = document.createElement("script");
+                b.type = "text/javascript";
+                b.async = true;
+                b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+                s.parentNode.insertBefore(b, s);
+            })(window.lintrk);
+        </script>
+        <noscript> <img height="1" width="1" style="display:none;" alt="LI icon"
+                src="https://px.ads.linkedin.com/collect/?pid=3620412&fmt=gif" /> </noscript>
+        <div class="container">
+            <div>
+                <h5>Contact</h5>
+                <ul>
+                    <li><i class="fas fa-phone-alt"></i> +1 646-777-9363</li>
+                    <li><i class="fas fa-fax"></i> +1 646.495.3889</li>
+                    <li><i class="fas fa-envelope"></i><a title="send email to info.gst@touro.edu"
+                            href="mailto:info.gst@touro.edu">info.gst@touro.edu</a></li>
+                </ul>
+            </div>
+            <div>
+                <h5>Address</h5>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i>3 Times Square<br>New York, NY 10036<br>USA</li>
+                </ul>
+            </div>
+            <div>
+                <h5>Quick Links</h5>
+                <ul>
+                    <li><a title="TouroOne Portal" href="https://touroone.touro.edu/">TouroOne</a></li>
+                    <li><a title="Touro Libraries" href="https://www.tourolib.org/">Libraries</a></li>
+                </ul>
+            </div>
+            <div>
+                <h5>Connect</h5>
+                <ul class="social-footer">
+                    <li><a title="Touro GST facebook page" href="https://www.facebook.com/Tourogst">Facebook</a></li>
+                    <li><a title="Touro GST Twitter page" href="https://twitter.com/tourogst">Twitter</a></li>
+                    <li><a title="Touro GST Instagram profile" href="https://instagram.com/tourogst">Instagram</a></li>
+                    <li><a title="Touro GST YouTube" href="https://www.youtube.com/user/tourogst">YouTube</a></li>
+                </ul>
+            </div>
+            <hr>
+            <p>Copyright © 2025, Touro University Graduate School of Technology, New York, NY. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+
+    <script src="./js/vendor/modernizr-2.6.2.min.js"></script>
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
+    <script src="./js/vendor/pickadate.js-3.5.5/lib/picker.js"></script>
+    <script src="./js/vendor/pickadate.js-3.5.5/lib/picker.date.js"></script>
+    <script src="./js/vendor/pickadate.js-3.5.5/lib/picker.time.js"></script>
+    <script src="./js/plugins.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/vendor/cookieBubble/dist/cookieBubble.min.js"></script>
+
+
+    <script src="./js/accordion.js"></script>
+
+
+
+
+    <script type="text/javascript">
+        //$(document).ready(function(){
+        var isMobile = window.matchMedia("only screen and (max-width: 540px)");
+
+        if (isMobile.matches) {
+            //	$("a.request-info-flap").html("REQUEST INFO");
+            //	$("a.request-info-flap").attr("href","./request-info.php");
+        } else { //only switch if not mobile
+            $(".apply_now > p > a").html("Request Info");
+            $(".apply_now > p > a").attr("href", "./request-info.php");
+            //	$("a.request-info-flap").html("APPLY NOW");
+            //	$("a.request-info-flap").attr("href","https://tourooneconnect.touro.edu/custom-portal/user-profile/login");
+        }
+
+        // });
+
+        $("#btn_ITP_New").click(function() {
+
+            $(location).attr("href", "https://info-gst.touro.edu/itp-online");
+
+            return false;
+        });
+        $("#btn_MSIS_New").click(function() {
+
+            $(location).attr("href", "https://info-gst.touro.edu/cobol-z-systems-info-session");
+
+            return false;
+        });
+    </script>
+
+    <!--        Calender function for auto hide-->
+    <script>
+        const calendarEvents = document.querySelectorAll('.calEvents');
+        calendarEvents.forEach(event => {
+            const eventDate = new Date(event.getAttribute('datetime'));
+            (new Date() > eventDate) ? event.style.display = 'none': '';
+        })
+    </script>
+
+</body>
+
+</html>
