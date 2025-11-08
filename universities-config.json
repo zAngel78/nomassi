@@ -39,14 +39,24 @@
     "page_id": null,
     "output_folder": "columbia"
   },
-  "touro": {
-    "name": "Touro University",
-    "instagram": "wearetouro",
-    "facebook": "TouroUniversity",
-    "twitter": null,
-    "youtube": "tourocalifornia",
-    "meta_ads": "Touro University",
+  "maryland": {
+    "name": "University of Maryland",
+    "instagram": "univofmaryland",
+    "facebook": "UnivOfMaryland",
+    "twitter": "UofMaryland",
+    "youtube": "UnivofMaryland",
+    "meta_ads": "University of Maryland",
     "page_id": null,
-    "output_folder": "touro"
+    "output_folder": "university_of_maryland"
+  },
+  "rutgers": {
+    "name": "Rutgers University",
+    "instagram": "rutgersu",
+    "facebook": "RutgersU",
+    "twitter": "RutgersU",
+    "youtube": "RutgersUniversity",
+    "meta_ads": "Rutgers University",
+    "page_id": null,
+    "output_folder": "rutgers"
   }
 }

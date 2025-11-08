@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.10.8)  18 OCT 2025 17:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.10.8)  8 NOV 2025 15:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -447,7 +447,7 @@ Overfull \hbox (2.03177pt too wide) in paragraph at lines 328--329
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [16]
-Overfull \hbox (9.06357pt too wide) in paragraph at lines 659--660
+Overfull \hbox (9.06357pt too wide) in paragraph at lines 669--670
 []\OT1/cmr/bx/n/12 Faculty With Im-pact: \OT1/cmr/m/n/12 go.yu.edu/faculty-with
 -impact (13 fac-ulty pro-files, \TS1/cmr/m/n/12 $\OT1/cmr/m/n/12 5.3M+ grants) 
 
@@ -465,17 +465,17 @@ Package rerunfilecheck Warning: File `digital_ads_analysis.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `digital_ads_analysis.out':
-(rerunfilecheck)             Before: 412B8D25798281A925A004DFBC31B729;11534
-(rerunfilecheck)             After:  91147250B1701415BF94A83E1B903D05;14156.
+(rerunfilecheck)             Before: 91147250B1701415BF94A83E1B903D05;14156
+(rerunfilecheck)             After:  164F2EA94FB700581A1C373255F93A41;14340.
  ) 
 Here is how much of TeX's memory you used:
- 9935 strings out of 474486
- 157948 string characters out of 5740415
- 1935542 words of memory out of 5000000
- 32004 multiletter control sequences out of 15000+600000
+ 9943 strings out of 474486
+ 158109 string characters out of 5740415
+ 1936542 words of memory out of 5000000
+ 32011 multiletter control sequences out of 15000+600000
  564691 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,79p,830b,680s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,8n,79p,867b,678s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Angel daniel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi6
 00\tcbx1200.pk> <C:\Users\Angel daniel\AppData\Local\MiKTeX\fonts/pk/ljfour/jkn
 appen/ec/dpi600\tcrm1200.pk><C:/Users/Angel daniel/AppData/Local/Programs/MiKTe
@@ -484,9 +484,9 @@ l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Angel dani
 el/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/U
 sers/Angel daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmtt12.pfb>
-Output written on digital_ads_analysis.pdf (20 pages, 147179 bytes).
+Output written on digital_ads_analysis.pdf (20 pages, 151400 bytes).
 PDF statistics:
- 408 PDF objects out of 1000 (max. 8388607)
- 116 named destinations out of 1000 (max. 500000)
- 441 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 430 PDF objects out of 1000 (max. 8388607)
+ 117 named destinations out of 1000 (max. 500000)
+ 497 words of extra memory for PDF output out of 10000 (max. 10000000)
 

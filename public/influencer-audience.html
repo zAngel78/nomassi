@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Authentication Guard - Must be first! -->
+    <script src="auth.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Influencer Audience Finder — YU Intelligence</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            padding-top: 100px !important;
+        }
+
+        .ios-container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 40px 48px;
+        }
+
+        .main-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px;
+            margin-bottom: 32px;
+        }
+
+        .card {
+            background: var(--ios-card);
+            border-radius: 20px;
+            padding: 32px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+            transition: all 0.3s;
+        }
+
+        .card-full {
+            grid-column: span 2;
+        }
+
+        .card-half {
+            grid-column: span 1;
+        }
+
+        /* Search Section */
+        .search-section {
+            text-align: center;
+            padding: 40px;
+        }
+
+        .search-title {
+            font-size: 32px;
+            font-weight: 800;
+            margin-bottom: 12px;
+            color: var(--text-primary);
+            letter-spacing: -0.5px;
+        }
+
+        .search-subtitle {
+            font-size: 16px;
+            color: var(--text-secondary);
+            margin-bottom: 40px;
+            line-height: 1.6;
+        }
+
+        .search-form {
+            display: flex;
+            gap: 12px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .platform-select {
+            padding: 14px 20px;
+            border-radius: 12px;
+            border: 1.5px solid var(--ios-separator);
+            background: var(--ios-grouped-bg);
+            color: var(--text-primary);
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            min-width: 140px;
+        }
+
+        .platform-select:focus {
+            outline: none;
+            border-color: var(--ios-blue);
+        }
+
+        .search-input {
+            flex: 1;
+            padding: 14px 20px;
+            border-radius: 12px;
+            border: 1.5px solid var(--ios-separator);
+            background: var(--ios-grouped-bg);
+            color: var(--text-primary);
+            font-size: 15px;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: var(--ios-blue);
+            box-shadow: 0 0 0 4px rgba(0, 122, 255, 0.1);
+        }
+
+        .search-input::placeholder {
+            color: var(--text-tertiary);
+        }
+
+        .search-btn {
+            padding: 14px 32px;
+            border-radius: 12px;
+            border: none;
+            background: var(--ios-blue);
+            color: white;
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .search-btn:hover {
+            background: #0051d5;
+            transform: scale(1.02);
+        }
+
+        .search-btn:active {
+            transform: scale(0.98);
+        }
+
+        .search-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        /* Stats Cards */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px;
+            margin-bottom: 32px;
+        }
+
+        .stat-card {
+            background: var(--ios-grouped-bg);
+            border-radius: 16px;
+            padding: 24px;
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 32px;
+            font-weight: 800;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+        }
+
+        .stat-label {
+            font-size: 13px;
+            color: var(--text-secondary);
+            font-weight: 600;
+        }
+
+        /* Results Table */
+        .results-section {
+            display: none;
+        }
+
+        .results-section.show {
+            display: block;
+        }
+
+        .results-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 24px;
+        }
+
+        .results-title {
+            font-size: 24px;
+            font-weight: 800;
+            color: var(--text-primary);
+        }
+
+        .export-btn {
+            padding: 10px 20px;
+            border-radius: 10px;
+            border: 1.5px solid var(--ios-blue);
+            background: transparent;
+            color: var(--ios-blue);
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .export-btn:hover {
+            background: var(--ios-blue);
+            color: white;
+        }
+
+        .results-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .results-table thead {
+            background: var(--ios-grouped-bg);
+        }
+
+        .results-table th {
+            padding: 16px;
+            text-align: left;
+            font-size: 13px;
+            font-weight: 700;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .results-table td {
+            padding: 16px;
+            border-top: 1px solid var(--ios-separator);
+            font-size: 14px;
+            color: var(--text-primary);
+        }
+
+        .results-table tr:hover {
+            background: var(--ios-grouped-bg);
+        }
+
+        .profile-cell {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .profile-pic {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: var(--ios-separator);
+            object-fit: cover;
+        }
+
+        .profile-info {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .profile-username {
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .profile-name {
+            font-size: 12px;
+            color: var(--text-tertiary);
+        }
+
+        .email-badge {
+            padding: 4px 10px;
+            border-radius: 6px;
+            background: rgba(52, 199, 89, 0.1);
+            color: var(--ios-green);
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .no-email {
+            color: var(--text-tertiary);
+            font-size: 12px;
+        }
+
+        /* Loading State */
+        .loading-spinner {
+            display: none;
+            text-align: center;
+            padding: 40px;
+        }
+
+        .loading-spinner.show {
+            display: block;
+        }
+
+        .spinner {
+            width: 48px;
+            height: 48px;
+            border: 4px solid var(--ios-separator);
+            border-top-color: var(--ios-blue);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 16px;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .loading-text {
+            font-size: 16px;
+            color: var(--text-secondary);
+            font-weight: 600;
+        }
+
+        /* Info Banner */
+        .info-banner {
+            background: linear-gradient(135deg, rgba(0, 122, 255, 0.1), rgba(88, 86, 214, 0.1));
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 32px;
+            border-left: 4px solid var(--ios-blue);
+        }
+
+        .info-banner h3 {
+            font-size: 18px;
+            font-weight: 700;
+            margin: 0 0 12px 0;
+            color: var(--text-primary);
+        }
+
+        .info-banner p {
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        .info-banner ul {
+            margin: 12px 0 0 0;
+            padding-left: 20px;
+        }
+
+        .info-banner li {
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.8;
+        }
+
+        @media (max-width: 1024px) {
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .ios-container {
+                padding: 24px 16px;
+            }
+
+            .main-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .card-full, .card-half {
+                grid-column: span 1;
+            }
+
+            .search-form {
+                flex-direction: column;
+            }
+
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .results-table {
+                display: block;
+                overflow-x: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="ios-container">
+        <!-- Info Banner -->
+        <div class="info-banner">
+            <h3>🎯 How It Works</h3>
+            <p>Enter any Instagram or TikTok influencer's username to analyze their audience and extract publicly available contact information.</p>
+            <ul>
+                <li><strong>What we can find:</strong> Emails that are public in follower bios (~10-15% of audience)</li>
+                <li><strong>Legal & Ethical:</strong> Only publicly available information is collected</li>
+                <li><strong>Cost:</strong> $0.10 per 1,000 Instagram followers analyzed | $0.30 per 1,000 TikTok followers</li>
+            </ul>
+        </div>
+
+        <!-- Search Section -->
+        <div class="card card-full">
+            <div class="search-section">
+                <h1 class="search-title">Find Influencer Audience Emails</h1>
+                <p class="search-subtitle">Discover email addresses from any influencer's follower base on Instagram or TikTok</p>
+
+                <form class="search-form" onsubmit="searchInfluencer(event)">
+                    <select class="platform-select" id="platformSelect">
+                        <option value="instagram">Instagram</option>
+                        <option value="tiktok">TikTok</option>
+                    </select>
+                    <input
+                        type="text"
+                        class="search-input"
+                        id="usernameInput"
+                        placeholder="@influencer_username"
+                        required
+                    >
+                    <button type="submit" class="search-btn" id="searchBtn">
+                        Analyze Audience
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Loading State -->
+        <div class="loading-spinner" id="loadingSpinner">
+            <div class="spinner"></div>
+            <p class="loading-text">Analyzing followers and extracting emails...</p>
+        </div>
+
+        <!-- Stats Overview -->
+        <div class="stats-grid" id="statsGrid" style="display: none;">
+            <div class="stat-card">
+                <div class="stat-number" id="totalFollowers">0</div>
+                <div class="stat-label">Total Followers</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="analyzedCount">0</div>
+                <div class="stat-label">Analyzed</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="emailsFound">0</div>
+                <div class="stat-label">Emails Found</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="successRate">0%</div>
+                <div class="stat-label">Success Rate</div>
+            </div>
+        </div>
+
+        <!-- Results Section -->
+        <div class="card card-full results-section" id="resultsSection">
+            <div class="results-header">
+                <h2 class="results-title">Audience Results</h2>
+                <button class="export-btn" onclick="exportToCSV()">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: inline; vertical-align: middle; margin-right: 6px;">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                        <polyline points="7 10 12 15 17 10"/>
+                        <line x1="12" y1="15" x2="12" y2="3"/>
+                    </svg>
+                    Export CSV
+                </button>
+            </div>
+
+            <table class="results-table">
+                <thead>
+                    <tr>
+                        <th>Profile</th>
+                        <th>Email</th>
+                        <th>Followers</th>
+                        <th>Bio</th>
+                    </tr>
+                </thead>
+                <tbody id="resultsTableBody">
+                    <!-- Results will be inserted here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        let currentResults = [];
+
+        async function searchInfluencer(event) {
+            event.preventDefault();
+
+            const username = document.getElementById('usernameInput').value.trim().replace('@', '');
+            const platform = document.getElementById('platformSelect').value;
+
+            if (!username) {
+                alert('Please enter a username');
+                return;
+            }
+
+            // Show loading
+            document.getElementById('loadingSpinner').classList.add('show');
+            document.getElementById('searchBtn').disabled = true;
+            document.getElementById('resultsSection').classList.remove('show');
+            document.getElementById('statsGrid').style.display = 'none';
+
+            try {
+                // Call backend API
+                const response = await fetch('/api/scrape-influencer', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ username, platform })
+                });
+
+                if (!response.ok) {
+                    throw new Error('Failed to fetch data');
+                }
+
+                const data = await response.json();
+                currentResults = data.followers;
+
+                // Update stats
+                document.getElementById('totalFollowers').textContent = data.totalFollowers.toLocaleString();
+                document.getElementById('analyzedCount').textContent = data.analyzedCount.toLocaleString();
+                document.getElementById('emailsFound').textContent = data.emailsFound.toLocaleString();
+                document.getElementById('successRate').textContent = data.successRate + '%';
+
+                // Show stats
+                document.getElementById('statsGrid').style.display = 'grid';
+
+                // Populate results table
+                populateResults(data.followers);
+
+                // Show results
+                document.getElementById('resultsSection').classList.add('show');
+
+            } catch (error) {
+                console.error('Error:', error);
+                alert('Error analyzing influencer. Please try again or contact support.');
+            } finally {
+                // Hide loading
+                document.getElementById('loadingSpinner').classList.remove('show');
+                document.getElementById('searchBtn').disabled = false;
+            }
+        }
+
+        function populateResults(followers) {
+            const tbody = document.getElementById('resultsTableBody');
+            tbody.innerHTML = '';
+
+            followers.forEach(follower => {
+                const row = document.createElement('tr');
+
+                row.innerHTML = `
+                    <td>
+                        <div class="profile-cell">
+                            <img src="${follower.profile_pic_url || 'https://via.placeholder.com/40'}"
+                                 class="profile-pic"
+                                 alt="${follower.username}"
+                                 onerror="this.src='https://via.placeholder.com/40'">
+                            <div class="profile-info">
+                                <span class="profile-username">@${follower.username}</span>
+                                <span class="profile-name">${follower.full_name || 'N/A'}</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        ${follower.email
+                            ? `<span class="email-badge">${follower.email}</span>`
+                            : `<span class="no-email">Not available</span>`}
+                    </td>
+                    <td>${follower.follower_count ? follower.follower_count.toLocaleString() : 'N/A'}</td>
+                    <td style="max-width: 300px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">
+                        ${follower.biography || 'N/A'}
+                    </td>
+                `;
+
+                tbody.appendChild(row);
+            });
+        }
+
+        function exportToCSV() {
+            if (currentResults.length === 0) {
+                alert('No results to export');
+                return;
+            }
+
+            // Create CSV content
+            const headers = ['Username', 'Full Name', 'Email', 'Followers', 'Bio', 'Profile URL'];
+            const rows = currentResults.map(follower => [
+                follower.username,
+                follower.full_name || '',
+                follower.email || '',
+                follower.follower_count || '',
+                (follower.biography || '').replace(/"/g, '""'),
+                follower.profile_url || ''
+            ]);
+
+            let csvContent = headers.join(',') + '\n';
+            rows.forEach(row => {
+                csvContent += row.map(cell => `"${cell}"`).join(',') + '\n';
+            });
+
+            // Download file
+            const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+            const link = document.createElement('a');
+            const url = URL.createObjectURL(blob);
+
+            link.setAttribute('href', url);
+            link.setAttribute('download', `influencer_audience_${Date.now()}.csv`);
+            link.style.visibility = 'hidden';
+
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+    </script>
+</body>
+</html>

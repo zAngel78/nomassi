@@ -1,0 +1,16 @@
+{
+  "university": "University of Maryland",
+  "scraped_at": "2025-11-08T20:58:57.041Z",
+  "platforms": {
+    "instagram": {
+      "posts_count": 50,
+      "file": "C:\\Users\\Angel daniel\\Documents\\research\\yu-research-backend\\public\\instagram_data\\university_of_maryland_posts.json",
+      "status": "success"
+    },
+    "facebook": {
+      "posts_count": 50,
+      "file": "C:\\Users\\Angel daniel\\Documents\\research\\yu-research-backend\\public\\facebook_data\\university_of_maryland_posts.json",
+      "status": "success"
+    }
+  }
+}

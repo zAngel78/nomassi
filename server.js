@@ -2,6 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const path = require('path');
 const fs = require('fs');
+const { ApifyClient } = require('apify-client');
 
 const app = express();
 const PORT = 3001;
@@ -14,9 +15,16 @@ app.use(cors({
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
 
+// Add JSON body parser
+app.use(express.json());
+
 // Path to the research documentation (now inside backend)
 const RESEARCH_DIR = path.join(__dirname, 'public', 'files');
 const PUBLIC_DIR = path.join(__dirname, 'public');
+const DASHBOARD_DIR = path.join(__dirname, '..', 'dashboard_proposal');
+
+// Serve dashboard static files
+app.use(express.static(DASHBOARD_DIR));
 
 // Log startup info
 console.log('Research Directory:', RESEARCH_DIR);
@@ -346,12 +354,144 @@ app.get('/api/health', (req, res) => {
   });
 });
 
+// Influencer Audience Scraping Endpoint
+app.post('/api/scrape-influencer', async (req, res) => {
+  try {
+    const { username, platform } = req.body;
+
+    if (!username || !platform) {
+      return res.status(400).json({ error: 'Username and platform are required' });
+    }
+
+    // Initialize Apify client (using free tier - $5/month credit)
+    const apifyToken = process.env.APIFY_TOKEN || 'apify_api_LnTzQHqz6zthGn3iTcDMp0CEoX3pRn21ZSH2';
+    const client = new ApifyClient({ token: apifyToken });
+
+    console.log(`Scraping ${platform} influencer: @${username}`);
+
+    let actorId, input;
+
+    if (platform === 'instagram') {
+      // Instagram Scraper - Get profile details and recent posts with commenters
+      // This is faster and more reliable than scraping all followers
+      actorId = 'apify/instagram-scraper';
+      input = {
+        directUrls: [`https://www.instagram.com/${username}/`],
+        resultsType: 'posts',
+        resultsLimit: 50, // Get last 50 posts
+        searchLimit: 1,
+        addParentData: false
+      };
+    } else if (platform === 'tiktok') {
+      // TikTok Follower Scraper
+      actorId = 'clockworks/tiktok-profile-scraper';
+      input = {
+        profiles: [username],
+        maxProfilesPerQuery: 1000
+      };
+    } else {
+      return res.status(400).json({ error: 'Invalid platform. Use "instagram" or "tiktok"' });
+    }
+
+    // Run the Apify actor
+    console.log('Starting Apify actor...');
+    console.log('Input:', JSON.stringify(input, null, 2));
+    const run = await client.actor(actorId).call(input, {
+      waitSecs: 300 // Wait max 5 minutes
+    });
+
+    console.log('Actor run status:', run.status);
+    console.log('Actor run ID:', run.id);
+
+    // Get results from dataset
+    console.log('Fetching results...');
+    const { items } = await client.dataset(run.defaultDatasetId).listItems();
+    console.log(`Total items received: ${items.length}`);
+
+    // Extract emails from bios/captions using regex
+    const emailRegex = /([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9_-]+)/gi;
+
+    // For Instagram posts, extract users who engage (owner info from posts)
+    const followers = [];
+
+    if (platform === 'instagram') {
+      // Get profile owner info and extract emails from captions
+      items.forEach(post => {
+        const caption = post.caption || '';
+        const emails = caption.match(emailRegex);
+
+        if (emails && post.ownerUsername) {
+          followers.push({
+            username: post.ownerUsername,
+            full_name: post.ownerFullName || '',
+            email: emails[0],
+            follower_count: 0,
+            biography: caption.substring(0, 200),
+            profile_pic_url: '',
+            profile_url: `https://www.instagram.com/${post.ownerUsername}`,
+            is_verified: false,
+            external_url: null
+          });
+        }
+      });
+    } else {
+      // For TikTok, process normally
+      items.forEach(follower => {
+        const bio = follower.biography || follower.bio || follower.bioText || '';
+        const emails = bio.match(emailRegex);
+
+        if (follower.username || follower.userName) {
+          followers.push({
+            username: follower.username || follower.userName,
+            full_name: follower.full_name || follower.fullName || follower.nickname || follower.name || '',
+            email: emails ? emails[0] : null,
+            follower_count: follower.followerCount || follower.followersCount || follower.followers || 0,
+            biography: bio,
+            profile_pic_url: follower.profile_pic_url || follower.avatarThumb || follower.profilePicUrl || follower.picture || '',
+            profile_url: follower.url || follower.profileUrl || `https://www.tiktok.com/@${follower.username || follower.userName}`,
+            is_verified: follower.is_verified || follower.verified || follower.isVerified || false,
+            external_url: follower.external_url || follower.externalUrl || null
+          });
+        }
+      });
+    }
+
+    // Filter only followers with emails
+    const followersWithEmails = followers.filter(f => f.email);
+
+    const stats = {
+      totalFollowers: items.length,
+      analyzedCount: followers.length,
+      emailsFound: followersWithEmails.length,
+      successRate: followers.length > 0
+        ? Math.round((followersWithEmails.length / followers.length) * 100)
+        : 0
+    };
+
+    console.log(`Results: ${stats.emailsFound} emails found from ${stats.analyzedCount} followers`);
+
+    res.json({
+      ...stats,
+      followers: followersWithEmails // Only return followers with emails
+    });
+
+  } catch (error) {
+    console.error('Error scraping influencer:', error);
+    res.status(500).json({
+      error: 'Failed to scrape influencer data',
+      message: error.message,
+      details: 'Make sure you have set up your Apify API token in environment variables'
+    });
+  }
+});
+
 app.listen(PORT, () => {
   console.log(`\n🚀 YU Research Backend Server running on http://localhost:${PORT}`);
   console.log(`📁 Serving files from: ${RESEARCH_DIR}`);
   console.log(`\nAvailable endpoints:`);
   console.log(`  - GET /api/files/* - Serve files for preview`);
   console.log(`  - GET /api/download/* - Download files`);
+  console.log(`  - POST /api/scrape-influencer - Scrape influencer audience emails`);
   console.log(`  - GET /api/health - Health check`);
   console.log(`  - GET /api/debug/structure - View file structure\n`);
 });
